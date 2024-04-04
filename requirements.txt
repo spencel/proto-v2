@@ -1,0 +1,12 @@
+beautifulsoup4
+biopython
+devtools
+Django
+fire
+func_timeout
+pandas
+psycopg2-binary
+pydantic
+python-dotenv
+requests
+tqdm

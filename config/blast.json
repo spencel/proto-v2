@@ -1,0 +1,5 @@
+{
+  "blastdb_prefix": "_",
+  "blastdb_prefix_comment": "BLASTN will not work if the file names of the BLAST database are just file extensions.",
+  "ncbi_blast_bin_dpath": "/home/sl/programs/ncbi-blast-2.13.0+/bin/"
+}

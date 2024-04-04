@@ -1,0 +1,13 @@
+{
+  "module_name": "aws",
+  "profile": "mbsl",
+  "sdk": {
+    "clients": {
+      "ec2": "ec2",
+      "s3": "s3"
+    },
+    "profile_names": {
+      "default": "default"
+    }
+  }
+}

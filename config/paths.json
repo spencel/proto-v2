@@ -1,0 +1,28 @@
+{
+  "default_filenames": {
+    "python_cmd_script": "main.py",
+    "r_script": "process.r",
+    "gisaid_data": "provision.json.xz"
+  },
+  "dir_names": {
+    "blast_databases": "blastdb",
+    "commands": "commands",
+    "command_data": "data",
+    "config": "config",
+    "data": "data",
+    "genome_data": "genomes",
+    "gisaid_data": "gisaid",
+    "mock_data": "mock",
+    "validation_data": "validation",
+    "documentation": "doc",
+    "environment": "env",
+    "modules": "modules",
+    "module_data": "data",
+    "postgres_database": "pg_db",
+    "postgres_data": "data",
+    "scripts": "scripts",
+    "trash": "trash",
+    "v4": "v4"
+  },
+  "python_exe": "python"
+}

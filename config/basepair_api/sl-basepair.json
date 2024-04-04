@@ -1,0 +1,10 @@
+{
+  "api": {
+    "cli": true,
+    "host": "micronbrane.basepairtech.com",
+    "prefix": "/api/v2/",
+    "ssl": true,
+    "username": "spencer.lank@micronbrane.com",
+    "key": "317a02e5e8acb2cf51bcf2fc208b90631e239f7c"
+  }
+}
