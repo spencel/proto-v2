@@ -92,7 +92,7 @@ class VirusLab():
         #     records = samples[modified_title]
         #     for record in records:
         #         accessions.append(record[2])
-        # esearch_json = m.Entrez.esearch({
+        # esearch_json = m.ncbi.Entrez.esearch({
         #     "db": "nuccore",
         #     # Term is a comma separated list of accessions
         #     "term": ",".join(accessions)

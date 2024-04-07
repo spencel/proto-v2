@@ -178,10 +178,7 @@ class S3():
           f.write(paths_txt)
 
 
-
-
-    
-    # return file_tree
+    return file_tree_dict
 
 
   # Upload File in Parts

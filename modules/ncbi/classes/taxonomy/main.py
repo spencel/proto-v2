@@ -1,11 +1,6 @@
 
 import json
 
-import modules as m
-
-
-debug = m.Debugger.devtools_debug
-
 
 class Taxonomy():
 
@@ -21,7 +16,7 @@ class Taxonomy():
 
     # print(f"sl: term: {term}")
 
-    esearch_json = m.Entrez.esearch(
+    esearch_json = m.ncbi.Entrez.esearch(
       {
         "db": "taxonomy",
         "retstart": retstart,
@@ -46,7 +41,7 @@ class Taxonomy():
       esearch_record_qty = len(esearch_json["IdList"])
       # print(f"sl: esearch_record_qty: {esearch_record_qty}")
 
-      epost_json = m.Entrez.epost({
+      epost_json = m.ncbi.Entrez.epost({
         "db": "Taxonomy",
         "id": esearch_json["IdList"]
       })
@@ -55,7 +50,7 @@ class Taxonomy():
 
       esummary_retstart = 0
       while esummary_retstart < esearch_record_qty:
-        esummary_json = m.Entrez.esummary({
+        esummary_json = m.ncbi.Entrez.esummary({
           "db": "Taxonomy",
           "retstart": esummary_retstart,
           "webenv": webenv,
@@ -85,7 +80,7 @@ class Taxonomy():
   @staticmethod
   def get_esummary(taxon_ids):
 
-    webenv, query_key = m.Entrez.get_epost_webenv_and_query_key(
+    webenv, query_key = m.ncbi.Entrez.get_epost_webenv_and_query_key(
       db="Taxonomy",
       id=taxon_ids
     )
@@ -94,7 +89,7 @@ class Taxonomy():
     retstart = 0
     retmax = 500
     while i_taxon < len(taxon_ids):
-      esummary_handle = m.Entrez.esummary({
+      esummary_handle = m.ncbi.Entrez.esummary({
         "db": "taxonomy",
         "retstart": retstart,
         "retmax": retmax,
@@ -103,7 +98,7 @@ class Taxonomy():
       })
       esummary_json = json.loads(esummary_handle.readline().decode('utf-8'))
 
-      # efetch_handle = m.Entrez.efetch(
+      # efetch_handle = m.ncbi.Entrez.efetch(
       #     {
       #         "db": "taxonomy",
       #         "retstart": retstart,
@@ -121,8 +116,7 @@ class Taxonomy():
   @staticmethod
   def get_taxon_id(query):
 
-    # debug(query)
-    esearch_json = m.Entrez.esearch(
+    esearch_json = m.ncbi.Entrez.esearch(
       esearch_params = {
         "db": "taxonomy",
         "term": query
@@ -148,7 +142,6 @@ class Taxonomy():
         'QueryTranslation': 'Proteus penneri[All Names]',
     })> (DictionaryElement) len=7
     '''
-    # debug(esearch_json)
 
     taxon_id_list = esearch_json['IdList']
 

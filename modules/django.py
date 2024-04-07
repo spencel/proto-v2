@@ -18,12 +18,12 @@ class Django():
         ],
         DATABASES={
           'default': {
-            "ENGINE": c.db.iron_scratch.django_engine,
-            "NAME": c.db.iron_scratch.database,
-            "USER": c.db.iron_scratch.user,
-            "PASSWORD": c.db.iron_scratch.password,
-            "HOST": c.db.iron_scratch.host,
-            "PORT": c.db.iron_scratch.port,
+            "ENGINE": c.db.proto.django_engine,
+            "NAME": c.db.proto.database,
+            "USER": c.db.proto.user,
+            "PASSWORD": c.db.proto.password,
+            "HOST": c.db.proto.host,
+            "PORT": c.db.proto.port,
           }
         }
       )

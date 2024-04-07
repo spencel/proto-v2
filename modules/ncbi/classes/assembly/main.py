@@ -17,7 +17,7 @@ class Assembly():
     @staticmethod
     def count(taxon_id):
 
-        esearch_results = m.Entrez.esearch({
+        esearch_results = m.ncbi.Entrez.esearch({
             "db": "Assembly",
             "retmax": 0,
             "term": f"txid{taxon_id}[Organism]"
@@ -52,7 +52,7 @@ class Assembly():
 
         # Get a list of the most recent records
         print(term)
-        esearch_results = m.Entrez.esearch({
+        esearch_results = m.ncbi.Entrez.esearch({
             "db": "assembly",
             "retmax": retmax,
             "retstart": retstart,
@@ -78,7 +78,7 @@ class Assembly():
         # print(f"sl: biosample_ids: {json.dumps(biosample_ids, indent=2)}")
 
         # Upload a list of GI IDs to Entrez for the batch request
-        epost_results = m.Entrez.epost({
+        epost_results = m.ncbi.Entrez.epost({
             "db": "assembly",
             "id": assembly_ids
         })
@@ -87,7 +87,7 @@ class Assembly():
         webenv = epost_results["WebEnv"]
         query_key = epost_results["QueryKey"]
 
-        handle = m.Entrez.esummary({
+        handle = m.ncbi.Entrez.esummary({
             "db": "assembly",
             "retmode": retmode,
             "webenv": webenv,
@@ -127,7 +127,7 @@ class Assembly():
             term += id + "[ASAC] OR "
         term = term[:-4]
 
-        esearch_results = m.Entrez.esearch({
+        esearch_results = m.ncbi.Entrez.esearch({
             "db": "assembly",
             "term": term,
             "idtype": "GI"
@@ -135,8 +135,8 @@ class Assembly():
         m.Log.write(f"esearch_results: {json.dumps(esearch_results, indent=2)}")
         gi_ids = esearch_results["IdList"]
 
-        # Get NucCore GIs from Assembly GIs using ELink
-        elink_json = m.Entrez.elink(
+        # Get Nucleotide GIs from Assembly GIs using ELink
+        elink_json = m.ncbi.Entrez.elink(
             {
                 "db": "nuccore",
                 "dbfrom": "assembly",
@@ -151,7 +151,7 @@ class Assembly():
         # Just get the ones from GenBank (assembly_nuccore_insdc), because they should be identical to RefSeq
         quit()
 
-        epost_results = m.Entrez.epost({
+        epost_results = m.ncbi.Entrez.epost({
             "db": "assembly",
             "id": gi_ids
         })
@@ -160,7 +160,7 @@ class Assembly():
         webenv = epost_results["WebEnv"]
         query_key = epost_results["QueryKey"]
 
-        handle = m.Entrez.efetch({
+        handle = m.ncbi.Entrez.efetch({
             "db": "assembly",
             "rettype": "docsum",
             "retmode": "xml",

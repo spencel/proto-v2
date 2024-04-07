@@ -1,0 +1,446 @@
+Accession Prefix	INSDC Partner	Sequence Type	Accession Format
+A	EBI	Patent	1+5
+AA	NCBI	EST	2+6
+AAA-AZZ	NCBI	protein	3+5 and 3+7
+AAAA-AZZZ	NCBI	WGS	4+8 or more
+AAAAA-AZZZZ	DDBJ	MGA	5+7
+AAAAAA-AZZZZZ	NCBI	WGS	6+9 or more
+AB	DDBJ	Direct submissions	2+6
+AC	NCBI	HTG	2+6
+AD	NCBI	Seqs received at GSDB	2+6
+AE	NCBI	Genome projects	2+6
+AF	NCBI	Direct submissions	2+6
+AG	DDBJ	GSS	2+6
+AH	NCBI	Direct submissions segsets	2+6
+AI	NCBI	Other projects	2+6
+AJ	EBI	Direct submissions	2+6
+AK	DDBJ	HTC	2+6
+AL	EBI	Genome projects	2+6
+AM	EBI	Direct submissions	2+6
+AN	EBI	scaffold/CON	2+6
+AP	DDBJ	Genome projects	2+6
+AQ	NCBI	GSS	2+6
+AR	NCBI	Patent	2+6
+AS	NCBI	Other projects	2+6
+AT	DDBJ	EST	2+6
+AU	DDBJ	EST	2+6
+AV	DDBJ	EST	2+6
+AW	NCBI	EST	2+6
+AX	EBI	Patent	2+6
+AY	NCBI	Direct submissions	2+6
+AZ	NCBI	GSS	2+6
+B	NCBI	GSS (previously DDBJ)	1+5
+BA	DDBJ	scaffold/CON	2+6
+BAA-BZZ	DDBJ	protein	3+5 and 3+7
+BAAA-BZZZ	DDBJ	WGS	4+8 or more
+BAAAAA-BZZZZZ	DDBJ	WGS	6+9 or more
+BB	DDBJ	EST	2+6
+BC	NCBI	cDNA project	2+6
+BD	DDBJ	Patent	2+6
+BE	NCBI	EST	2+6
+BF	NCBI	EST	2+6
+BG	NCBI	EST	2+6
+BH	NCBI	GSS	2+6
+BI	NCBI	EST	2+6
+BJ	DDBJ	EST	2+6
+BK	NCBI	TPA	2+6
+BL	NCBI	TPA CON	2+6
+BM	NCBI	EST	2+6
+BN	EBI	TPA	2+6
+BP	DDBJ	EST	2+6
+BQ	NCBI	EST	2+6
+BR	DDBJ	TPA	2+6
+BS	DDBJ	Genome projects	2+6
+BT	NCBI	FLI_cDNA	2+6
+BU	NCBI	EST	2+6
+BV	NCBI	STS	2+6
+BW	DDBJ	EST	2+6
+BX	EBI	Genome projects	2+6
+BY	DDBJ	EST	2+6
+BZ	NCBI	GSS	2+6
+C	DDBJ	EST	1+5
+CA	NCBI	EST	2+6
+CAA-CZZ	EBI	protein	3+5 and 3+7
+CAAA-CZZZ	EBI	WGS	4+8 or more
+CAAAAA-CZZZZZ	EBI	WGS	6+9 or more
+CB	NCBI	EST	2+6
+CC	NCBI	GSS	2+6
+CD	NCBI	EST	2+6
+CE	NCBI	GSS	2+6
+CF	NCBI	EST	2+6
+CG	NCBI	GSS	2+6
+CH	NCBI	scaffold/CON	2+6
+CI	DDBJ	EST	2+6
+CJ	DDBJ	EST	2+6
+CK	NCBI	EST	2+6
+CL	NCBI	GSS	2+6
+CM	NCBI	scaffold/CON	2+6
+CN	NCBI	EST	2+6
+CO	NCBI	EST	2+6
+CP	NCBI	Genome projects	2+6
+CQ	EBI	Patent	2+6
+CR	EBI	Genome projects	2+6
+CS	EBI	Patent	2+6
+CT	EBI	Genome projects	2+6
+CU	EBI	Genome projects	2+6
+CV	NCBI	EST	2+6
+CW	NCBI	GSS	2+6
+CX	NCBI	EST	2+6
+CY	NCBI	Influenza Virus Genome	2+6
+CZ	NCBI	GSS	2+6
+D	DDBJ	Direct submissions	1+5
+DA	DDBJ	EST	2+6
+DAA-DZZ	NCBI	TPA or TPA WGS protein	3+5 and 3+7
+DAAA-DZZZ	NCBI	WGS/TSA/TLS TPA	4+8 or more
+DAAAAA-DZZZZZ	NCBI	WGS/TSA/TLS TPA	6+9 or more
+DB	DDBJ	EST	2+6
+DC	DDBJ	EST	2+6
+DD	DDBJ	Patent	2+6
+DE	DDBJ	GSS	2+6
+DF	DDBJ	scaffold/CON	2+6
+DG	DDBJ	scaffold/CON	2+6
+DH	DDBJ	GSS	2+6
+DI	DDBJ	Patent KIPO	2+6
+DJ	DDBJ	Patent JPO	2+6
+DK	DDBJ	EST	2+6
+DL	DDBJ	Patent JPO	2+6
+DM	DDBJ	Patent JPO	2+6
+DN	NCBI	EST	2+6
+DO	NCBI	not used	2+6
+DP	NCBI	HTG scaffolds (CONs)	2+6
+DQ	NCBI	Direct submissions	2+6
+DR	NCBI	EST	2+6
+DRA	DDBJ	SRA submissions	3+6 or more
+DRP	DDBJ	SRA sample	3+6 or more
+DRR	DDBJ	SRA runs	3+6 or more
+DRX	DDBJ	SRA experiment	3+6 or more
+DRZ	DDBJ	SRA analysis object	3+6 or more
+DS	NCBI	scaffold/CON	2+6
+DT	NCBI	EST	2+6
+DU	NCBI	GSS	2+6
+DV	NCBI	EST	2+6
+DW	NCBI	EST	2+6
+DX	NCBI	GSS	2+6
+DY	NCBI	EST	2+6
+DZ	NCBI	Patent	2+6
+E	DDBJ	Patent	1+5
+EA	NCBI	Patent	2+6
+EAA-EZZ	NCBI	WGS protein	3+5 and 3+7
+EAAA-EZZZ	DDBJ	WGS TPA	4+8 or more
+EB	NCBI	EST	2+6
+EC	NCBI	EST	2+6
+ED	NCBI	GSS	2+6
+EE	NCBI	EST	2+6
+EF	NCBI	Direct submissions	2+6
+EG	NCBI	EST	2+6
+EH	NCBI	EST	2+6
+EI	NCBI	GSS	2+6
+EJ	NCBI	GSS	2+6
+EK	NCBI	GSS	2+6
+EL	NCBI	EST	2+6
+EM	NCBI	scaffold/CON	2+6
+EN	NCBI	scaffold/CON	2+6
+EO	NCBI	not used	
+EP	NCBI	scaffold/CON	2+6
+EQ	NCBI	scaffold/CON	2+6
+ER	NCBI	GSS	2+6
+ERA	EBI	SRA submissions	3+6 or more
+ERP	EBI	SRA sample	3+6 or more
+ERR	EBI	SRA runs	3+6 or more
+ERX	EBI	SRA experiment	3+6 or more
+ERZ	EBI	SRA analysis object	3+6 or more
+ES	NCBI	EST	2+6
+ET	NCBI	GSS	2+6
+EU	NCBI	Direct submissions	2+6
+EV	NCBI	EST	2+6
+EW	NCBI	EST	2+6
+EX	NCBI	EST	2+6
+EY	NCBI	EST	2+6
+EZ	NCBI	TSA	2+6
+F	EBI	EST	1+5
+FA	NCBI	scaffold/CON (pseudomolecules)	2+6
+FAA-FZZ	DDBJ	TPA protein	3+5
+FAAA-FZZZ	EBI	WGS	4+8 or more
+FB	EBI	Patent	2+6
+FC	NCBI	EST	2+6
+FD	NCBI	EST	2+6
+FE	NCBI	EST	2+6
+FF	NCBI	EST	2+6
+FG	NCBI	EST	2+6
+FH	NCBI	GSS	2+6
+FI	NCBI	GSS	2+6
+FJ	NCBI	Direct submissions	2+6
+FK	NCBI	EST	2+6
+FL	NCBI	EST	2+6
+FM	EBI	Direct submissions	2+6
+FN	EBI	Direct submissions	2+6
+FO	EBI	Direct submissions	2+6
+FP	EBI	Direct submissions	2+6
+FQ	EBI	Direct submissions	2+6
+FR	EBI	Direct submissions	2+6
+FS	DDBJ	EST	2+6
+FT	DDBJ	GSS	2+6
+FU	DDBJ	Patent	2+6
+FV	DDBJ	Patent JPO	2+6
+FW	DDBJ	Patent	2+6
+FX	DDBJ	TSA	2+6
+FY	DDBJ	EST	2+6
+FZ	DDBJ	Patent	2+6
+G	NCBI	STS	1+5
+GA	DDBJ	GSS	2+6
+GAA-GZZ	DDBJ	WGS protein	3+5
+GAAA-GZZZ	NCBI	TSA	4+8 or more
+GB	DDBJ	Patent JPO	2+6
+GC	NCBI	Patent	2+6
+GD	NCBI	EST	2+6
+GE	NCBI	EST	2+6
+GF	NCBI	STS	2+6
+GG	NCBI	scaffold/CON	2+6
+GH	NCBI	EST	2+6
+GI	NCBI	not used	
+GJ	NCBI	TPA CON	2+6
+GK	NCBI	TPA CON (WGS chromosomes)	2+6
+GL	NCBI	scaffold/CON	2+6
+GM	EBI	Patent	2+6
+GN	EBI	Patent	2+6
+GO	NCBI	EST	2+6
+GP	NCBI	Patent	2+6
+GQ	NCBI	Direct submissions	2+6
+GR	NCBI	EST	2+6
+GS	NCBI	GSS	2+6
+GT	NCBI	EST	2+6
+GU	NCBI	Direct submissions	2+6
+GV	NCBI	Patent	2+6
+GW	NCBI	EST	2+6
+GX	NCBI	Patent	2+6
+GY	NCBI	Patent	2+6
+GZ	NCBI	Patent	2+6
+H	NCBI	EST	1+5
+HA	EBI	Patent	2+6
+HAA-HZZ	NCBI	WGS/TSA TPA protein	3+5 and 3+7
+HAAA-HZZZ	EBI	TSA	4+8 or more
+HB	EBI	Patent	2+6
+HC	EBI	Patent	2+6
+HD	EBI	Patent	2+6
+HE	EBI	Direct submissions	2+6
+HF	EBI	Direct submissions	2+6
+HG	EBI	Direct submissions	2+6
+HH	EBI	Patent	2+6
+HI	EBI	Patent	2+6
+HJ	NCBI	Patent	2+6
+HK	NCBI	Patent	2+6
+HL	NCBI	Patent	2+6
+HM	NCBI	Direct submissions	2+6
+HN	NCBI	GSS	2+6
+HO	NCBI	EST	2+6
+HP	NCBI	TSA	2+6
+HQ	NCBI	Direct submissions	2+6
+HR	NCBI	GSS	2+6
+HS	NCBI	EST	2+6
+HT	DDBJ	TPA CON	2+6
+HU	DDBJ	TPA CON	2+6
+HV	DDBJ	Patent JPO	2+6
+HW	DDBJ	Patent JPO	2+6
+HX	DDBJ	EST	2+6
+HY	DDBJ	EST	2+6
+HZ	DDBJ	Patent JPO	2+6
+I	NCBI	Patent	1+5
+IAA-IZZ	DDBJ	TPA WGS protein	3+5
+IAAA-IZZZ	DDBJ	TSA	4+8 or more
+J	NCBI	LANL Direct submissions	1+5
+JA	EBI	Patent	2+6
+JAA-JZZ	NCBI	TSA protein	3+5
+JAAA-JZZZ	NCBI	WGS	4+8 or more
+JAAAAA-JZZZZZ	NCBI	WGS	6+9 or more
+JB	EBI	Patent	2+6
+JC	EBI	Patent	2+6
+JD	EBI	Patent	2+6
+JE	EBI	Patent	2+6
+JF	NCBI	Direct submissions	2+6
+JG	NCBI	EST	2+6
+JH	NCBI	scaffold/CON	2+6
+JI	NCBI	TSA	2+6
+JJ	NCBI	GSS	2+6
+JK	NCBI	EST	2+6
+JL	NCBI	TSA	2+6
+JM	NCBI	GSS	2+6
+JN	NCBI	Direct submissions	2+6
+JO	NCBI	TSA	2+6
+JP	NCBI	TSA	2+6
+JQ	NCBI	Direct submissions	2+6
+JR	NCBI	TSA	2+6
+JS	NCBI	GSS	2+6
+JT	NCBI	TSA	2+6
+JU	NCBI	TSA	2+6
+JV	NCBI	TSA	2+6
+JW	NCBI	TSA	2+6
+JX	NCBI	Direct submissions	2+6
+JY	NCBI	GSS	2+6
+JZ	NCBI	EST	2+6
+K	NCBI	LANL Direct submissions	1+5
+KA	NCBI	TSA	2+6
+KAA-KZZ	NCBI	WGS protein	3+5 and 3+7
+KAAA-KZZZ	NCBI	TLS	4+8 or more
+KB	NCBI	scaffold/CON	2+6
+KC	NCBI	Direct submissions	2+6
+KD	NCBI	scaffold/CON	2+6
+KE	NCBI	scaffold/CON	2+6
+KF	NCBI	Direct submissions	2+6
+KG	NCBI	GSS	2+6
+KH	NCBI	Patent	2+6
+KI	NCBI	scaffold/CON	2+6
+KJ	NCBI	Direct submissions	2+6
+KK	NCBI	scaffold/CON	2+6
+KL	NCBI	scaffold/CON	2+6
+KM	NCBI	Direct submissions	2+6
+KN	NCBI	scaffold/CON	2+6
+KO	NCBI	GSS	2+6
+KP	NCBI	Direct submissions	2+6
+KQ	NCBI	scaffold/CON	2+6
+KR	NCBI	Direct submissions	2+6
+KS	NCBI	GSS	2+6
+KT	NCBI	Direct submissions	2+6
+KU	NCBI	Direct submissions	2+6
+KV	NCBI	scaffold/CON	2+6
+KX	NCBI	Direct submissions	2+6
+KY	NCBI	Direct submissions	2+6
+KZ	NCBI	scaffold/CON	2+6
+L	NCBI	LANL Direct submissions	1+5
+LA	DDBJ	TSA	2+6
+LAA-LZZ	DDBJ	TSA/TLS protein	3+5
+LAAA-LZZZ	NCBI	WGS	4+8 or more
+LB	DDBJ	GSS	2+6
+LC	DDBJ	Direct submissions	2+6
+LD	DDBJ	scaffold/CON	2+6
+LE	DDBJ	TSA	2+6
+LF	DDBJ	Patent	2+6
+LG	DDBJ	Patent	2+6
+LH	DDBJ	TSA	2+6
+LI	DDBJ	TSA	2+6
+LJ	DDBJ	TSA	2+6
+LK	EBI	Direct submissions	2+6
+LL	EBI	Direct submissions	2+6
+LM	EBI	Direct submissions	2+6
+LN	EBI	Direct submissions	2+6
+LO	EBI	Direct submissions	2+6
+LP	EBI	Patent	2+6
+LQ	EBI	Patent	2+6
+LR	EBI	Direct submissions	2+6
+LS	EBI	Direct submissions	2+6
+LT	EBI	Direct submissions	2+6
+LU	DDBJ	EST	2+6
+LV	DDBJ	Patent	2+6
+LX	DDBJ	Patent	2+6
+LY	DDBJ	Patent	2+6
+LZ	DDBJ	Patent	2+6
+M	NCBI	LANL Direct submissions	1+5
+MA	DDBJ	Patent	2+6
+MAA-MZZ	NCBI	WGS/TSA protein	3+5 and 3+7
+MAAA-MZZZ	NCBI	WGS	4+8 or more
+MB	DDBJ	Patent	2+6
+MC	DDBJ	Patent	2+6
+MD	DDBJ	Patent	2+6
+ME	DDBJ	Patent	2+6
+MF	NCBI	Direct submissions	2+6
+MG	NCBI	Direct submissions	2+6
+MH	NCBI	Direct submissions	2+6
+MI	NCBI	Patent	2+6
+MJ	NCBI	GSS	2+6
+MK	NCBI	Direct submissions	2+6
+ML	NCBI	scaffold/CON	2+6
+MM	NCBI	Patent	2+6
+MN	NCBI	Direct submissions	2+6
+MO	NCBI	Patent	2+6
+MP	EBI	Patent	2+6
+MQ	EBI	Patent	2+6
+MR	EBI	Patent	2+6
+MS	EBI	Patent	2+6
+MT	NCBI	Direct submissions	2+6
+MU	NCBI	scaffold/CON	2+6
+MV	NCBI	Patent	2+6
+MW	NCBI	Direct submissions	2+6
+MX	NCBI	Patent	2+6
+MY	NCBI	Patent	2+6
+MZ	NCBI	Direct submissions	2+6
+N	NCBI	EST	1+5
+NAA-NZZ	NCBI	WGS/TSA protein	3+5
+NAAA-NZZZ	NCBI	WGS	4+8 or more
+OA	EBI	Direct submissions	2+6
+OAA-OZZ	NCBI	WGS protein	3+5
+OAAA-OZZZ	EBI	WGS	4+8 or more
+OB	EBI	Direct submissions	2+6
+OC	EBI	Direct submissions	2+6
+OD	EBI	Direct submissions	2+6
+OE	EBI	Direct submissions	2+6
+OF	DDBJ	Patent	2+6
+OG	DDBJ	Patent	2+6
+OH	DDBJ	EST	2+6
+OI	DDBJ	Patent	2+6
+OJ	DDBJ	Patent	2+6
+OK	NCBI	Direct submissions	2+6
+OL	NCBI	Direct submissions	2+6
+OM	NCBI	Direct submissions	2+6
+ON	NCBI	Direct submissions	2+6
+OO	NCBI	Patent	2+6
+OP	NCBI	Direct submissions	2+6
+OQ	NCBI	Direct submissions	2+6
+OR	NCBI	Direct submissions	2+6
+OS	NCBI	Patent	2+6
+OT	NCBI	Patent	2+6
+OU	EBI	Direct submissions	2+6
+OV	EBI	Direct submissions	2+6
+OW	EBI	Direct submissions	2+6
+OX	EBI	Direct submissions	2+6
+OY	EBI	Direct submissions	2+6
+OZ	EBI	Direct submissions	2+6
+PA	DDBJ	Patent	2+6
+PAA-PZZ	NCBI	WGS protein	3+5
+PAAA-PZZZ	NCBI	WGS	4+8 or more
+PB	DDBJ	Patent	2+6
+PC	DDBJ	Patent	2+6
+PD	DDBJ	Patent	2+6
+PE	DDBJ	Patent	2+6
+PP	NCBI	Direct submissions	2+6
+PR	NCBI	Patent	2+6
+PRJDA	DDBJ via NCBI	BioProject	5+5
+PRJDB	DDBJ	BioProject	5+6 or more
+PRJEA	EBI via NCBI	BioProject	5+5
+PRJEB	EBI	BioProject	5+6 or more
+PRJNA	NCBI	BioProject	5+6 or more
+PS	NCBI	scaffold/CON	2+6
+PT	NCBI	Patent	2+6
+QAA-QZZ	NCBI	protein	3+5
+QAAA-QZZZ	NCBI	WGS	4+8 or more
+R	NCBI	EST	1+5
+RAA-RZZ	NCBI	WGS protein	3+5
+RAAA-RZZZ	NCBI	WGS	4+8 or more
+S	NCBI	Journal Scanning	1+5
+SAA-SZZ	EBI	protein	3+5
+SAAA-SZZZ	NCBI	WGS	4+8 or more
+SAMD	DDBJ	BioSample	4-5+6 or more
+SAME	EBI	BioSample	4-5+6 or more
+SAMN	NCBI	BioSample	4-5+6 or more
+SRA	NCBI	SRA submissions	3+6 or more
+SRP	NCBI	SRA sample	3+6 or more
+SRR	NCBI	SRA runs	3+6 or more
+SRX	NCBI	SRA experiment	3+6 or more
+SRZ	NCBI	SRA analysis object	3+6 or more
+T	NCBI	EST	1+5
+TAA-TZZ	NCBI	WGS protein	3+5
+TAAA-TZZZ	DDBJ	TLS	4+8 or more
+U	NCBI	Direct submissions	1+5
+UAA-UZZ	NCBI	protein	3+5
+UAAA-UZZZ	EBI	WGS	4+8 or more
+V	EBI	Direct submissions	1+5
+VAA-VZZ	EBI	protein	3+5
+VAAA-VZZZ	NCBI	WGS	4+8 or more
+W	NCBI	EST (previously EBI)	1+5
+WAA-WZZ	NCBI	protein	3+5
+WAAA-WZZZ	NCBI	WGS	4+8 or more
+X	EBI	Direct submissions	1+5
+XAA-XZZ	NCBI	protein	3+5
+XAAA-XZZZ	NCBI	WGS	4+8 or more
+Y	EBI	Direct submissions	1+5
+YAAA-YZZZ	DDBJ	TSA TPA	4+8 or more
+Z	EBI	Direct submissions	1+5
+ZAAA-ZZZZ	DDBJ	TLS TPA	4+8 or mor

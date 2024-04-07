@@ -12,7 +12,7 @@ class BioSample():
     @staticmethod
     def count(taxon_id):
 
-        esearch_results = m.Entrez.esearch({
+        esearch_results = m.ncbi.Entrez.esearch({
             "db": "BioSample",
             "retmax": 0,
             "term": f"txid{taxon_id}[Organism]"

@@ -1,6 +1,7 @@
 
 import os
 
+from .classes import *
 import modules as m
 
 

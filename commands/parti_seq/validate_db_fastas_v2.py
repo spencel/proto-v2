@@ -363,7 +363,7 @@ def validate_db_fastas(
   for i, organism in enumerate(organisms):
     sys.stdout.write("\r")
     name = organism['name']
-    taxon_id = m.Entrez.Taxonomy.get_taxon_id(query=name)
+    taxon_id = m.ncbi.Entrez.Taxonomy.get_taxon_id(query=name)
     # debug(esearch_json)
     organisms[i]['nih_taxon_id'] = taxon_id
     sys.stdout.write(f"  {i+1} of {organism_qty} retrieved.")

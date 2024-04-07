@@ -1,10 +1,20 @@
 
-from .aws import *
+from modules.django import Django
+# ORMs live in the modules directory and Django must be initialized here.
+Django.init()
+
+from .aws import main as aws
 from .basepair_api import main as basepair_api
+from .dict import *
+from .hash import main as hash
 from .json import main as json
+from .fasta import main as fasta
+from .file_sys import main as file_sys
+from .math import main as math
+from .ncbi import main as ncbi
+from .taxon import main as taxon
 from .test import main as test
 from .units import main as units
-from .file_sys import main as file_sys
 
 
 # Old Stuff ####################################################################
@@ -15,16 +25,11 @@ from modules.command import Command
 from modules.cross_reactivity import CrossReactivity
 from modules.data_normalizer import DataNormalizer
 from modules.debug import Debugger
-from modules.dict import Dict
 from modules.dir import Dir
 
-from modules.django import Django
-# ORMs live in the modules directory and Django must be initialized here.
-Django.init()
 
-from modules.entrez import Entrez
+
 from modules.exon import Exon
-from modules.fasta import Fasta
 from modules.fastq import Fastq
 from modules.file import File
 from modules.genbank import GenBank
@@ -76,7 +81,6 @@ from modules.rscript import RScript
 from modules.signaling_peptide import SignalingPeptide
 from modules.string import *
 from modules.table import Table
-from modules.taxonomy import Taxonomy
 from modules.time import Time
 from modules.var_aa_seg import VarAaSeg
 from modules.variant import Variant

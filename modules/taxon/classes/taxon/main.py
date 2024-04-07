@@ -1,26 +1,20 @@
 
-
 import json
 import logging
 import os
 import uuid
 
-from devtools import debug
 from django.db import models
 
 
 import modules as m
-import util
 
 
 # Configs
-
-
-
 bio_config = json.load(open(os.path.join("data", "bio.json"), 'r'))
 
 
-class Taxonomy(models.Model):
+class Taxon(models.Model):
 
     class Meta:
         db_table = "taxonomy"

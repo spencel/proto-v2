@@ -4,34 +4,28 @@ import json
 import logging
 import os
 import subprocess
-import sys
-import pathlib
-import uuid
-
-from devtools import debug
-from django.db import models
 
 import Bio
-import config
-import modules as m
-import util
-from modules.subclasses.entrez.assembly import Assembly as AssemblySubclass
-from modules.subclasses.entrez.biosample import BioSample as BioSampleSubclass
-from modules.subclasses.entrez.nuccore import NucCore as NucCoreSubclass
-from modules.subclasses.entrez.taxonomy import Taxonomy as TaxonomySubclass
+import Bio.Entrez
+
+import config as c
+from ..assembly import Assembly
+from ..biosample import BioSample
+from ..nucleotide import Nucleotide
+from ..taxonomy import Taxonomy
 
 # Configs
 
 
-debug = m.Debugger.devtools_debug
+Bio.Entrez.email = c.ncbi.entrez_email
 
 
 class Entrez():
 
-  Assembly = AssemblySubclass
-  BioSample = BioSampleSubclass
-  NucCore = NucCoreSubclass
-  Taxonomy = TaxonomySubclass
+  Assembly = Assembly
+  BioSample = BioSample
+  Nucleotide = Nucleotide
+  Taxonomy = Taxonomy
 
   # List of official species names, ie, only genus and species
   CORRECT_SPECIES_NAMES = {
@@ -121,8 +115,6 @@ class Entrez():
       Parses an XML file.
   """
 
-  from Bio import Entrez as BioEntrez
-  BioEntrez.email = config.ncbi.entrez_email
 
 
 ### BioPython Entrez Wrapper Methods ########################################################################################
@@ -194,7 +186,12 @@ class Entrez():
   @classmethod
   def esearch(cls, esearch_params=None, return_handle=False):
     """
-    https://www.ncbi.nlm.nih.gov/books/NBK25499/#_chapter4_ESearch_
+    ESearch Documentation
+      https://www.ncbi.nlm.nih.gov/books/NBK25499/#_chapter4_ESearch_
+
+    Nucleotide/Nuccore, Protein, EST, GSS Field Discriptions
+      https://www.ncbi.nlm.nih.gov/books/NBK49540/
+
     :param esearch_params:
       {
         "db": str, <database-name>, eg, "nuccore"
@@ -255,7 +252,6 @@ class Entrez():
     if "idtype" in esearch_params:
       idtype = esearch_params["idtype"]
 
-    # debug(term)
     esearch_handle = Bio.Entrez.esearch(
       db=db,
       retmax=retmax,
@@ -533,15 +529,180 @@ class Entrez():
 
   @classmethod
   def esummary(cls, esummary_params=None, as_json=False):
-    """
+    """If set to xml, not as much information is returned when compared to a json request.
 
-    :param esummary_params: {
-      "db": str, <database-name>, eg, "nuccore"
-      "retmode": "json" | "xml",
-      "webenv": webenv,
-      "query_key": query_key
-    }
-    :return:
+    Args:
+        esummary_params (_type_, optional): _description_. Defaults to None.
+        as_json (bool, optional): _description_. Defaults to False.
+
+    Returns:
+        _type_: _description_
+        
+        Example JSON response from Bio.Entrez.esummary():
+        "2125450602": {
+            "uid": "2125450602",
+            "term": "2125450602",
+            "caption": "OK073084",
+            "title": "Human coronavirus 229E strain P42, complete genome",
+            "extra": "gi|2125450602|gb|OK073084.1|",
+            "gi": 2125450602,
+            "createdate": "2022/10/13",
+            "updatedate": "2022/10/13",
+            "flags": "",
+            "taxid": 11137,
+            "slen": 27239,
+            "biomol": "genomic",
+            "moltype": "rna",
+            "topology": "linear",
+            "sourcedb": "insd",
+            "segsetsize": "",
+            "projectid": "0",
+            "genome": "genomic",
+            "subtype": "strain|host|country|isolation_source|collection_date",
+            "subname": "P42|Homo sapiens|China|nasopharyngeal aspirate|2017",
+            "assemblygi": "",
+            "assemblyacc": "",
+            "tech": "",
+            "completeness": "complete",
+            "geneticcode": "1",
+            "strand": "",
+            "organism": "Human coronavirus 229E",
+            "strain": "P42",
+            "biosample": "",
+            "statistics": [
+            {
+                "type": "Length",
+                "count": 27239
+            },
+            {
+                "type": "Length",
+                "subtype": "literal",
+                "count": 27239
+            },
+            {
+                "type": "all",
+                "count": 15
+            },
+            {
+                "type": "blob_size",
+                "count": 217441
+            },
+            {
+                "type": "cdregion",
+                "count": 7
+            },
+            {
+                "type": "cdregion",
+                "subtype": "CDS",
+                "count": 7
+            },
+            {
+                "type": "gene",
+                "count": 7
+            },
+            {
+                "type": "gene",
+                "subtype": "Gene",
+                "count": 7
+            },
+            {
+                "type": "org",
+                "count": 1
+            },
+            {
+                "type": "pub",
+                "count": 2
+            },
+            {
+                "type": "pub",
+                "subtype": "unpublished",
+                "count": 1
+            },
+            {
+                "source": "CDS",
+                "type": "all",
+                "count": 7
+            },
+            {
+                "source": "CDS",
+                "type": "prot",
+                "count": 7
+            },
+            {
+                "source": "CDS",
+                "type": "prot",
+                "subtype": "Prot",
+                "count": 7
+            },
+            {
+                "source": "all",
+                "type": "Length",
+                "count": 27239
+            },
+            {
+                "source": "all",
+                "type": "all",
+                "count": 22
+            },
+            {
+                "source": "all",
+                "type": "blob_size",
+                "count": 217441
+            },
+            {
+                "source": "all",
+                "type": "cdregion",
+                "count": 7
+            },
+            {
+                "source": "all",
+                "type": "gene",
+                "count": 7
+            },
+            {
+                "source": "all",
+                "type": "org",
+                "count": 1
+            },
+            {
+                "source": "all",
+                "type": "prot",
+                "count": 7
+            },
+            {
+                "source": "all",
+                "type": "pub",
+                "count": 2
+            }
+            ],
+            "properties": {
+            "na": "1",
+            "value": "1"
+            },
+            "oslt": {
+            "indexed": true,
+            "value": "OK073084.1"
+            },
+            "accessionversion": "OK073084.1"
+        }
+      
+      Example XML response from Bio.Entrez.esummary():
+        <DocSum>
+        <Id>2125450602</Id>
+        <Item Name="Caption" Type="String">OK073084</Item>
+        <Item Name="Title" Type="String">Human coronavirus 229E strain P42, complete genome</Item>
+        <Item Name="Extra" Type="String">gi|2125450602|gb|OK073084.1|[2125450602]</Item>
+        <Item Name="Gi" Type="Integer">2125450602</Item>
+        <Item Name="CreateDate" Type="String">2022/10/13</Item>
+        <Item Name="UpdateDate" Type="String">2022/10/13</Item>
+        <Item Name="Flags" Type="Integer">0</Item>
+        <Item Name="TaxId" Type="Integer">11137</Item>
+        <Item Name="Length" Type="Integer">27239</Item>
+        <Item Name="Status" Type="String">live</Item>
+        <Item Name="ReplacedBy" Type="String"/>
+        <Item Name="Comment" Type="String"> </Item>
+        <Item Name="AccessionVersion" Type="String">OK073084.1</Item>
+        </DocSum>
     """
 
     db = "nuccore"
@@ -712,7 +873,7 @@ class Entrez():
     if that is the case.
     """
 
-    # print("sl: m.Entrez.get_biosample: start")
+    # print("sl: m.ncbi.Entrez.get_biosample: start")
 
     if not at_most_record_qty:
       at_most_record_qty = 100
@@ -939,7 +1100,7 @@ class Entrez():
       if not genome.startswith(genbank_prefixes + assembly_prefixes):
         raise Exception(f"Unexpected genome ID encountered: {genome}")
 
-      dpath = os.path.join(config.paths.genomes, genome)
+      dpath = os.path.join(c.paths.genomes, genome)
       m.Dir.make_if_not_exist(dpath)
 
       # Download fasta

@@ -1,3 +1,3 @@
 
-from .class_c.main import Class_C
-from .class_d.main import Class_D
+from .class_c import Class_C
+from .class_d import Class_D

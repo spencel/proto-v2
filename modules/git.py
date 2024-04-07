@@ -23,7 +23,6 @@ class Git():
             if overwrite:
                 m.Dir.delete(repo_dpath)
 
-            # https://github.com/ROSALIND-BIO/Construction-Page.git
             url = f"{host}/{account}/{repo_name}.git"
 
             original_working_directory = os.getcwd()
@@ -32,7 +31,6 @@ class Git():
             os.chdir(out_dpath)
             print(f"os.getcwd() A: {os.getcwd()}")
 
-            # git clone https://github.com/ROSALIND-BIO/Construction-Page.git
             subprocess.run([
                 "git", "clone",
                 url,
