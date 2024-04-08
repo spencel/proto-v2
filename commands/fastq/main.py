@@ -11,15 +11,15 @@ class Main():
 
     fastq_file = m.Fastq(fpath)
 
-    # file_size = m.File.get_size(fastq_file.fpath, 'B')
+    # file_size = m.file_sys.File.get_size(fastq_file.fpath, 'B')
     # print(f'file_size: {file_size}')
-    # file_size = m.File.get_size(fastq_file.fpath, 'KB')
+    # file_size = m.file_sys.File.get_size(fastq_file.fpath, 'KB')
     # print(f'file_size: {file_size}')
-    # file_size = m.File.get_size(fastq_file.fpath, 'MB')
+    # file_size = m.file_sys.File.get_size(fastq_file.fpath, 'MB')
     # print(f'file_size: {file_size}')
-    file_size = m.File.get_size(fastq_file.fpath, 'GB')
+    file_size = m.file_sys.File.get_size(fastq_file.fpath, 'GB')
     print(f'file_size: {file_size} GB')
-    # file_size = m.File.get_size(fastq_file.fpath, 'TB')
+    # file_size = m.file_sys.File.get_size(fastq_file.fpath, 'TB')
     # print(f'file_size: {file_size}')
 
     # base_qty, seq_qty = fastq_file.get_base_and_seq_qty()

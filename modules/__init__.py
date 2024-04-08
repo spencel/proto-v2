@@ -31,7 +31,6 @@ from modules.dir import Dir
 
 from modules.exon import Exon
 from modules.fastq import Fastq
-from modules.file import File
 from modules.genbank import GenBank
 from modules.gene import (
     Gene,

@@ -51,7 +51,7 @@ class Db():
         if out_fpath_prefix:
             blastdb_dpath = os.path.split(out_fpath_prefix)[0]
         else:
-            blastdb_dpath = m.File.get_fpath_without_extension(in_fpath)
+            blastdb_dpath = m.file_sys.File.get_fpath_without_extension(in_fpath)
             out_fpath_prefix = os.path.join(blastdb_dpath, "_")
         print(f"sl: out_fpath_prefix: {out_fpath_prefix}")
 
@@ -205,7 +205,7 @@ class Db():
         os.chdir(db_dpath)
 
         if overwrite:
-            m.File.delete(out_fpath)
+            m.file_sys.File.delete(out_fpath)
 
         # The following was taken from the blastdbcmd -help output
         # %a = 0, accession (eg, NC_002645.1)

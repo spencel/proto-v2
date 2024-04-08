@@ -9,23 +9,13 @@ import Bio
 import Bio.Entrez
 
 import config as c
-from ..assembly import Assembly
-from ..biosample import BioSample
-from ..nucleotide import Nucleotide
-from ..taxonomy import Taxonomy
+
 
 # Configs
-
-
 Bio.Entrez.email = c.ncbi.entrez_email
 
 
 class Entrez():
-
-  Assembly = Assembly
-  BioSample = BioSample
-  Nucleotide = Nucleotide
-  Taxonomy = Taxonomy
 
   # List of official species names, ie, only genus and species
   CORRECT_SPECIES_NAMES = {
@@ -410,10 +400,10 @@ class Entrez():
     id = "0"
     if "id" in epost_params:
       id = epost_params["id"]
-      if not isinstance(id[0], str):
+
+      # Convert to string if id is a list
+      if not isinstance(id, str):
         id = ",".join(map(str, id))
-      else:
-        id = ",".join(id)
 
     epost_handle = None
     try:
@@ -449,7 +439,8 @@ class Entrez():
       "db": str, <database-name>, eg, "nuccore"
       "rettype": str,
       "retmode": str,
-      "webenv": webenv
+      'id': str,
+      "webenv": webenv,
       "query_key": query_key
     }
 
@@ -498,11 +489,11 @@ class Entrez():
     if "id" in efetch_params:
       id = efetch_params["id"]
 
-    rettype = "docsum"
+    rettype = None
     if "rettype" in efetch_params:
       rettype = efetch_params["rettype"]
 
-    retmode = "xml"
+    retmode = None
     if "retmode" in efetch_params:
       retmode = efetch_params["retmode"]
 
@@ -513,7 +504,7 @@ class Entrez():
     query_key = None
     if "query_key" in efetch_params:
       query_key = efetch_params["query_key"]
-
+    
     # Get the records identified by the batch request
     efetch_handle = Bio.Entrez.efetch(
       db=db,

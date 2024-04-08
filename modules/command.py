@@ -29,7 +29,7 @@ class Command():
     cmd_fpath = None # typically: __file__
   ):
     # Set paths
-    self.dpath = m.File.get_dpath(cmd_fpath)
+    self.dpath = m.file_sys.File.get_dpath(cmd_fpath)
     self.data_dpath = os.path.join(self.dpath, config.paths.dir_names.command_data)
     self.rscript_path = os.path.join(self.dpath, config.paths.default_filenames.r_script)
     self.log_fpath = os.path.join(self.data_dpath, "command.log")

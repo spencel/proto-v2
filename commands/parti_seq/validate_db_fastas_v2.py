@@ -69,7 +69,7 @@ def validate_db_fastas(
   # for fasta in fastas:
   #   defline_fpaths.append(os.path.join(
   #     data_dpath,
-  #     m.File.get_fname_without_extension(fasta.fpath) + "_deflines.tsv"
+  #     m.file_sys.File.get_fname_without_extension(fasta.fpath) + "_deflines.tsv"
   #   ))
 
   # m.Fasta.concat_defline_files(

@@ -100,7 +100,7 @@ class VirusLab():
 
         # Write the samples to a file
         out_fpath = os.path.join(
-            m.File.get_fpath_without_extension(fpath) + "-prepared.tsv"
+            m.file_sys.File.get_fpath_without_extension(fpath) + "-prepared.tsv"
         )
         with open(out_fpath, 'w') as f:
             f.write("Modified Title\tGenotype\tSegment\tAccession\n")

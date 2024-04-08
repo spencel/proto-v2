@@ -1,5 +1,12 @@
 
 import json
+import os
+import xml.etree.ElementTree as ET
+
+from modules import file_sys as m_file_sys
+from modules import json as m_json
+
+from .. import Entrez
 
 
 class Taxonomy():
@@ -161,3 +168,108 @@ class Taxonomy():
     taxon_id = taxon_id_list[0]
     
     return taxon_id
+
+  @staticmethod
+  def export_records(
+    taxon_ids_fpath: str,
+    col_idx: int = 0,
+    has_header_row: bool = True,
+    export_items: set = set(),
+    out_fpath: str|None = None
+  ) -> int:
+    """_summary_
+
+    Args:
+        taxon_ids_fpath (str): _description_
+        col_idx (int, optional): Column index of the taxon IDs in the input. Defaults to 0.
+        export_items (set, optional): _description_. Defaults to [].
+        out_fpath (str | None, optional): _description_. Defaults to None.
+
+    Returns:
+        int: The number of records retrieved.
+    """
+    if not out_fpath:
+      out_fpath = os.path.join(
+        m_file_sys.File.get_fpath_without_extension(taxon_ids_fpath)
+        + '-taxon.tsv'
+      )
+    
+    # Make list of unique taxon IDs
+    taxon_ids = set()
+    gi_ids = set()
+    with open(taxon_ids_fpath, 'r') as f:
+      
+      # Skip column names row
+      if has_header_row:
+        for line in f:
+          break
+      
+      for line in f:
+        taxon_id = line[:-1].split('\t')[col_idx]
+        gi_id = line[:-1].split('\t')[1]
+        if taxon_id not in taxon_ids:
+          gi_ids.add(gi_id)
+        taxon_ids.add(taxon_id)
+
+    # Post Taxon IDs
+    epost_res = Entrez.epost({
+      'db': 'taxonomy',
+      'id': ','.join(taxon_ids)
+    })
+
+    # Get the identifiers of the batch request
+    webenv = epost_res["WebEnv"]
+    query_key = epost_res["QueryKey"]
+
+    http_res_xml = Entrez.efetch({
+      "db": "taxonomy",
+      "webenv": webenv,
+      "query_key": query_key
+    }).read().decode('utf-8')
+
+    tax_tree = dict()
+
+    root = ET.fromstring(http_res_xml)
+    taxons = root.findall('Taxon')
+    with open('logs/taxonomy-xml.log', 'w') as f:
+      for taxon in taxons:
+        
+        taxon_id = taxon.find('TaxId').text
+        f.write(taxon_id + '\t')
+        name = taxon.find('ScientificName').text
+        f.write(name + '\t')
+        rank = taxon.find('Rank').text
+        f.write(rank + '\n')
+
+        lineage_taxons = taxon.findall('LineageEx/Taxon')
+        previous_lineage_taxon_id = None
+        for lineage_taxon in lineage_taxons:
+          lineage_taxon_id = lineage_taxon.find('TaxId').text
+          f.write(lineage_taxon_id + '\t')
+          lineage_name = lineage_taxon.find('ScientificName').text
+          f.write(lineage_name + '\t')
+          lineage_rank = lineage_taxon.find('Rank').text
+          f.write(lineage_rank + '\n')
+
+          if lineage_taxon_id not in tax_tree:
+            tax_tree[lineage_taxon_id] = {
+              'name': lineage_name,
+              'rank': lineage_rank,
+              'parent_id': previous_lineage_taxon_id
+            }
+
+          previous_lineage_taxon_id = lineage_taxon_id
+        
+        if taxon_id not in tax_tree:
+          tax_tree[taxon_id] = {
+            'name': name,
+            'rank': rank,
+            'parent_id': previous_lineage_taxon_id
+          }
+    
+    m_json.save_to_file(tax_tree, 'logs/taxonomy.json')
+
+
+
+    with open('logs/taxonomy.log', 'w') as f:
+      f.write(http_res_xml)

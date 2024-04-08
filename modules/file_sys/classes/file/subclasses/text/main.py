@@ -30,7 +30,7 @@ class Text():
     file_extension = cls.file_extensions[delim]
 
     if not out_fpath:
-      out_fpath = m.File.get_fpath_without_extension(
+      out_fpath = m.file_sys.File.get_fpath_without_extension(
         fpath
       ) + '-table' + file_extension
 

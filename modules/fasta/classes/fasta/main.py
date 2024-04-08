@@ -62,7 +62,7 @@ class Fasta():
       }
 
     if not out_fpath:
-      out_fpath = m.File.get_fpath_without_extension(
+      out_fpath = m.file_sys.File.get_fpath_without_extension(
         fpath
       ) + '-accession-ids.tsv'
 
@@ -134,7 +134,7 @@ class Fasta():
     data['invalid_deflines'] = data['invalid_deflines'][:-1]
     
     if not inspection_fpath:
-      inspection_fpath = m.File.get_fpath_without_extension(
+      inspection_fpath = m.file_sys.File.get_fpath_without_extension(
         fpath
       ) + '-inspection.json'
 
@@ -208,10 +208,10 @@ class Fasta():
     """
 
     if not out_dpath:
-      export_fpath = m.File.get_fpath_without_extension(
+      export_fpath = m.file_sys.File.get_fpath_without_extension(
         self.fpath
       ) + '-export.tsv'
-      meta_fpath = m.File.get_fpath_without_extension(
+      meta_fpath = m.file_sys.File.get_fpath_without_extension(
         export_fpath
       ) + '-meta.json'
     
@@ -314,7 +314,7 @@ class Fasta():
     with open(out_fpath, 'w') as f_out:
       for fpath in fpaths:
 
-        fa_fname = m.File.get_fname_without_extension(
+        fa_fname = m.file_sys.File.get_fname_without_extension(
           fpath
         ).replace("_deflines", ".fa")
 
@@ -322,7 +322,7 @@ class Fasta():
           for line in f_in:
             f_out.write(f"{fa_fname}\t{line}")
         if not keep_originals:
-          m.File.delete(fpath)
+          m.file_sys.File.delete(fpath)
 
 
   ##############################################################################

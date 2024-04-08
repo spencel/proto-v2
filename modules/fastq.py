@@ -109,7 +109,7 @@ class Fastq():
   def copy(fpath, out_fpath, copy_seq_qty=None):
     # Each read or sequence is 4 lines
     copy_line_qty = 4 * copy_seq_qty
-    fname = m.File.get_fname(fpath)
+    fname = m.file_sys.File.get_fname(fpath)
 
     f_out = open(out_fpath, 'w')
     seq_qty = 0
@@ -168,7 +168,7 @@ class Fastq():
   def sm_get_base_and_seq_qty(fpath):
     base_qty = 0
     seq_qty = 0
-    fname = m.File.get_fname(fpath)
+    fname = m.file_sys.File.get_fname(fpath)
 
     print(f"Reading {fname}...")
     # Handle gz files

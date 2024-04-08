@@ -27,7 +27,7 @@ class Gisaid():
     #
     # class Meta:
     #     db_table = "command"
-    this_dpath = m.File.get_dpath(__file__)
+    this_dpath = m.file_sys.File.get_dpath(__file__)
     data_dpath = os.path.join(
         config.paths.dir_names.data,
         config.paths.dir_names.gisaid_data

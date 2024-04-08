@@ -5,6 +5,10 @@ import re
 
 import modules as m
 
+# Class Methods
+from .export_esummaries import *
+from .get_summary_batch import *
+
 
 class Nucleotide():
 
@@ -23,6 +27,12 @@ class Nucleotide():
     }
   }
 
+  # Class method
+  get_esummary_batch = get_esummary_batch
+
+  # Class method
+  export_esummaries = export_esummaries
+
 
   @staticmethod
   def count(taxon_id=None, term=None):
@@ -40,143 +50,13 @@ class Nucleotide():
 
 
   @classmethod
-  def get_esummary_batch(cls,
-    accession_ids_fpath: str = None,
-    taxon_id=None,
-    clade_name=None,
-    query=None,
-    retstart=0,
-    retmax=9999,
-    retmode="json",
-    time_frame=None,
-    sort_by=None,
-    get_complete_genome=True
-  ):
-    """_summary_
-
-    Args:
-      taxon_id (_type_, optional): _description_. Defaults to None.
-      clade_name (_type_, optional): _description_. Defaults to None.
-      query (_type_, optional): _description_. Defaults to None.
-      retstart (int, optional): _description_. Defaults to 0.
-      retmax (int, optional): _description_. Defaults to 9999.
-      retmode (str, optional): _description_. Defaults to "json".
-      time_frame (_type_, optional): _description_. Defaults to None.
-      sort_by (_type_, optional): _description_. Defaults to None.
-      get_complete_genome (bool, optional): _description_. Defaults to True.
-
-    Returns:
-      _type_: _description_
-    """
-    print(accession_ids_fpath)
-
-    if retmode == "json":
-      retmax = 500
-
-    term: str = None
-
-    accession_ids = []
-    if accession_ids_fpath:
-      with open(accession_ids_fpath, 'r') as f:
-        for line in f:
-          accession_ids.append(line[:-1])
-      
-      term = ','.join(accession_ids)
-      del accession_ids
-    
-    else:
-      # Special handling of queries
-      if query:
-        term = query
-      else:
-        if taxon_id:
-          term = f"txid{taxon_id}[Organism]"
-        elif clade_name:
-          term = f"{clade_name}[Organism]"
-
-      if not query and get_complete_genome:
-        term += " AND \"complete genome\"[Title]"
-
-      query_time_frame: str = None
-      if time_frame:
-        # Eg, past 6 months
-        # ("2022/10/19"[PDAT] : "2023/04/19"[PDAT])
-        if time_frame.startswith("past"):
-          end_date = datetime.datetime.today()
-          time_frame = time_frame.split(" ")
-          units = time_frame[2]
-          if units in ("monnth", "months"):
-            time_offset = 365 / 12 * int(time_frame[1])
-            start_date = end_date - datetime.timedelta(days=time_offset)
-          # print(f"sl: start_date: {start_date}")
-          # print(f"sl: end_date: {end_date}")
-
-        query_time_frame = str(
-          f"(\"{start_date.strftime('%Y/%m/%d')}\"[PDAT] : \"{end_date.strftime('%Y/%m/%d')}\"[PDAT])"
-        )
-      if query_time_frame:
-        term += " AND " + query_time_frame
-      # print(f"sl: term: {term}")
-
-    # Get a list of the most recent records
-    esearch_results = m.ncbi.Entrez.esearch({
-      "db": "nuccore",
-      "retmax": retmax,
-      "retstart": retstart,
-      "term": term,
-      "idtype": "gi",
-      "sort": sort_by
-    })
-    # print(f"sl: esearch_results: {json.dumps(esearch_results, indent=2)}")
-
-    # Exit function if there are no results
-    if esearch_results["Count"] == "0":
-      # print(f"sl: esearch_results[\"Count\"]: {esearch_results['Count']}")
-      return None
-
-    # print(f"sl: esearch_results B: {json.dumps(esearch_results, indent=2)}")
-
-    # Get the Accession IDs from the results
-    nuccore_ids = esearch_results["IdList"]
-    # print(f"sl: nuccore_ids: {nuccore_ids}")
-
-    if len(nuccore_ids) == 0:
-      return "NO ID LIST RETURNED BY QUERY"
-
-    # print(f"sl: biosample_ids: {json.dumps(biosample_ids, indent=2)}")
-
-    # Upload a list of GI IDs to Entrez for the batch request
-    epost_results = m.ncbi.Entrez.epost({
-      "db": "nuccore",
-      "id": nuccore_ids
-    })
-
-    # Get the identifiers of the batch request
-    webenv = epost_results["WebEnv"]
-    query_key = epost_results["QueryKey"]
-
-    handle = m.ncbi.Entrez.esummary({
-      "db": "nuccore",
-      "retmode": retmode,
-      "webenv": webenv,
-      "query_key": query_key
-    })
-    
-    return {
-      "handle": handle,
-      "esearch_results": esearch_results,
-      "nuccore_ids": nuccore_ids
-    }
-
-
-  @classmethod
   def prepare_esummary_data(
     cls,
     f_in_fpath,
     f_out_fpath,
     remove_input_files=False
   ):
-    col_names = m.File.get_last_line(f_in_fpath).strip("\n")
+    col_names = m.file_sys.File.get_last_line(f_in_fpath).strip("\n")
     col_qty = len(col_names.split("\t"))
 
     # Get index of collection date column
@@ -223,7 +103,7 @@ class Nucleotide():
         f_out.write(f"{line}\t{normalized_date}\n")
 
     if remove_input_files:
-      m.File.delete(f_in_fpath)
+      m.file_sys.File.delete(f_in_fpath)
 
   @classmethod
   def prepare_esummary_data_from_taxon_ids(

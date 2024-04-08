@@ -3,6 +3,7 @@ commands/*/data/
 modules/data/
 data
 env
+logs
 
 *.log
 *.err

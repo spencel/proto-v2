@@ -56,7 +56,7 @@ class Genome():
 
 
         out_fpath = os.path.join(
-            m.File.get_fpath_without_extension(fpath) +
+            m.file_sys.File.get_fpath_without_extension(fpath) +
             "-prepared.tsv"
         )
 
