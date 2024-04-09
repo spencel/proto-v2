@@ -176,7 +176,7 @@ class Taxonomy():
     has_header_row: bool = True,
     export_items: set = set(),
     out_fpath: str|None = None
-  ) -> int:
+  ) -> dict:
     """_summary_
 
     Args:
@@ -186,8 +186,19 @@ class Taxonomy():
         out_fpath (str | None, optional): _description_. Defaults to None.
 
     Returns:
-        int: The number of records retrieved.
+        dict: Metrics...
+          {
+            'taxon_id_qty': (int)
+            'unique_taxon_qty': (int)
+            'unique_species_qty': (int)
+          }
     """
+    metrics = {
+      'taxon_id_qty': 0,
+      'unique_taxon_qty': 0,
+      'unique_species_qty': 0
+    }
+
     if not out_fpath:
       out_fpath = os.path.join(
         m_file_sys.File.get_fpath_without_extension(taxon_ids_fpath)
@@ -196,7 +207,6 @@ class Taxonomy():
     
     # Make list of unique taxon IDs
     taxon_ids = set()
-    gi_ids = set()
     with open(taxon_ids_fpath, 'r') as f:
       
       # Skip column names row
@@ -205,10 +215,8 @@ class Taxonomy():
           break
       
       for line in f:
+        metrics['taxon_id_qty'] += 1
         taxon_id = line[:-1].split('\t')[col_idx]
-        gi_id = line[:-1].split('\t')[1]
-        if taxon_id not in taxon_ids:
-          gi_ids.add(gi_id)
         taxon_ids.add(taxon_id)
 
     # Post Taxon IDs
@@ -252,6 +260,8 @@ class Taxonomy():
           f.write(lineage_rank + '\n')
 
           if lineage_taxon_id not in tax_tree:
+            metrics['unique_taxon_qty'] += 1
+
             tax_tree[lineage_taxon_id] = {
               'name': lineage_name,
               'rank': lineage_rank,
@@ -261,15 +271,24 @@ class Taxonomy():
           previous_lineage_taxon_id = lineage_taxon_id
         
         if taxon_id not in tax_tree:
+          metrics['unique_species_qty'] += 1
+          metrics['unique_taxon_qty'] += 1
+
           tax_tree[taxon_id] = {
             'name': name,
             'rank': rank,
             'parent_id': previous_lineage_taxon_id
           }
-    
+
     m_json.save_to_file(tax_tree, 'logs/taxonomy.json')
 
+    table_lines = m_json.to_table(
+      tax_tree,
+      {'key_col_name': 'taxon_id'}
+    )
+    with open('logs/taxonomy.tsv', 'w') as f:
+      for line in table_lines:
+        clean_line = [str(item) if item is not None else 'None' for item in line]
+        f.write('\t'.join(clean_line) + '\n')
 
-
-    with open('logs/taxonomy.log', 'w') as f:
-      f.write(http_res_xml)
+    return metrics

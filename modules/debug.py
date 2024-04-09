@@ -116,4 +116,4 @@ class Debugger():
   ):
     
     with open(fpath, 'w') as f:
-      f.write(m.Json.json_to_pretty_str(data))
+      f.write(m.Json.to_pretty_str(data))

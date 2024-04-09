@@ -16,6 +16,9 @@ from pathlib import Path
 class File():
 
 
+  Text = Text
+
+
   @staticmethod
   def get_size(fpath, units):
     size = os.path.getsize(fpath) # Bytes

@@ -39,7 +39,7 @@ def validate_db_fastas(
   }
   '''
   
-  fasta_json = m.Json.load_json_as_dot_notation(fasta_json_fpath)
+  fasta_json = m.Json.load_as_dot_notation(fasta_json_fpath)
   all_deflines_fpath = os.path.join(data_dpath, "all_deflines.tsv")
   dup_deflines_fpath = os.path.join(data_dpath, "dup_deflines.tsv")
   dup_defline_ids_fpath = os.path.join(data_dpath, "dup_defline_ids.tsv")
@@ -357,7 +357,7 @@ def validate_db_fastas(
   ############################################################################
   # Get lineages from organism data
   
-  organisms = m.Json.load_json_file(organisms_fpath)
+  organisms = m.Json.load_file(organisms_fpath)
   organism_qty = len(organisms)
   print("Requesting taxon IDs from NIH...")
   for i, organism in enumerate(organisms):
