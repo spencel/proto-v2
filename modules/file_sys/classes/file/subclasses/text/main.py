@@ -40,11 +40,11 @@ class Text():
 
       out_line = []
       for line in f_in:
-        out_line.append(line[:-1])
+        out_line.append(line.rstrip('\n'))
         break
 
       for i, line in enumerate(f_in, start=2):
-        out_line.append(line[:-1])
+        out_line.append(line.rstrip('\n'))
 
         if i % lines_per_row == 0:
           f_out.write(delim.join(out_line) + '\n')

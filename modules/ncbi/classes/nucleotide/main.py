@@ -7,7 +7,7 @@ import modules as m
 
 # Class Methods
 from .export_esummaries import *
-from .get_summary_batch import *
+from .get_esummaries import *
 
 
 class Nucleotide():
@@ -28,7 +28,7 @@ class Nucleotide():
   }
 
   # Class method
-  get_esummary_batch = get_esummary_batch
+  get_esummaries = get_esummaries
 
   # Class method
   export_esummaries = export_esummaries

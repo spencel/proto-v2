@@ -1,5 +1,7 @@
+basepair
 beautifulsoup4
 biopython
+boto3
 devtools
 Django
 fire
@@ -10,3 +12,4 @@ pydantic
 python-dotenv
 requests
 tqdm
+xlsxwriter

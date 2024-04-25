@@ -27,7 +27,7 @@ class Assembly():
 
 
     @classmethod
-    def get_esummary_batch(
+    def get_esummaries(
             cls,
             taxon_id=None,
             clade_name=None,

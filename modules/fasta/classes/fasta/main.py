@@ -10,10 +10,6 @@ from Bio import Entrez
 import config as c
 import modules as m
 
-# Configs
-
-Entrez.email = c.ncbi.entrez_email
-
 
 class Fasta():
 
@@ -122,9 +118,6 @@ class Fasta():
         else:
           data['invalid_deflines'] += str(i) + ','
 
-
-
-        
         out_str = []
         if 'ncbi_accession_id' in validate:
           out_str.append(accession_id )

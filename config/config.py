@@ -79,3 +79,15 @@ basepair_api = json.load(open(os.path.join(
    'basepair_api',
    'sl-basepair.json'
 ), 'r'))
+
+
+# Setup logging
+logging = load_json_as_dot_notation((os.path.join(
+   this_dpath,
+   'logging',
+   'config.json'
+)))
+logging.default_log_fpath = os.path.join(
+	logging.log_dname,
+	logging.default_log_fname
+)

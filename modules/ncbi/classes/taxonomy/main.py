@@ -21,9 +21,7 @@ class Taxonomy():
     """
     term = str(taxon_name) + "[Subtree]"
 
-    # print(f"sl: term: {term}")
-
-    esearch_json = m.ncbi.Entrez.esearch(
+    esearch_json = Entrez.esearch(
       {
         "db": "taxonomy",
         "retstart": retstart,
@@ -48,7 +46,7 @@ class Taxonomy():
       esearch_record_qty = len(esearch_json["IdList"])
       # print(f"sl: esearch_record_qty: {esearch_record_qty}")
 
-      epost_json = m.ncbi.Entrez.epost({
+      epost_json = Entrez.epost({
         "db": "Taxonomy",
         "id": esearch_json["IdList"]
       })
@@ -57,7 +55,7 @@ class Taxonomy():
 
       esummary_retstart = 0
       while esummary_retstart < esearch_record_qty:
-        esummary_json = m.ncbi.Entrez.esummary({
+        esummary_json = Entrez.esummary({
           "db": "Taxonomy",
           "retstart": esummary_retstart,
           "webenv": webenv,
@@ -87,7 +85,7 @@ class Taxonomy():
   @staticmethod
   def get_esummary(taxon_ids):
 
-    webenv, query_key = m.ncbi.Entrez.get_epost_webenv_and_query_key(
+    webenv, query_key = Entrez.get_epost_webenv_and_query_key(
       db="Taxonomy",
       id=taxon_ids
     )
@@ -96,7 +94,7 @@ class Taxonomy():
     retstart = 0
     retmax = 500
     while i_taxon < len(taxon_ids):
-      esummary_handle = m.ncbi.Entrez.esummary({
+      esummary_handle = Entrez.esummary({
         "db": "taxonomy",
         "retstart": retstart,
         "retmax": retmax,
@@ -105,7 +103,7 @@ class Taxonomy():
       })
       esummary_json = json.loads(esummary_handle.readline().decode('utf-8'))
 
-      # efetch_handle = m.ncbi.Entrez.efetch(
+      # efetch_handle = Entrez.efetch(
       #     {
       #         "db": "taxonomy",
       #         "retstart": retstart,
@@ -123,7 +121,7 @@ class Taxonomy():
   @staticmethod
   def get_taxon_id(query):
 
-    esearch_json = m.ncbi.Entrez.esearch(
+    esearch_json = Entrez.esearch(
       esearch_params = {
         "db": "taxonomy",
         "term": query
@@ -170,7 +168,7 @@ class Taxonomy():
     return taxon_id
 
   @staticmethod
-  def export_records(
+  def export_lineages(
     taxon_ids_fpath: str,
     col_idx: int = 0,
     has_header_row: bool = True,
@@ -200,10 +198,8 @@ class Taxonomy():
     }
 
     if not out_fpath:
-      out_fpath = os.path.join(
-        m_file_sys.File.get_fpath_without_extension(taxon_ids_fpath)
-        + '-taxon.tsv'
-      )
+      out_fpath = m_file_sys.File.get_fpath_without_extension(taxon_ids_fpath) + '-lineages.tsv'
+    metrics_out_fpath = m_file_sys.File.get_fpath_without_extension(out_fpath) + '-metric.json'
     
     # Make list of unique taxon IDs
     taxon_ids = set()
@@ -216,7 +212,7 @@ class Taxonomy():
       
       for line in f:
         metrics['taxon_id_qty'] += 1
-        taxon_id = line[:-1].split('\t')[col_idx]
+        taxon_id = line.rstrip('\n').split('\t')[col_idx]
         taxon_ids.add(taxon_id)
 
     # Post Taxon IDs
@@ -239,56 +235,49 @@ class Taxonomy():
 
     root = ET.fromstring(http_res_xml)
     taxons = root.findall('Taxon')
-    with open('logs/taxonomy-xml.log', 'w') as f:
-      for taxon in taxons:
-        
-        taxon_id = taxon.find('TaxId').text
-        f.write(taxon_id + '\t')
-        name = taxon.find('ScientificName').text
-        f.write(name + '\t')
-        rank = taxon.find('Rank').text
-        f.write(rank + '\n')
+    for taxon in taxons:
+      
+      taxon_id = taxon.find('TaxId').text
+      name = taxon.find('ScientificName').text
+      rank = taxon.find('Rank').text
 
-        lineage_taxons = taxon.findall('LineageEx/Taxon')
-        previous_lineage_taxon_id = None
-        for lineage_taxon in lineage_taxons:
-          lineage_taxon_id = lineage_taxon.find('TaxId').text
-          f.write(lineage_taxon_id + '\t')
-          lineage_name = lineage_taxon.find('ScientificName').text
-          f.write(lineage_name + '\t')
-          lineage_rank = lineage_taxon.find('Rank').text
-          f.write(lineage_rank + '\n')
+      lineage_taxons = taxon.findall('LineageEx/Taxon')
+      previous_lineage_taxon_id = None
+      for lineage_taxon in lineage_taxons:
+        lineage_taxon_id = lineage_taxon.find('TaxId').text
+        lineage_name = lineage_taxon.find('ScientificName').text
+        lineage_rank = lineage_taxon.find('Rank').text
 
-          if lineage_taxon_id not in tax_tree:
-            metrics['unique_taxon_qty'] += 1
-
-            tax_tree[lineage_taxon_id] = {
-              'name': lineage_name,
-              'rank': lineage_rank,
-              'parent_id': previous_lineage_taxon_id
-            }
-
-          previous_lineage_taxon_id = lineage_taxon_id
-        
-        if taxon_id not in tax_tree:
-          metrics['unique_species_qty'] += 1
+        if lineage_taxon_id not in tax_tree:
           metrics['unique_taxon_qty'] += 1
 
-          tax_tree[taxon_id] = {
-            'name': name,
-            'rank': rank,
+          tax_tree[lineage_taxon_id] = {
+            'name': lineage_name,
+            'rank': lineage_rank,
             'parent_id': previous_lineage_taxon_id
           }
 
-    m_json.save_to_file(tax_tree, 'logs/taxonomy.json')
+        previous_lineage_taxon_id = lineage_taxon_id
+      
+      if taxon_id not in tax_tree:
+        metrics['unique_species_qty'] += 1
+        metrics['unique_taxon_qty'] += 1
+
+        tax_tree[taxon_id] = {
+          'name': name,
+          'rank': rank,
+          'parent_id': previous_lineage_taxon_id
+        }
 
     table_lines = m_json.to_table(
       tax_tree,
       {'key_col_name': 'taxon_id'}
     )
-    with open('logs/taxonomy.tsv', 'w') as f:
+    with open(out_fpath, 'w') as f:
       for line in table_lines:
         clean_line = [str(item) if item is not None else 'None' for item in line]
         f.write('\t'.join(clean_line) + '\n')
+    
+    m_json.save_to_file(metrics, metrics_out_fpath)
 
     return metrics
