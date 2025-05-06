@@ -5,14 +5,20 @@ Django.init()
 
 from .aws import main as aws
 from .basepair_api import main as basepair_api
+from .database import main as database
 from .dict import main as dict
 from .hash import main as hash
 from .json import main as json
+from .list import main as list
 from .logging import main as logging
 from .fasta import main as fasta
 from .file_sys import main as file_sys
 from .math import main as math
 from .ncbi import main as ncbi
+from .parti_cular import main as parti_cular
+from .postgresql import main as postgresql
+from .stats import main as stats
+from .svg import main as svg
 from .taxon import main as taxon
 from .test import main as test
 from .units import main as units

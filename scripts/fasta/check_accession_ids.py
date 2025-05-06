@@ -2,7 +2,7 @@
 import json
 import os
 
-from ... import file_sys
+from modules import file_sys
 
 
 def check_for_duplicates(

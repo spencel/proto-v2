@@ -1,4 +1,5 @@
 
+import logging
 import os
 from pathlib import Path
 
@@ -14,9 +15,6 @@ this_dpath = Path(__file__).parent
 # Classes/Functions
 # Temporary fix, could do some of these configs in their respective modules or
 # create modules where they would belong.
-
-
-
 
 # Get paths
 paths = load_json_as_dot_notation(

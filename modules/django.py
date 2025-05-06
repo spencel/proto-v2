@@ -2,7 +2,7 @@
 import django
 from django.conf import settings
 
-import config as c
+from config import db as db_configs
 
 class Django():
 
@@ -12,18 +12,19 @@ class Django():
       pass
     else:
       # logging.debug(f"{scope_pref}: Django setup")
+      db_config = db_configs.postgresql.databases.proto
       settings.configure(
         INSTALLED_APPS=[
           'modules',
         ],
         DATABASES={
           'default': {
-            "ENGINE": c.db.proto.django_engine,
-            "NAME": c.db.proto.database,
-            "USER": c.db.proto.user,
-            "PASSWORD": c.db.proto.password,
-            "HOST": c.db.proto.host,
-            "PORT": c.db.proto.port,
+            "ENGINE": db_config.django_engine,
+            "NAME": db_config.database,
+            "USER": db_config.user,
+            "PASSWORD": db_config.password,
+            "HOST": db_config.host,
+            "PORT": db_config.port,
           }
         }
       )

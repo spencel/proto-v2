@@ -43,47 +43,53 @@ def to_pretty_str(arg_json):
 
 def to_table(
   json_data: dict,
-  col_names: dict = {'key_col_name': None}
+  col_names: dict = {'key_col_name': None},
+  print_header_row: bool = True
 ) -> list[list]:
   
+  # Set key column name to key if not given
   key_col_name = col_names['key_col_name'] if col_names['key_col_name'] else 'key'
 
-  col_idxs = {
+  col_names_map = {
     key_col_name: 0
+  }
+  col_idx_map = {
+    0: key_col_name
   }
   col_qty: int
 
-  table_lines = [[key_col_name]]
-  
-  # Get define column names from first item in dictionary
-  for line_idx, (key, subdict) in enumerate(json_data.items(), start=1):
-    table_lines.append([key])
+  # Get column names from first item in dictionary
+  for key, items in json_data.items():
 
-    for col_idx, (subkey, value) in enumerate(subdict.items(), start=1):
-      col_idxs[subkey] = col_idx
+    for col_idx, subkey in enumerate(items, start=1):
       col_name = subkey
-      table_lines[0].append(col_name)
-      table_lines[line_idx].append(value)
+      # Get column index
+      col_names_map[col_name] = col_idx
+      col_idx_map[col_idx] = col_name
 
     break
 
-  col_qty = len(col_idxs)
-  
-  # Continue generating the rest of the lines
-  for line_idx, (key, subdict) in enumerate(json_data.items(), start=2):
-    print(f'col_qty: {col_qty}')
+  col_qty = len(col_names_map)
+
+  table_lines = []
+
+  # Add header row
+  if print_header_row:
+    new_line = [None] * col_qty
+    for col_idx, col_name in col_idx_map.items():
+      new_line[col_idx] = col_name
+    table_lines.append(new_line)
+
+  # Generate table
+  for i_line, (key, items) in enumerate(json_data.items()):
     new_line = [None] * col_qty
     new_line[0] = key
 
-    print(f'new_line: {new_line}')
+    for col_name, value in items.items():
+      col_idx = col_names_map[col_name]
+      new_line[col_idx] = value
+    
     table_lines.append(new_line)
-    print(f'line_idx: {line_idx}')
-    print(table_lines)
-
-    for subkey, value in subdict.items():
-      col_name = subkey
-      col_idx = col_idxs[col_name]
-      table_lines[line_idx][col_idx] = (value)
 
   return table_lines
    

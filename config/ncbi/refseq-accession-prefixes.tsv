@@ -1,16 +1,16 @@
 Accession Prefix	Molecule Type	Comment
-AC_	Genomic	Complete genomic molecule, usually alternate assembly
-NC_	Genomic	Complete genomic molecule, usually reference assembly
-NG_	Genomic	Incomplete genomic region
-NT_	Genomic	Contig or scaffold, clone-based or WGS
-NW_	Genomic	Contig or scaffold, primarily WGS
-NZ_	Genomic	Complete genomes and unfinished WGS data (An ordered collection of WGS sequence for a genome)
-NM_	mRNA	Protein-coding transcripts (usually curated)
-NR_	RNA	Non-protein-coding transcripts
-XM_	mRNA	Predicted model protein-coding transcript (Computed)
-XR_	RNA	Predicted model non-protein-coding transcript (Computed)
-AP_	Protein	Annotated on AC_ alternate assembly
-NP_	Protein	Associated with an NM_ or NC_ accession
-YP_	Protein	Annotated on genomic molecules without an instantiated transcript record (Computed)
-XP_	Protein	Predicted model, associated with an XM_ accession (Computed)
-WP_	Protein	Non-redundant across multiple strains and species
+AC	Genomic	Complete genomic molecule, usually alternate assembly
+NC	Genomic	Complete genomic molecule, usually reference assembly
+NG	Genomic	Incomplete genomic region
+NT	Genomic	Contig or scaffold, clone-based or WGS
+NW	Genomic	Contig or scaffold, primarily WGS
+NZ	Genomic	Complete genomes and unfinished WGS data (An ordered collection of WGS sequence for a genome)
+NM	mRNA	Protein-coding transcripts (usually curated)
+NR	RNA	Non-protein-coding transcripts
+XM	mRNA	Predicted model protein-coding transcript (Computed)
+XR	RNA	Predicted model non-protein-coding transcript (Computed)
+AP	Protein	Annotated on AC alternate assembly
+NP	Protein	Associated with an NM or NC accession
+YP	Protein	Annotated on genomic molecules without an instantiated transcript record (Computed)
+XP	Protein	Predicted model, associated with an XM accession (Computed)
+WP	Protein	Non-redundant across multiple strains and species

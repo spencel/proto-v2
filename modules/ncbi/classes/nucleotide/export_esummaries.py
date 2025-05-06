@@ -1,5 +1,4 @@
 
-import logging
 import os
 import time
 
@@ -8,11 +7,7 @@ from modules import file_sys as m_file_sys
 from .get_esummaries import *
 
 
-log = logging.getLogger(__name__)
-debug = log.debug
-
-
-def export_esummaries(cls,
+def export_esummaries(
   accession_ids_fpath: str,
   col_idx: int = 0,
   export_items: list = ['taxid', 'gi', 'accessionversion', 'organism'],
@@ -49,10 +44,8 @@ def export_esummaries(cls,
     # Make column name row
     with open(out_fpath, 'w') as f:
       f.write('\t'.join(export_items) + '\n')
-  debug(f'len(saved_accession_ids): {len(saved_accession_ids)}')
   
   esummary_qty = len(saved_accession_ids)
-  debug(f'esummary_qty: {esummary_qty}')
 
   accession_ids = []
   if accession_ids_fpath:
@@ -67,7 +60,6 @@ def export_esummaries(cls,
   del saved_accession_ids
 
   accession_id_qty = len(accession_ids)
-  debug(f'accession_id_qty: {accession_id_qty}')
   remaining_accession_id_qty = accession_id_qty
   
   retmax = 500
@@ -94,12 +86,8 @@ def export_esummaries(cls,
       query_ids.append(accession_id)
       # Add +1 to account for commas
       id_idx += 1
-    debug(f'next_length:{next_length}')
-    debug(f'id_idx:{id_idx}')
 
-    debug(f'len(query_ids): {len(query_ids)}')
     term = ','.join(query_ids)
-    # debug(f'term: {term}')
 
     # Initiliaze amount returned to start the loop
     esearch_retcount = retmax + 1
@@ -112,7 +100,6 @@ def export_esummaries(cls,
         try:
           return Entrez.esearch(args)
         except:
-          debug(f'Entrez.search(): Error')
           return None
 
       params = {
@@ -129,7 +116,6 @@ def export_esummaries(cls,
       esearch_result = esearch_response
       
       esearch_retcount = int(esearch_result['Count'])
-      debug(f'esearch_retcount: {esearch_retcount}')
       
       # Try again if return count is zero
       if esearch_retcount == 0:
@@ -139,7 +125,6 @@ def export_esummaries(cls,
       # Get the Accession IDs from the results
       gi_ids = esearch_result["IdList"]
       gi_id_qty = len(gi_ids)
-      debug(f'gi_id_qty: {gi_id_qty}')
 
       # Upload a list of GI IDs to Entrez for the batch request
       epost_results = Entrez.epost({
@@ -162,7 +147,6 @@ def export_esummaries(cls,
           try:
             return json.loads(Entrez.esummary(args).read())
           except:
-            debug(f'Entrez.esummary(): Error')
             return None
 
         params = {
@@ -179,20 +163,17 @@ def export_esummaries(cls,
           print(f'esummary_response: {esummary_response}')
 
         esummary_result = esummary_response['result']
-        # debug(f'esummary_result: {esummary_result}')
 
         if 'uids' in esummary_result:
           del esummary_result['uids']
 
         uid_qty += len(esummary_response['result'])
-        debug(f'uid_qty: {uid_qty}')
           
         # Try again if return count is zero
         if uid_qty == 0:
           continue
 
         esummary_retstart += uid_qty
-        debug(f'esummary_retstart: {esummary_retstart}')
 
         # Write ESummaries
         with open(out_fpath, 'a') as f:
@@ -206,7 +187,6 @@ def export_esummaries(cls,
               else:
                 raise Exception(f'Error: {export_item} missing from esummary: {esummary}')
             f.write('\t'.join(out_line) + '\n')
-        debug(f'esummary_qty: {esummary_qty}')
         
         # Metrics
         esummary_added_qtys.append(uid_qty)

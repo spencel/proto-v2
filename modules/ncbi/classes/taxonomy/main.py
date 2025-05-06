@@ -44,7 +44,6 @@ class Taxonomy():
     while esearch_retstart < esearch_record_qty:
       esearch_json = cls.get_sub_taxon_ids(taxon_name, retstart=esearch_retstart)
       esearch_record_qty = len(esearch_json["IdList"])
-      # print(f"sl: esearch_record_qty: {esearch_record_qty}")
 
       epost_json = Entrez.epost({
         "db": "Taxonomy",
@@ -62,7 +61,6 @@ class Taxonomy():
           "query_key": query_key
         }, as_json=True)
         esummary_record_qty = len(esummary_json["result"]["uids"])
-        # print(f"sl: esummary_record_qty: {esummary_record_qty}")
         m.Log.write(f"esummary_json: {json.dumps(esummary_json, indent=2)}")
 
         for key in esummary_json["result"]:
@@ -76,8 +74,6 @@ class Taxonomy():
         esummary_retstart = esummary_retstart + esummary_record_qty
 
       esearch_retstart = esearch_retstart + esearch_record_qty
-
-    # print(f"sl: i_record: {i_record}")
 
     return species
 
@@ -117,7 +113,6 @@ class Taxonomy():
 
       i_taxon += len(esummary_json["result"]) - 1  # first result is just the submitted UIDs
   
-
   @staticmethod
   def get_taxon_id(query):
 
@@ -166,12 +161,30 @@ class Taxonomy():
     taxon_id = taxon_id_list[0]
     
     return taxon_id
+  
+  @staticmethod
+  def get_taxon_ids(taxon_names=None, fpath=None):
+
+    if fpath:
+      taxon_names = set()
+      with open(fpath) as f:
+        for line in f:
+          taxon_names.add(line.rstrip("\n"))
+    
+    taxon_ids = {}
+
+    for taxon_name in taxon_names:
+      taxon_id = Taxonomy.get_taxon_id(taxon_name)
+      taxon_ids[taxon_name] = taxon_id
+
+    return taxon_ids
 
   @staticmethod
   def export_lineages(
-    taxon_ids_fpath: str,
+    taxon_ids_fpath: str|None = None,
+    taxon_ids: set|None = None,
     col_idx: int = 0,
-    has_header_row: bool = True,
+    has_header_row: bool = False,
     export_items: set = set(),
     out_fpath: str|None = None
   ) -> dict:
@@ -202,18 +215,19 @@ class Taxonomy():
     metrics_out_fpath = m_file_sys.File.get_fpath_without_extension(out_fpath) + '-metric.json'
     
     # Make list of unique taxon IDs
-    taxon_ids = set()
-    with open(taxon_ids_fpath, 'r') as f:
-      
-      # Skip column names row
-      if has_header_row:
+    if taxon_ids_fpath and not taxon_ids:
+      taxon_ids = set()
+      with open(taxon_ids_fpath, 'r') as f:
+        
+        # Skip column names row
+        if has_header_row:
+          for line in f:
+            break
+        
         for line in f:
-          break
-      
-      for line in f:
-        metrics['taxon_id_qty'] += 1
-        taxon_id = line.rstrip('\n').split('\t')[col_idx]
-        taxon_ids.add(taxon_id)
+          metrics['taxon_id_qty'] += 1
+          taxon_id = line.rstrip('\n').split('\t')[col_idx]
+          taxon_ids.add(taxon_id)
 
     # Post Taxon IDs
     epost_res = Entrez.epost({
@@ -280,4 +294,4 @@ class Taxonomy():
     
     m_json.save_to_file(metrics, metrics_out_fpath)
 
-    return metrics
+    # return metrics

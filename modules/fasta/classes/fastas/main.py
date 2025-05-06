@@ -34,9 +34,8 @@ class Fastas():
             self.fastas.append(Fasta(fpath=fpath))
       else:
         self.fastas.append(fasta)
-
-  
-  def export(self,
+ 
+  def export_defline_and_seq_hash(self,
     seq_hash_type: str|None = m.hash.SHA256
   ) -> list[dict]:
     """_summary_
@@ -53,7 +52,7 @@ class Fastas():
     
     for fasta in self.fastas:
       out_metrics.append(
-        fasta.export(
+        fasta.export_defline_and_seq_hash(
           out_dpath = out_dpath,
           seq_hash_type = seq_hash_type
         )

@@ -1,24 +1,24 @@
 
 import datetime
 import json
-import logging
 import os
 import subprocess
 
-import Bio
+import Bio.Entrez
+
+from modules import logging
 
 import config as c
 
 
 # Configs
-log = logging.getLogger(__name__)
-debug = log.debug
-
 Bio.Entrez.email = c.ncbi.entrez_email
 Bio.Entrez.api_key = c.ncbi.api_key
 
 
 class Entrez():
+
+	log = logging.Log(__qualname__)
 
 	# List of official species names, ie, only genus and species
 	CORRECT_SPECIES_NAMES = {
@@ -528,6 +528,7 @@ class Entrez():
 	@classmethod
 	def esummary(cls, esummary_params=None, as_json=False):
 		"""If set to xml, not as much information is returned when compared to a json request.
+		https://www.ncbi.nlm.nih.gov/books/NBK25499/#chapter4.ESummary
 
 		Args:
 				esummary_params (_type_, optional): _description_. Defaults to None.
@@ -795,7 +796,6 @@ class Entrez():
 				)
 			except:
 				message = f'Retrying Bio.Entrez.esummary()...'
-				# debug(message)
 				print(message)
 
 		if not as_json:
@@ -879,8 +879,7 @@ class Entrez():
 				"id": accession_ids
 			})
 		except:
-			with open("debug.log", 'a') as f:
-				f.write(json.dumps(esearch_results, indent=2)+"\n")
+			cls.log.debug('get_genbank_records', 'esearch_results', esearch_results)
 			raise Exception
 
 
@@ -968,8 +967,7 @@ class Entrez():
 				"id": biosample_ids
 			})
 		except:
-			with open("debug.log", 'a') as f:
-				f.write(json.dumps(esearch_results, indent=2) + "\n")
+			cls.log.debug('get_biosample', 'esearch_results', esearch_results)
 			raise Exception
 
 		# Get the identifiers of the batch request
@@ -1061,8 +1059,7 @@ class Entrez():
 				"id": accession_ids
 			})
 		except:
-			with open("debug.log", 'a') as f:
-				f.write(json.dumps(esearch_results, indent=2) + "\n")
+			cls.log.debug('get_esummary_old2', 'esearch_results', esearch_results)
 			raise Exception
 
 		# Get the identifiers of the batch request

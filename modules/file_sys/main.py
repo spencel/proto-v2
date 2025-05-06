@@ -6,6 +6,10 @@ from .classes import *
 import modules as m
 
 
+def remove_extension(filepath: str) -> str:
+  return os.path.splitext(filepath)[0]
+
+
 def split_path(path: str) -> list[str]:
   path_delim = os.path.sep
   return path.split(path_delim)
@@ -67,13 +71,27 @@ def compare_dirs(
   results = {
     this_dpath: {
       'files': {},
+      # 'FILENAME': {
+      #   'path': 'FILEPATH',
+      #   'checksum': 'CHECKSUM
+      # }
+      # ...
       'missing': []
+      # 'FILENAME', ...
     },
     that_dpath: {
       'files': {},
       'missing': []
     },
+    # Checksum matches even filenames differ
+    'checksum_matches': [],
+    # {
+    #   'this_fname': 'FILENAME',
+    #   'that_fname': 'FILENAME',
+    #   'checksum': 'CHECKSUM'
+    # }
     'checksum_mismatches': []
+    # 'FILENAME', ...
   }
 
   def get_checksum(fpath):
@@ -102,18 +120,50 @@ def compare_dirs(
   those_fnames = get_data(that_dpath)
   results[that_dpath]['files'] = those_fnames
   
+  # Get filenames and missing filenames
   for this_fname in these_fnames:
     if this_fname not in those_fnames:
       results[that_dpath]['missing'].append(this_fname)
-  
   for that_fname in those_fnames:
     if that_fname not in these_fnames:
       results[this_dpath]['missing'].append(that_fname)
   
+  # Get checksum mismatches by file name
   for this_fname, data in these_fnames.items():
     this_checksum = data['checksum']
-    that_checksum = those_fnames[this_fname]['checksum']
+    if this_fname in those_fnames:
+      that_checksum = those_fnames[this_fname]['checksum']
+    else:
+      continue
     if this_checksum != that_checksum:
       results['checksum_mismatches'].append(this_fname)
+  
+  # Get all checksum matches even filenames differ
+  for this_fname, data in these_fnames.items():
+    this_checksum = data['checksum']
+    for that_fname, data in those_fnames.items():
+      that_checksum = data['checksum']
+      if this_checksum == that_checksum:
+        results['checksum_matches'].append({
+          'this_fname': this_fname,
+          'that_fname': that_fname,
+          'checksum': this_checksum
+        })
 
   return results
+
+
+def get_filename(filepath, with_extension=True):
+  filename = os.path.basename(filepath)
+  if with_extension:
+    return filename
+  else:
+    return os.path.splitext(filename)[0]
+
+
+def make_dirs(dpath):
+  if not os.path.exists(dpath):
+    os.makedirs(dpath)
+    return 1
+  else:
+    return 0

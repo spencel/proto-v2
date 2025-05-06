@@ -1,0 +1,3390 @@
+Viruses
+    Anelloviridae
+       Alphatorquevirus
+          Alphatorquevirus cerco6
+             Torque teno virus 26
+          Alphatorquevirus cerco7
+             Torque teno virus 25
+          Alphatorquevirus homin1
+             Torque teno virus 1
+          Alphatorquevirus homin10
+             Torque teno virus 10
+          Alphatorquevirus homin13
+             Torque teno virus 13
+          Alphatorquevirus homin14
+             Torque teno virus 14
+          Alphatorquevirus homin15
+             Torque teno virus 15
+          Alphatorquevirus homin17
+             Torque teno virus 17
+          Alphatorquevirus homin18
+             Torque teno virus 18
+          Alphatorquevirus homin19
+             Torque teno virus 19
+          Alphatorquevirus homin2
+             Torque teno virus 2
+          Alphatorquevirus homin20
+             Torque teno virus 20
+          Alphatorquevirus homin21
+             Torque teno virus 21
+          Alphatorquevirus homin24
+             Torque teno virus 24
+          Alphatorquevirus homin29
+             Torque teno virus 29
+          Alphatorquevirus homin3
+             Torque teno virus 3
+          Alphatorquevirus homin4
+             Torque teno virus 4
+          Alphatorquevirus homin5
+             Torque teno virus 5
+          Alphatorquevirus homin6
+             Torque teno virus 6
+          Alphatorquevirus homin7
+             Torque teno virus 7
+          Alphatorquevirus homin9
+             Torque teno virus 9
+          Torque teno virus 11
+          Torque teno virus 12
+          Torque teno virus 16
+          Torque teno virus 22
+          Torque teno virus 23
+          Torque teno virus 27
+          Torque teno virus 28
+          Torque teno virus 8
+       Betatorquevirus
+          unclassified Betatorquevirus
+             TTV-like mini virus
+       Etatorquevirus
+          Etatorquevirus viver3
+             Paguma larvata torque teno virus
+       unclassified Anelloviridae
+          Anelloviridae sp.
+          Torque teno virus
+    Duplodnaviria
+       Heunggongvirae
+          Peploviricota
+             Herviviricetes
+                Herpesvirales
+                   Orthoherpesviridae
+                      Alphaherpesvirinae
+                         Simplexvirus
+                            Simplexvirus humanalpha1
+                               Human alphaherpesvirus 1
+                            Simplexvirus humanalpha2
+                               Human alphaherpesvirus 2
+                            Simplexvirus macacinealpha1
+                               Macacine alphaherpesvirus 1
+                         Varicellovirus
+                            Varicellovirus humanalpha3
+                               Human alphaherpesvirus 3
+                      Betaherpesvirinae
+                         Cytomegalovirus
+                            Cytomegalovirus humanbeta5
+                               Human betaherpesvirus 5
+                         Roseolovirus
+                            Roseolovirus humanbeta6a
+                               Human betaherpesvirus 6A
+                            Roseolovirus humanbeta6b
+                               Human betaherpesvirus 6B
+                            Roseolovirus humanbeta7
+                               Human betaherpesvirus 7
+                      Gammaherpesvirinae
+                         Lymphocryptovirus
+                            Lymphocryptovirus humangamma4
+                               human gammaherpesvirus 4
+                                  Human herpesvirus 4 type 2
+                         Rhadinovirus
+                            Rhadinovirus humangamma8
+                               Human gammaherpesvirus 8
+          Uroviricota
+             Caudoviricetes
+                Dolichocephalovirinae
+                   Shapirovirus
+                      unclassified Shapirovirus
+                         Caulobacter phage Ccr29
+                Seoulvirus
+                   Seoulvirus SPN3US
+                      Escherichia phage vB_EcoM_EC001
+                      Salmonella phage SPN3US
+                   unclassified Seoulvirus
+                      Salmonella phage JN03
+    Monodnaviria
+       Shotokuvirae
+          Cossaviricota
+             Papovaviricetes
+                Sepolyvirales
+                   Polyomaviridae
+                      Alphapolyomavirus
+                         Alphapolyomavirus octihominis
+                            Trichodysplasia spinulosa-associated polyomavirus
+                         Alphapolyomavirus quintihominis
+                            Merkel cell polyomavirus
+                      Betapolyomavirus
+                         Betapolyomavirus hominis
+                         Betapolyomavirus quartihominis
+                            WU Polyomavirus
+                         Betapolyomavirus secuhominis
+                            JC polyomavirus
+                         Betapolyomavirus tertihominis
+                      Deltapolyomavirus
+                         Deltapolyomavirus septihominis
+                            Human polyomavirus 7
+                         Deltapolyomavirus sextihominis
+                            Human polyomavirus 6
+                         Deltapolyomavirus undecihominis
+                            STL polyomavirus
+                Zurhausenvirales
+                   Papillomaviridae
+                      Firstpapillomavirinae
+                         Alphapapillomavirus
+                            Alphapapillomavirus 1
+                               Human papillomavirus type 32
+                            Alphapapillomavirus 10
+                               Human papillomavirus type 6b
+                            Alphapapillomavirus 11
+                               Human papillomavirus type 34
+                            Alphapapillomavirus 14
+                               human papillomavirus 71
+                            Alphapapillomavirus 2
+                               human papillomavirus 10
+                            Alphapapillomavirus 3
+                            Alphapapillomavirus 4
+                            Alphapapillomavirus 5
+                               Human papillomavirus type 26
+                            Alphapapillomavirus 6
+                               human papillomavirus 30
+                            Alphapapillomavirus 7
+                               human papillomavirus 18
+                            Alphapapillomavirus 8
+                               Human papillomavirus type 7
+                            Alphapapillomavirus 9
+                               Human papillomavirus 16
+                         Betapapillomavirus
+                            Betapapillomavirus 1
+                               Human papillomavirus 5
+                            Betapapillomavirus 2
+                               Human papillomavirus 9
+                            Betapapillomavirus 3
+                               Human papillomavirus type 49
+                            Betapapillomavirus 4
+                               Human papillomavirus type 92
+                         Gammapapillomavirus
+                            Gammapapillomavirus 10
+                               Human papillomavirus 121
+                            Gammapapillomavirus 11
+                               Human papillomavirus 126
+                               Human papillomavirus 136
+                               Human papillomavirus 140
+                               Human papillomavirus 154
+                            Gammapapillomavirus 12
+                               Human papillomavirus 132
+                               Human papillomavirus 165
+                            Gammapapillomavirus 13
+                               human papillomavirus 128
+                            Gammapapillomavirus 14
+                               human papillomavirus 131
+                            Gammapapillomavirus 15
+                               Human papillomavirus 135
+                               Human papillomavirus 179
+                            Gammapapillomavirus 16
+                               human papillomavirus 137
+                            Gammapapillomavirus 17
+                               Human papillomavirus 144
+                            Gammapapillomavirus 19
+                               human papillomavirus 166
+                            Gammapapillomavirus 21
+                               Human papillomavirus 167
+                            Gammapapillomavirus 3
+                               Human papillomavirus type 50
+                            Gammapapillomavirus 4
+                               Human papillomavirus type 60
+                            Gammapapillomavirus 5
+                               Human papillomavirus type 88
+                            Gammapapillomavirus 6
+                               human papillomavirus 101
+                            Gammapapillomavirus 7
+                               Human papillomavirus 109
+                               Human papillomavirus 134
+                            Gammapapillomavirus 8
+                               human papillomavirus 112
+                            Gammapapillomavirus 9
+                               Human papillomavirus 116
+                               human papillomavirus 129
+                         Mupapillomavirus
+                            Mupapillomavirus 1
+                            Mupapillomavirus 2
+                               Human papillomavirus type 63
+                         Nupapillomavirus
+                            Nupapillomavirus 1
+                               Human papillomavirus type 41
+                      unclassified Papillomaviridae
+                         Human papillomavirus types
+                            Human papillomavirus
+             Quintoviricetes
+                Piccovirales
+                   Parvoviridae
+                      Parvovirinae
+                         Bocaparvovirus
+                            Bocaparvovirus primate1
+                               Gorilla bocavirus
+                                  Bocavirus gorilla/GBoV1/2009
+                               Human bocavirus 3
+                         Dependoparvovirus
+                            Dependoparvovirus mammalian1
+                               Bovine adeno-associated virus
+                               adeno-associated virus 5
+                            Dependoparvovirus primate1
+                               adeno-associated virus 2
+                               unclassified Adeno-associated dependoparvovirus A
+                                  Adeno-associated virus - 1
+                                  Adeno-associated virus - 3
+                                  Adeno-associated virus - 4
+                                     adeno-associated virus 7
+                                     adeno-associated virus 8
+                         Erythroparvovirus
+                            Erythroparvovirus primate1
+                               Human parvovirus B19
+          Cressdnaviricota
+             Arfiviricetes
+                Cirlivirales
+                   Circoviridae
+                      Circovirus
+                         Circovirus porcine1
+                            Porcine circovirus 1
+                         Circovirus porcine2
+                            Porcine circovirus 2
+    Riboviria
+       Orthornavirae
+          Duplornaviricota
+             Chrymotiviricetes
+                Ghabrivirales
+                   Totiviridae
+                      Giardiavirus
+                         Giardia lamblia virus
+                      unclassified Totiviridae
+                         Trichomonas vaginalis virus
+       Pararnavirae
+          Artverviricota
+             Revtraviricetes
+                Blubervirales
+                   Hepadnaviridae
+                      Orthohepadnavirus
+                         Hepatitis B virus
+       unclassified Riboviria
+          Diabrotica undecimpunctata virus 1
+          unclassified ssRNA viruses
+             unclassified ssRNA negative-strand viruses
+                Fusarium poae negative-stranded virus 2
+    Varidnaviria
+       Bamfordvirae
+          Nucleocytoviricota
+             Pokkesviricetes
+                Chitovirales
+                   Poxviridae
+                      Chordopoxvirinae
+                         Molluscipoxvirus
+                            Molluscum contagiosum virus
+                               Molluscum contagiosum virus subtype 1
+                         Orthopoxvirus
+                            Cowpox virus
+                            Monkeypox virus
+                            Variola virus
+                         Parapoxvirus
+                            Orf virus
+                            Pseudocowpox virus
+                         Yatapoxvirus
+                            Tanapox virus
+                               Yaba-like disease virus
+                            Yaba monkey tumor virus
+          Preplasmiviricota
+             Tectiliviricetes
+                Rowavirales
+                   Adenoviridae
+                      Mastadenovirus
+                         Human mastadenovirus A
+                         Human mastadenovirus B
+                            Human adenovirus 35
+                            Human adenovirus 7
+                            simian adenovirus 21
+                         Human mastadenovirus C
+                            Human adenovirus 1
+                            Human adenovirus 2
+                            Human adenovirus 5
+                         Human mastadenovirus D
+                            Human adenovirus 54
+                         Human mastadenovirus E
+                            Chimpanzee adenovirus Y25
+                            Simian adenovirus 25
+                         Human mastadenovirus F
+cellular organisms
+    Archaea
+       Euryarchaeota
+          Methanomada group
+             Methanobacteria
+                Methanobacteriales
+                   Methanobacteriaceae
+                      Methanobrevibacter
+                         Methanobrevibacter smithii
+                            Methanobrevibacter smithii ATCC 35061
+    Bacteria
+       Campylobacterota
+          Epsilonproteobacteria
+             Campylobacterales
+                Arcobacteraceae
+                   Aliarcobacter
+                      Aliarcobacter butzleri
+                         Aliarcobacter butzleri ED-1
+                      Aliarcobacter cryaerophilus
+                         Aliarcobacter cryaerophilus ATCC 43158
+                      Aliarcobacter skirrowii
+                         Aliarcobacter skirrowii CCUG 10374
+                Campylobacteraceae
+                   Campylobacter
+                      Campylobacter coli
+                      Campylobacter concisus
+                      Campylobacter corcagiensis
+                      Campylobacter cuniculorum
+                         Campylobacter cuniculorum DSM 23162 = LMG 24588
+                      Campylobacter curvus
+                      Campylobacter fetus
+                      Campylobacter gracilis
+                      Campylobacter hominis
+                         Campylobacter hominis ATCC BAA-381
+                      Campylobacter hyointestinalis
+                         Campylobacter hyointestinalis subsp. lawsonii
+                      Campylobacter iguaniorum
+                      Campylobacter jejuni
+                         Campylobacter jejuni subsp. jejuni
+                            Campylobacter jejuni subsp. jejuni NCTC 11168 = ATCC 700819
+                      Campylobacter lari
+                         Campylobacter lari RM2100
+                      Campylobacter mucosalis
+                      Campylobacter showae
+                      Campylobacter sputorum
+                         Campylobacter sputorum biovar paraureolyticus
+                            Campylobacter sputorum bv. paraureolyticus LMG 11764
+                      Campylobacter upsaliensis
+                      Campylobacter ureolyticus
+                Helicobacteraceae
+                   Helicobacter
+                      Helicobacter bilis
+                         Helicobacter bilis WiWa
+                      Helicobacter cinaedi
+                         Helicobacter cinaedi PAGU611
+                      Helicobacter magdeburgensis
+                      Helicobacter pylori
+       FCB group
+          Bacteroidota/Chlorobiota group
+             Bacteroidota
+                Bacteroidia
+                   Bacteroidales
+                      Bacteroidaceae
+                         Bacteroides
+                            Bacteroides caccae
+                               Bacteroides caccae CL03T12C61
+                            Bacteroides eggerthii
+                            Bacteroides fragilis
+                            Bacteroides ovatus
+                            Bacteroides stercoris
+                               Bacteroides stercoris ATCC 43183
+                            Bacteroides thetaiotaomicron
+                            Bacteroides uniformis
+                               Bacteroides uniformis CL03T12C37
+                         Phocaeicola
+                            Phocaeicola vulgatus
+                      Dysgonomonadaceae
+                         Dysgonomonas
+                            Dysgonomonas capnocytophagoides
+                            Dysgonomonas gadei
+                               Dysgonomonas gadei ATCC BAA-286
+                            Dysgonomonas hofstadii
+                            Dysgonomonas mossii
+                               Dysgonomonas mossii DSM 22836
+                      Odoribacteraceae
+                         Odoribacter
+                            Odoribacter splanchnicus
+                               Odoribacter splanchnicus DSM 20712
+                      Porphyromonadaceae
+                         Porphyromonas
+                            Porphyromonas asaccharolytica
+                               Porphyromonas asaccharolytica DSM 20707
+                            Porphyromonas gingivalis
+                               Porphyromonas gingivalis ATCC 33277
+                         Sanguibacteroides
+                            Sanguibacteroides justesenii
+                      Prevotellaceae
+                         Hoylesella
+                            Hoylesella buccalis
+                            Hoylesella loescheii
+                               Hoylesella loescheii DSM 19665 = JCM 12249 = ATCC 15930
+                            Hoylesella oralis
+                               Hoylesella oralis ATCC 33269
+                         Prevotella
+                            Prevotella bivia
+                               Prevotella bivia DSM 20514
+                            Prevotella corporis
+                               Prevotella corporis DSM 18810 = JCM 8529
+                            Prevotella denticola
+                            Prevotella disiens
+                            Prevotella intermedia
+                               Prevotella intermedia ATCC 25611 = DSM 20706
+                            Prevotella melaninogenica
+                               Prevotella melaninogenica ATCC 25845
+                            Prevotella nigrescens
+                         Segatella
+                            Segatella buccae
+                            Segatella oris
+                      Tannerellaceae
+                         Parabacteroides
+                            Parabacteroides distasonis
+                            Parabacteroides goldsteinii
+                            Parabacteroides merdae
+                               Parabacteroides merdae CL03T12C32
+                         Tannerella
+                            Tannerella forsythia
+                               Tannerella forsythia 92A2
+                Flavobacteriia
+                   Flavobacteriales
+                      Flavobacteriaceae
+                         Capnocytophaga
+                            Capnocytophaga canimorsus
+                            Capnocytophaga cynodegmi
+                            Capnocytophaga gingivalis
+                            Capnocytophaga granulosa
+                            Capnocytophaga haemolytica
+                            Capnocytophaga ochracea
+                               Capnocytophaga ochracea DSM 7271
+                            Capnocytophaga sputigena
+                         Imtechella
+                            Imtechella halotolerans
+                         Myroides
+                            Myroides marinus
+                            Myroides odoratimimus
+                            Myroides odoratus
+                         Zunongwangia
+                            Zunongwangia profunda
+                               Zunongwangia profunda SM-A87
+                      Weeksellaceae
+                         Bergeyella
+                            Bergeyella zoohelcum
+                         Chryseobacterium group
+                            Chryseobacterium
+                               Chryseobacterium gleum
+                               Chryseobacterium indologenes
+                               Chryseobacterium nakagawai
+                         Cloacibacterium
+                            Cloacibacterium caeni
+                            Cloacibacterium normanense
+                         Elizabethkingia
+                            Elizabethkingia anophelis
+                               Elizabethkingia anophelis R26
+                            Elizabethkingia meningoseptica
+                            Elizabethkingia miricola
+                         Empedobacter
+                            Empedobacter brevis
+                               Empedobacter brevis NBRC 14943 = ATCC 43319
+                            Empedobacter falsenii
+                         Riemerella
+                            Riemerella anatipestifer
+                         Weeksella
+                            Weeksella virosa
+                Sphingobacteriia
+                   Sphingobacteriales
+                      Sphingobacteriaceae
+                         Sphingobacterium
+                            Sphingobacterium spiritivorum
+       Fusobacteriota
+          Fusobacteriia
+             Fusobacteriales
+                Fusobacteriaceae
+                   Fusobacterium
+                      Fusobacterium mortiferum
+                         Fusobacterium mortiferum ATCC 9817
+                      Fusobacterium necrophorum
+                         Fusobacterium necrophorum subsp. funduliforme
+                      Fusobacterium nucleatum
+                         Fusobacterium nucleatum subsp. nucleatum
+                            Fusobacterium nucleatum subsp. nucleatum ATCC 25586
+                      Fusobacterium periodonticum
+                         Fusobacterium periodonticum ATCC 33693
+                      Fusobacterium ulcerans
+                      Fusobacterium varium
+                         Fusobacterium varium ATCC 27725
+                Leptotrichiaceae
+                   Leptotrichia
+                      Leptotrichia buccalis
+                         Leptotrichia buccalis C-1013-b
+                      Leptotrichia shahii
+                      Leptotrichia wadei
+                   Pseudoleptotrichia
+                      Pseudoleptotrichia goodfellowii
+                   Sneathia
+                      Sneathia sanguinegens
+                      Sneathia vaginalis
+                   Streptobacillus
+                      Streptobacillus moniliformis
+                         Streptobacillus moniliformis DSM 12112
+       PVC group
+          Chlamydiota
+             Chlamydiia
+                Chlamydiales
+                   Chlamydiaceae
+                      Chlamydia/Chlamydophila group
+                         Chlamydia
+                            Chlamydia pneumoniae
+                               Chlamydia pneumoniae TW-183
+                            Chlamydia psittaci
+                               Chlamydia psittaci 6BC
+                            Chlamydia trachomatis
+                               Chlamydia trachomatis D/UW-3/CX
+          Verrucomicrobiota
+             Verrucomicrobiia
+                Verrucomicrobiales
+                   Akkermansiaceae
+                      Akkermansia
+                         Akkermansia muciniphila
+       Pseudomonadota
+          Alphaproteobacteria
+             Caulobacterales
+                Caulobacteraceae
+                   Brevundimonas
+                      Brevundimonas diminuta
+                      Brevundimonas vesicularis
+             Hyphomicrobiales
+                Aurantimonadaceae
+                   Aureimonas
+                      Aureimonas altamirensis
+                         Aureimonas altamirensis DSM 21988
+                Bartonellaceae
+                   Bartonella
+                      Bartonella alsatica
+                      Bartonella bacilliformis
+                      Bartonella birtlesii
+                         Bartonella birtlesii LL-WM9
+                      Bartonella bovis
+                         Bartonella bovis 91-4
+                      Bartonella clarridgeiae
+                         Bartonella clarridgeiae 73
+                      Bartonella doshiae
+                      Bartonella elizabethae
+                      Bartonella grahamii
+                         Bartonella grahamii as4aup
+                      Bartonella henselae
+                      Bartonella koehlerae
+                         Bartonella koehlerae subsp. koehlerae
+                            Bartonella koehlerae C-29
+                      Bartonella quintana
+                      Bartonella rattaustraliani
+                         Bartonella rattaustraliani AUST/NH4
+                      Bartonella rochalimae
+                         Bartonella rochalimae ATCC BAA-1498
+                      Bartonella schoenbuchensis
+                         Bartonella schoenbuchensis m07a
+                      Bartonella taylorii
+                      Bartonella tribocorum
+                         Bartonella tribocorum CIP 105476
+                      Bartonella vinsonii
+                Brucellaceae
+                   Brucella/Ochrobactrum group
+                      Brucella
+                         Brucella abortus
+                            Brucella abortus 2308
+                         Brucella anthropi
+                         Brucella canis
+                            Brucella canis ATCC 23365
+                         Brucella intermedia
+                         Brucella melitensis
+                            Brucella melitensis bv. 1
+                               Brucella melitensis bv. 1 str. 16M
+                         Brucella oryzae
+                         Brucella suis
+                            Brucella suis 1330
+                Methylobacteriaceae
+                   Methylobacterium
+                      Methylobacterium brachiatum
+                   Methylorubrum
+                      Methylorubrum extorquens
+                         Methylorubrum extorquens DM4
+                Nitrobacteraceae
+                   Bradyrhizobium
+                      Bradyrhizobium betae
+                      Bradyrhizobium diazoefficiens
+                      Bradyrhizobium guangxiense
+                      Bradyrhizobium symbiodeficiens
+                      unclassified Bradyrhizobium
+                         Bradyrhizobium sp. BTAi1
+                         Bradyrhizobium sp. SK17
+                Phyllobacteriaceae
+                   Mesorhizobium
+                      Mesorhizobium ciceri
+                         Mesorhizobium ciceri biovar biserrulae
+                      Mesorhizobium japonicum
+                         Mesorhizobium japonicum R7A
+                      Mesorhizobium loti
+                      Mesorhizobium terrae
+                Rhizobiaceae
+                   Rhizobium/Agrobacterium group
+                      Agrobacterium
+                         Agrobacterium pusense
+                         Agrobacterium tumefaciens complex
+                            Agrobacterium tumefaciens
+                               Agrobacterium fabacearum P4
+                Xanthobacteraceae
+                   Labrys
+                      unclassified Labrys (in: a-proteobacteria)
+                         Labrys sp. KNU-23
+             Rhodobacterales
+                Paracoccaceae
+                   Paracoccus
+                      Paracoccus pantotrophus
+                      Paracoccus sanguinis
+                      Paracoccus yeei
+                Roseobacteraceae
+                   Roseobacter
+                      Roseobacter denitrificans
+             Rhodospirillales
+                Acetobacteraceae
+                   Granulibacter
+                      Granulibacter bethesdensis
+                   Pseudoroseomonas
+                      Pseudoroseomonas cervicalis
+                         Pseudoroseomonas cervicalis ATCC 49957
+                   Roseomonas
+                      Roseomonas gilardii
+                      Roseomonas mucosa
+                Azospirillaceae
+                   Azospirillum
+                      Azospirillum brasilense
+             Rickettsiales
+                Anaplasmataceae
+                   Anaplasma
+                      phagocytophilum group
+                         Anaplasma phagocytophilum
+                            Anaplasma phagocytophilum str. JM
+                   Ehrlichia
+                      canis group
+                         Ehrlichia canis
+                            Ehrlichia canis str. Jake
+                         Ehrlichia chaffeensis
+                            Ehrlichia chaffeensis str. West Paces
+                         Ehrlichia muris
+                            Ehrlichia muris AS145
+                   Neorickettsia
+                      Neorickettsia helminthoeca
+                         Neorickettsia helminthoeca str. Oregon
+                      Neorickettsia sennetsu
+                         Neorickettsia sennetsu str. Miyayama
+                   Wolbachieae
+                      Wolbachia
+                         Wolbachia pipientis
+                Rickettsiaceae
+                   Rickettsieae
+                      Orientia
+                         Orientia tsutsugamushi
+                            Orientia tsutsugamushi str. Ikeda
+                      Rickettsia
+                         belli group
+                            Rickettsia canadensis
+                               Rickettsia canadensis str. CA410
+                         spotted fever group
+                            Rickettsia africae
+                               Rickettsia africae ESF-5
+                            Rickettsia akari
+                               Rickettsia akari str. Hartford
+                            Rickettsia amblyommatis
+                               Rickettsia amblyommatis str. Ac/Pa
+                               Rickettsia amblyommatis str. Darkwater
+                               Rickettsia amblyommatis str. GAT-30V
+                            Rickettsia australis
+                               Rickettsia australis str. Cutlack
+                            Rickettsia conorii
+                               Rickettsia conorii str. Malish 7
+                               Rickettsia conorii subsp. raoultii
+                            Rickettsia felis
+                            Rickettsia helvetica
+                               Rickettsia helvetica C9P9
+                            Rickettsia honei
+                               Rickettsia honei RB
+                            Rickettsia japonica
+                            Rickettsia massiliae
+                               Rickettsia massiliae MTU5
+                               Rickettsia massiliae str. AZT80
+                            Rickettsia monacensis
+                            Rickettsia montanensis
+                               Rickettsia montanensis str. OSU 85-930
+                            Rickettsia parkeri
+                               Rickettsia parkeri str. AT#24
+                               Rickettsia parkeri str. Grand Bay
+                               Rickettsia parkeri str. Portsmouth
+                               Rickettsia parkeri str. Tate's Hell
+                            Rickettsia rickettsii
+                               Rickettsia rickettsii str. 'Sheila Smith'
+                            Rickettsia sibirica subgroup
+                               Rickettsia sibirica
+                                  Rickettsia sibirica 246
+                            Rickettsia slovaca
+                               Rickettsia slovaca 13-B
+                         typhus group
+                            Rickettsia prowazekii
+                               Rickettsia prowazekii str. Chernikova
+                            Rickettsia typhi
+                               Rickettsia typhi str. TH1527
+             Sphingomonadales
+                Sphingomonadaceae
+                   Sphingomonas
+                      Sphingomonas hengshuiensis
+                      Sphingomonas melonis
+                         Sphingomonas melonis C3
+                      unclassified Sphingomonas
+                         Sphingomonas sp. CL5.1
+          Betaproteobacteria
+             Burkholderiales
+                Alcaligenaceae
+                   Achromobacter
+                      Achromobacter denitrificans
+                      Achromobacter insolitus
+                      Achromobacter ruhlandii
+                      Achromobacter xylosoxidans
+                   Alcaligenes
+                      Alcaligenes faecalis
+                   Bordetella
+                      Bordetella bronchialis
+                      Bordetella bronchiseptica
+                      Bordetella flabilis
+                      Bordetella hinzii
+                      Bordetella holmesii
+                      Bordetella parapertussis
+                      Bordetella pertussis
+                      Bordetella petrii
+                      Bordetella trematum
+                   Kerstersia
+                      Kerstersia gyiorum
+                   Oligella
+                      Oligella ureolytica
+                      Oligella urethralis
+                   Paenalcaligenes
+                      Paenalcaligenes hominis
+                Burkholderiaceae
+                   Burkholderia
+                      Burkholderia cepacia complex
+                         Burkholderia ambifaria
+                         Burkholderia anthina
+                         Burkholderia cenocepacia
+                         Burkholderia cepacia
+                         Burkholderia contaminans
+                         Burkholderia multivorans
+                         Burkholderia pyrrocinia
+                         Burkholderia stabilis
+                      Burkholderia gladioli
+                      Burkholderia glumae
+                      pseudomallei group
+                         Burkholderia mallei
+                         Burkholderia pseudomallei
+                   Cupriavidus
+                      Cupriavidus gilardii
+                      Cupriavidus metallidurans
+                      Cupriavidus pauculus
+                   Pandoraea
+                      Pandoraea apista
+                   Paraburkholderia
+                      Paraburkholderia fungorum
+                   Ralstonia
+                      Ralstonia insidiosa
+                      Ralstonia mannitolilytica
+                      Ralstonia pickettii
+                Comamonadaceae
+                   Comamonas
+                      Comamonas kerstersii
+                      Comamonas terrigena
+                         Comamonas terrigena NBRC 13299
+                      Comamonas testosteroni
+                   Delftia
+                      Delftia acidovorans
+                         Delftia acidovorans SPH-1
+                      Delftia lacustris
+                      Delftia tsuruhatensis
+                   Diaphorobacter
+                      Diaphorobacter nitroreducens
+                      [Acidovorax] ebreus
+                         [Acidovorax] ebreus TPSY
+                      unclassified Diaphorobacter
+                         Diaphorobacter sp. JS3050
+                         Diaphorobacter sp. JS3051
+                   Paracidovorax
+                      Paracidovorax citrulli
+                   Variovorax
+                      Variovorax boronicumulans
+                      Variovorax paradoxus
+                         Variovorax paradoxus NBRC 15149
+                Oxalobacteraceae
+                   Herbaspirillum
+                      Herbaspirillum huttiense
+                Sutterellaceae
+                   Sutterella
+                      Sutterella wadsworthensis
+             Neisseriales
+                Aquaspirillaceae
+                   Laribacter
+                      Laribacter hongkongensis
+                         Laribacter hongkongensis DSM 14985
+                Chromobacteriaceae
+                   Chromobacterium
+                      Chromobacterium haemolyticum
+                      Chromobacterium violaceum
+                Neisseriaceae
+                   Eikenella
+                      Eikenella corrodens
+                   Kingella
+                      Kingella denitrificans
+                      Kingella kingae
+                         Kingella kingae KK12
+                      Kingella oralis
+                   Morococcus
+                      Morococcus cerebrosus
+                   Neisseria
+                      Neisseria animaloris
+                      Neisseria bacilliformis
+                      Neisseria cinerea
+                      Neisseria elongata
+                      Neisseria flavescens
+                      Neisseria gonorrhoeae
+                      Neisseria lactamica
+                      Neisseria meningitidis
+                      Neisseria mucosa
+                      Neisseria polysaccharea
+                      Neisseria sicca
+                      Neisseria subflava
+                      Neisseria wadsworthii
+                      Neisseria weaveri
+          Gammaproteobacteria
+             Aeromonadales
+                Aeromonadaceae
+                   Aeromonas
+                      Aeromonas caviae
+                      Aeromonas enteropelogenes
+                      Aeromonas hydrophila
+                      Aeromonas schubertii
+                      Aeromonas veronii
+                Succinivibrionaceae
+                   Anaerobiospirillum
+                      Anaerobiospirillum succiniciproducens
+                         Anaerobiospirillum succiniciproducens DSM 6400
+             Alteromonadales
+                Pseudoalteromonadaceae
+                   Pseudoalteromonas
+                      Pseudoalteromonas issachenkonii
+                Shewanellaceae
+                   Shewanella
+                      Shewanella algae
+                      Shewanella putrefaciens
+             Cardiobacteriales
+                Cardiobacteriaceae
+                   Cardiobacterium
+                      Cardiobacterium hominis
+                      Cardiobacterium valvarum
+                   Suttonella
+                      Suttonella indologenes
+                Ignatzschineriaceae
+                   Wohlfahrtiimonas
+                      Wohlfahrtiimonas chitiniclastica
+             Enterobacterales
+                Budviciaceae
+                   Budvicia
+                      Budvicia aquatica
+                Enterobacteriaceae
+                   Atlantibacter
+                      Atlantibacter hermannii
+                   Cedecea
+                      Cedecea neteri
+                   Citrobacter
+                      Citrobacter amalonaticus
+                      Citrobacter farmeri
+                      Citrobacter freundii complex
+                         Citrobacter braakii
+                         Citrobacter freundii
+                      Citrobacter koseri
+                         Citrobacter koseri ATCC BAA-895
+                   Cronobacter
+                      Cronobacter sakazakii
+                      Cronobacter turicensis
+                   Enterobacter
+                      Enterobacter cloacae complex
+                         Enterobacter asburiae
+                         Enterobacter cloacae
+                         Enterobacter hormaechei
+                            Enterobacter hormaechei subsp. steigerwaltii
+                         Enterobacter kobei
+                   Escherichia
+                      Escherichia albertii
+                      Escherichia coli
+                         Escherichia coli ATCC 25922
+                         Escherichia coli JJ1886
+                         Escherichia coli K-12
+                            Escherichia coli str. K-12 substr. MG1655
+                         Escherichia coli O157:H7
+                            Escherichia coli O157:H7 str. Sakai
+                      Escherichia fergusonii
+                   Franconibacter
+                      Franconibacter helveticus
+                   Klebsiella/Raoultella group
+                      Klebsiella
+                         Klebsiella aerogenes
+                         Klebsiella grimontii
+                         Klebsiella michiganensis
+                         Klebsiella oxytoca
+                         Klebsiella pneumoniae
+                            Klebsiella pneumoniae KCTC 2242
+                            Klebsiella pneumoniae subsp. pneumoniae
+                               Klebsiella pneumoniae subsp. pneumoniae HS11286
+                         Klebsiella quasipneumoniae
+                         Klebsiella quasivariicola
+                         Klebsiella variicola
+                      Raoultella
+                         Raoultella ornithinolytica
+                         Raoultella planticola
+                   Kluyvera
+                      Kluyvera ascorbata
+                      Kluyvera cryocrescens
+                      Kluyvera intermedia
+                   Leclercia
+                      Leclercia adecarboxylata
+                   Lelliottia
+                      Lelliottia amnigena
+                   Plesiomonas
+                      Plesiomonas shigelloides
+                   Pluralibacter
+                      Pluralibacter gergoviae
+                   Pseudescherichia
+                      Pseudescherichia vulneris
+                   Salmonella
+                      Salmonella bongori
+                         Salmonella bongori N268-08
+                      Salmonella enterica
+                         Salmonella enterica subsp. enterica
+                            Salmonella enterica subsp. enterica serovar Typhimurium
+                               Salmonella enterica subsp. enterica serovar Typhimurium str. LT2
+                   Shigella
+                      Shigella boydii
+                      Shigella dysenteriae
+                      Shigella flexneri
+                         Shigella flexneri 2a
+                            Shigella flexneri 2a str. 301
+                      Shigella sonnei
+                   Shimwellia
+                      Shimwellia blattae
+                         Shimwellia blattae DSM 4481 = NBRC 105725
+                   Siccibacter
+                      Siccibacter turicensis
+                   Yokenella
+                      Yokenella regensburgei
+                Erwiniaceae
+                   Pantoea
+                      Pantoea agglomerans group
+                         Pantoea agglomerans
+                      Pantoea ananatis
+                         Pantoea ananatis PA13
+                   Tatumella
+                      Tatumella ptyseos
+                         Tatumella ptyseos ATCC 33301
+                Hafniaceae
+                   Edwardsiella
+                      Edwardsiella hoshinae
+                      Edwardsiella tarda
+                   Hafnia
+                      Hafnia alvei
+                      Hafnia paralvei
+                Morganellaceae
+                   Moellerella
+                      Moellerella wisconsensis
+                   Morganella
+                      Morganella morganii
+                   Photorhabdus
+                      Photorhabdus asymbiotica
+                      Photorhabdus luminescens
+                         Photorhabdus luminescens subsp. luminescens
+                   Proteus
+                      Proteus mirabilis
+                         Proteus mirabilis HI4320
+                      Proteus penneri
+                      Proteus vulgaris
+                   Providencia
+                      Providencia alcalifaciens
+                      Providencia rettgeri
+                      Providencia stuartii
+                Yersiniaceae
+                   Rahnella
+                      Rahnella aquatilis
+                         Rahnella aquatilis CIP 78.65 = ATCC 33071
+                   Serratia
+                      Serratia ficaria
+                      Serratia fonticola
+                      Serratia liquefaciens
+                      Serratia marcescens
+                      Serratia odorifera
+                      Serratia plymuthica
+                         Serratia plymuthica AS9
+                      Serratia rubidaea
+                   Yersinia
+                      Yersinia enterocolitica
+                      Yersinia frederiksenii
+                         Yersinia frederiksenii ATCC 33641
+                      Yersinia intermedia
+                      Yersinia kristensenii
+                      Yersinia pseudotuberculosis complex
+                         Yersinia pestis
+                            Yersinia pestis A1122
+                         Yersinia pseudotuberculosis
+                            Yersinia pseudotuberculosis IP 32953
+                      Yersinia rochesterensis
+                      Yersinia ruckeri
+             Legionellales
+                Coxiellaceae
+                   Coxiella
+                      Coxiella burnetii
+                         Coxiella burnetii RSA 493
+                Legionellaceae
+                   Fluoribacter
+                      Fluoribacter dumoffii
+                         Fluoribacter dumoffii Tex-KL
+                   Legionella
+                      Legionella anisa
+                      Legionella birminghamensis
+                      Legionella bozemanae
+                      Legionella brunensis
+                      Legionella cherrii
+                         Legionella cherrii DSM 19213
+                      Legionella cincinnatiensis
+                      Legionella clemsonensis
+                      Legionella drancourtii
+                         Legionella drancourtii LLAP12
+                      Legionella fairfieldensis
+                      Legionella fallonii
+                         Legionella fallonii LLAP-10
+                      Legionella feeleii
+                      Legionella geestiana
+                      Legionella hackeliae
+                      Legionella jamestowniensis
+                         Legionella jamestowniensis DSM 19215
+                      Legionella jordanis
+                      Legionella lansingensis
+                      Legionella longbeachae
+                         Legionella longbeachae NSW150
+                      Legionella maceachernii
+                      Legionella massiliensis
+                      Legionella micdadei
+                      Legionella moravica
+                      Legionella norrlandica
+                      Legionella oakridgensis
+                      Legionella parisiensis
+                      Legionella pneumophila
+                      Legionella quinlivanii
+                      Legionella sainthelensi
+                      Legionella shakespearei
+                         Legionella shakespearei DSM 23087
+                      Legionella steelei
+                      Legionella tucsonensis
+                      Legionella wadsworthii
+                      Legionella waltersii
+             Lysobacterales
+                Lysobacteraceae
+                   Stenotrophomonas
+                      Stenotrophomonas acidaminiphila
+                      Stenotrophomonas maltophilia group
+                         Stenotrophomonas maltophilia
+                   Xanthomonas
+                      Xanthomonas axonopodis
+                         Xanthomonas axonopodis subcluster 9.3
+                            Xanthomonas axonopodis pv. vasculorum
+             Moraxellales
+                Moraxellaceae
+                   Acinetobacter
+                      Acinetobacter bereziniae
+                      Acinetobacter calcoaceticus/baumannii complex
+                         Acinetobacter baumannii
+                         Acinetobacter calcoaceticus
+                         Acinetobacter nosocomialis
+                            Acinetobacter nosocomialis M2
+                         Acinetobacter pittii
+                            Acinetobacter pittii PHEA-2
+                         Acinetobacter seifertii
+                      Acinetobacter haemolyticus
+                      Acinetobacter johnsonii
+                         Acinetobacter johnsonii ANC 3681
+                      Acinetobacter junii
+                      Acinetobacter lwoffii
+                      Acinetobacter radioresistens
+                      Acinetobacter soli
+                      Acinetobacter ursingii
+                         Acinetobacter ursingii NIPH 706
+                   Moraxella
+                      Moraxella atlantae
+                      Moraxella catarrhalis
+                      Moraxella lacunata
+                      Moraxella lincolnii
+                      Moraxella nonliquefaciens
+                      Moraxella osloensis
+                   Psychrobacter
+                      Psychrobacter cryohalolentis
+                      Psychrobacter phenylpyruvicus
+             Oceanospirillales
+                Halomonadaceae
+                   Halomonas
+                      Halomonas hydrothermalis
+                      Halomonas socia
+                      unclassified Halomonas
+                         Halomonas sp. 1513
+             Pasteurellales
+                Pasteurellaceae
+                   Actinobacillus
+                      Actinobacillus ureae
+                   Aggregatibacter
+                      Aggregatibacter actinomycetemcomitans
+                      Aggregatibacter aphrophilus
+                         Aggregatibacter aphrophilus ATCC 33389
+                      Aggregatibacter segnis
+                         Aggregatibacter segnis ATCC 33393
+                   Haemophilus
+                      Haemophilus aegyptius
+                      Haemophilus haemolyticus
+                      Haemophilus influenzae
+                      Haemophilus parahaemolyticus
+                      Haemophilus parainfluenzae
+                         Haemophilus parainfluenzae ATCC 33392
+                      Haemophilus paraphrohaemolyticus
+                      Haemophilus quentini
+                      Haemophilus sputorum
+                         Haemophilus sputorum HK 2154
+                      [Haemophilus] ducreyi
+                   Mannheimia
+                      Mannheimia haemolytica
+                   Pasteurella
+                      Pasteurella bettyae
+                         Pasteurella bettyae CCUG 2042
+                      Pasteurella multocida
+                   Rodentibacter
+                      Rodentibacter pneumotropicus
+             Pseudomonadales
+                Pseudomonadaceae
+                   Pseudomonas
+                      Pseudomonas aeruginosa group
+                         Pseudomonas aeruginosa
+                            Pseudomonas aeruginosa B136-33
+                            Pseudomonas aeruginosa MTB-1
+                            Pseudomonas aeruginosa PAO1
+                         Pseudomonas alcaligenes
+                         Pseudomonas mendocina
+                            Pseudomonas mendocina S5.2
+                         Pseudomonas oleovorans/pseudoalcaligenes group
+                            Pseudomonas oleovorans
+                               Pseudomonas oleovorans CECT 5344
+                      Pseudomonas chlororaphis group
+                         Pseudomonas protegens
+                            Pseudomonas protegens CHA0
+                      Pseudomonas fluorescens group
+                         Pseudomonas fluorescens
+                         Pseudomonas tolaasii
+                            Pseudomonas tolaasii NCPPB 2192
+                      Pseudomonas luteola
+                      Pseudomonas putida group
+                         Pseudomonas fulva
+                         Pseudomonas mosselii
+                         Pseudomonas oryzihabitans
+                         Pseudomonas putida
+                            Pseudomonas putida NBRC 14164
+                   Stutzerimonas
+                      Stutzerimonas stutzeri group
+                         Stutzerimonas stutzeri subgroup
+                            Stutzerimonas stutzeri
+             Thiotrichales
+                Francisellaceae
+                   Francisella
+                      Francisella hispaniensis
+                      Francisella noatunensis
+                      Francisella philomiragia
+                      Francisella tularensis
+                         Francisella tularensis subsp. novicida
+                            Francisella tularensis subsp. novicida D9876
+             Vibrionales
+                Vibrionaceae
+                   Grimontia
+                      Grimontia hollisae
+                   Photobacterium
+                      Photobacterium damselae
+                   Vibrio
+                      Vibrio cholerae
+                      Vibrio fluvialis
+                      Vibrio furnissii
+                      Vibrio harveyi group
+                         Vibrio alginolyticus
+                         Vibrio diabolicus subgroup
+                            Vibrio diabolicus
+                         Vibrio harveyi
+                         Vibrio parahaemolyticus
+                            Vibrio parahaemolyticus RIMD 2210633
+                      Vibrio kanaloae
+                      Vibrio metschnikovii
+                      Vibrio mimicus
+                         Vibrio mimicus MB451
+                      Vibrio navarrensis
+                      Vibrio vulnificus
+          Hydrogenophilia
+             Hydrogenophilales
+                Hydrogenophilaceae
+                   Hydrogenophilus
+                      Hydrogenophilus thermoluteolus
+       Spirochaetota
+          Spirochaetia
+             Brachyspirales
+                Brachyspiraceae
+                   Brachyspira
+                      Brachyspira hyodysenteriae
+             Leptospirales
+                Leptospiraceae
+                   Leptospira
+                      Leptospira alexanderi
+                      Leptospira alstonii
+                      Leptospira biflexa
+                         Leptospira biflexa serovar Patoc
+                            Leptospira biflexa serovar Patoc strain 'Patoc 1 (Paris)'
+                      Leptospira borgpetersenii
+                         Leptospira borgpetersenii serovar Ceylonica
+                      Leptospira broomii
+                         Leptospira broomii serovar Hurstbridge
+                            Leptospira broomii serovar Hurstbridge str. 5399
+                      Leptospira fainei
+                         Leptospira fainei serovar Hurstbridge
+                            Leptospira fainei serovar Hurstbridge str. BUT 6
+                      Leptospira inadai
+                         Leptospira inadai serovar Lyme
+                            Leptospira inadai serovar Lyme str. 10
+                      Leptospira interrogans
+                         Leptospira interrogans serovar Copenhageni
+                      Leptospira kirschneri
+                         Leptospira kirschneri serovar Cynopteri
+                            Leptospira kirschneri serovar Cynopteri str. 3522 CT
+                      Leptospira kmetyi
+                      Leptospira licerasiae
+                         Leptospira licerasiae ATCC BAA-1110
+                      Leptospira mayottensis
+                         Leptospira mayottensis 200901116
+                      Leptospira meyeri
+                      Leptospira noguchii
+                         Leptospira noguchii serovar Panama
+                            Leptospira noguchii serovar Panama str. CZ214
+                      Leptospira santarosai
+                         Leptospira santarosai serovar Shermani
+                            Leptospira santarosai serovar Shermani str. LT 821
+                      Leptospira terpstrae
+                         Leptospira terpstrae serovar Hualin
+                            Leptospira terpstrae serovar Hualin str. LT 11-33 = ATCC 700639
+                      Leptospira vanthielii
+                      Leptospira weilii
+                      Leptospira wolbachii
+                         Leptospira wolbachii serovar Codice
+                            Leptospira wolbachii serovar Codice str. CDC
+                      Leptospira wolffii
+                      Leptospira yanagawae
+             Spirochaetales
+                Borreliaceae
+                   Borrelia
+                      Borrelia crocidurae
+                      Borrelia duttonii
+                         Borrelia duttonii CR2A
+                      Borrelia hermsii
+                      Borrelia hispanica
+                         Borrelia hispanica CRI
+                      Borrelia miyamotoi
+                      Borrelia parkeri
+                         Borrelia parkeri HR1
+                      Borrelia persica
+                         Borrelia persica No12
+                      Borrelia recurrentis
+                         Borrelia recurrentis A1
+                      Borrelia turicatae
+                         Borrelia turicatae 91E135
+                   Borreliella
+                      Borreliella afzelii
+                      Borreliella burgdorferi
+                         Borreliella burgdorferi Bol26
+                      Borreliella garinii
+                         Borreliella garinii BgVir
+                         Borreliella garinii NMJW1
+                         Borreliella garinii SZ
+                      Borreliella mayonii
+                Treponemataceae
+                   Treponema
+                      Treponema denticola
+                         Treponema denticola ATCC 35405
+                      Treponema pallidum
+                         Treponema pallidum subsp. pertenue
+                            Treponema pallidum subsp. pertenue str. SamoaD
+                      Treponema vincentii
+                         Treponema vincentii F0403
+       Terrabacteria group
+          Actinomycetota
+             Actinomycetes
+                Actinomycetales
+                   Actinomycetaceae
+                      Actinomyces
+                         Actinomyces gerencseriae
+                            Actinomyces gerencseriae DSM 6844
+                         Actinomyces graevenitzii
+                         Actinomyces israelii
+                         Actinomyces massiliensis
+                            Actinomyces massiliensis 4401292
+                         Actinomyces oris
+                         Actinomyces timonensis
+                            Actinomyces timonensis DSM 23838
+                         Actinomyces urogenitalis
+                         Actinomyces viscosus
+                      Actinotignum
+                         Actinotignum schaalii
+                      Arcanobacterium
+                         Arcanobacterium haemolyticum
+                      Gleimia
+                         Gleimia europaea
+                            Gleimia europaea ACS-120-V-Col10b
+                      Schaalia
+                         Schaalia cardiffensis
+                            Schaalia cardiffensis F0333
+                         Schaalia georgiae
+                            Schaalia georgiae DSM 6843
+                         Schaalia meyeri
+                         Schaalia odontolytica
+                         Schaalia turicensis
+                            Schaalia turicensis ACS-279-V-Col4
+                      Trueperella
+                         Trueperella bernardiae
+                         Trueperella pyogenes
+                      Winkia
+                         Winkia neuii
+                Bifidobacteriales
+                   Bifidobacteriaceae
+                      Alloscardovia
+                         Alloscardovia omnicolens
+                      Bifidobacterium
+                         Bifidobacterium adolescentis
+                         Bifidobacterium breve
+                         Bifidobacterium dentium
+                            Bifidobacterium dentium ATCC 27678
+                         Bifidobacterium longum
+                            Bifidobacterium longum subsp. longum
+                               Bifidobacterium longum subsp. longum JCM 1217
+                         Bifidobacterium scardovii
+                            Bifidobacterium scardovii JCM 12489 = DSM 13734
+                      Gardnerella
+                         Gardnerella leopoldii
+                         Gardnerella vaginalis
+                Kitasatosporales
+                   Streptomycetaceae
+                      Streptantibioticus
+                         Streptantibioticus cattleyicolor
+                            Streptantibioticus cattleyicolor NRRL 8057 = DSM 46488
+                      Streptomyces
+                         Streptomyces somaliensis
+                            Streptomyces somaliensis DSM 40738
+                         unclassified Streptomyces
+                            Streptomyces sp. AgN23
+                Micrococcales
+                   Brevibacteriaceae
+                      Brevibacterium
+                         Brevibacterium casei
+                   Cellulomonadaceae
+                      Cellulomonas
+                         Cellulomonas flavigena
+                            Cellulomonas flavigena DSM 20109
+                      Oerskovia
+                         Oerskovia turbata
+                   Dermabacteraceae
+                      Dermabacter
+                         Dermabacter hominis
+                            Dermabacter hominis NBRC 106157
+                   Dermacoccaceae
+                      Dermacoccus
+                         Dermacoccus nishinomiyaensis
+                   Intrasporangiaceae
+                      Janibacter
+                         Janibacter indicus
+                   Jonesiaceae
+                      Jonesia
+                         Jonesia denitrificans
+                   Kytococcaceae
+                      Kytococcus
+                         Kytococcus sedentarius
+                   Microbacteriaceae
+                      Leifsonia
+                         Leifsonia aquatica
+                      Microbacterium
+                         Microbacterium foliorum
+                         Microbacterium liquefaciens
+                            Microbacterium maritypicum MF109
+                         Microbacterium oxydans
+                         Microbacterium paraoxydans
+                         Microbacterium testaceum
+                   Micrococcaceae
+                      Kocuria
+                         Kocuria indica
+                         Kocuria rhizophila
+                         Kocuria rosea
+                      Micrococcus
+                         Micrococcus luteus
+                         Micrococcus lylae
+                      Rothia
+                         Rothia aeria
+                         Rothia dentocariosa
+                            Rothia dentocariosa ATCC 17931
+                         Rothia kristinae
+                         Rothia mucilaginosa
+                            Rothia mucilaginosa ATCC 25296
+                   Promicromonosporaceae
+                      Isoptericola
+                         Isoptericola variabilis
+                            Isoptericola variabilis 225
+                      Xylanimonas
+                         Xylanimonas cellulosilytica
+                            Xylanimonas cellulosilytica DSM 15894
+                   Tropherymataceae
+                      Tropheryma
+                         Tropheryma whipplei
+                            Tropheryma whipplei TW08/27
+                Mycobacteriales
+                   Corynebacteriaceae
+                      Corynebacterium
+                         Corynebacterium accolens
+                         Corynebacterium afermentans
+                            Corynebacterium afermentans subsp. lipophilum
+                         Corynebacterium amycolatum
+                         Corynebacterium argentoratense
+                            Corynebacterium argentoratense DSM 44202
+                         Corynebacterium aurimucosum
+                            Corynebacterium aurimucosum ATCC 700975
+                         Corynebacterium diphtheriae
+                            Corynebacterium diphtheriae bv. mitis
+                               Corynebacterium diphtheriae bv. mitis str. ISS 3319
+                         Corynebacterium falsenii
+                         Corynebacterium freiburgense
+                            Corynebacterium freiburgense DSM 45254
+                         Corynebacterium freneyi
+                         Corynebacterium glucuronolyticum
+                         Corynebacterium halotolerans
+                            Corynebacterium halotolerans YIM 70093 = DSM 44683
+                         Corynebacterium jeikeium
+                            Corynebacterium jeikeium K411
+                         Corynebacterium kefirresidentii
+                         Corynebacterium kroppenstedtii
+                            Corynebacterium kroppenstedtii DSM 44385
+                         Corynebacterium kutscheri
+                         Corynebacterium lipophiloflavum
+                            Corynebacterium lipophiloflavum DSM 44291
+                         Corynebacterium massiliense
+                            Corynebacterium massiliense DSM 45435
+                         Corynebacterium matruchotii
+                            Corynebacterium matruchotii ATCC 14266
+                         Corynebacterium minutissimum
+                         Corynebacterium otitidis
+                            Corynebacterium otitidis ATCC 51513
+                         Corynebacterium propinquum
+                         Corynebacterium pseudodiphtheriticum
+                            Corynebacterium pseudodiphtheriticum DSM 44287
+                         Corynebacterium pseudotuberculosis
+                         Corynebacterium renale
+                         Corynebacterium riegelii
+                         Corynebacterium sanguinis
+                         Corynebacterium simulans
+                         Corynebacterium stationis
+                         Corynebacterium striatum
+                         Corynebacterium timonense
+                            Corynebacterium timonense 5401744
+                         Corynebacterium tuberculostearicum
+                         Corynebacterium tuscaniense
+                            Corynebacterium tuscaniense DNF00037
+                         Corynebacterium ulcerans
+                            Corynebacterium ulcerans 809
+                         Corynebacterium urealyticum
+                         Corynebacterium ureicelerivorans
+                         Corynebacterium xerosis
+                   Dietziaceae
+                      Dietzia
+                         unclassified Dietzia
+                            Dietzia sp. JS16-p6b
+                   Gordoniaceae
+                      Gordonia
+                         Gordonia bronchialis
+                            Gordonia bronchialis DSM 43247
+                         Gordonia hongkongensis
+                         Gordonia polyisoprenivorans
+                            Gordonia polyisoprenivorans VH2
+                         Gordonia rubripertincta
+                         Gordonia terrae
+                   Mycobacteriaceae
+                      Mycobacterium
+                         Mycobacterium avium complex (MAC)
+                            Mycobacterium avium
+                               Mycobacterium avium subsp. hominissuis
+                            Mycobacterium intracellulare
+                               Mycobacterium intracellulare subsp. chimaera
+                         Mycobacterium gordonae
+                         Mycobacterium haemophilum
+                            Mycobacterium haemophilum DSM 44634
+                         Mycobacterium heckeshornense
+                         Mycobacterium kansasii
+                            Mycobacterium kansasii ATCC 12478
+                         Mycobacterium kyorinense
+                         Mycobacterium leprae
+                         Mycobacterium lepromatosis
+                         Mycobacterium malmoense
+                         Mycobacterium nebraskense
+                         Mycobacterium paraffinicum
+                         Mycobacterium scrofulaceum
+                         Mycobacterium shimoidei
+                         Mycobacterium simiae complex
+                            Mycobacterium genavense
+                               Mycobacterium genavense ATCC 51234
+                            Mycobacterium intermedium
+                            Mycobacterium parascrofulaceum
+                               Mycobacterium parascrofulaceum ATCC BAA-614
+                            Mycobacterium sherrisii
+                            Mycobacterium shigaense
+                            Mycobacterium simiae
+                            Mycobacterium triplex
+                         Mycobacterium szulgai
+                         Mycobacterium talmoniae
+                         Mycobacterium tuberculosis complex
+                            Mycobacterium tuberculosis
+                               Mycobacterium tuberculosis H37Rv
+                         Mycobacterium ulcerans group
+                            Mycobacterium marinum
+                               Mycobacterium marinum E11
+                            Mycobacterium ulcerans
+                         Mycobacterium xenopi
+                      Mycobacteroides
+                         Mycobacteroides abscessus
+                         Mycobacteroides chelonae
+                            Mycobacteroides chelonae CCUG 47445
+                         Mycobacteroides franklinii
+                         Mycobacteroides immunogenum
+                         Mycobacteroides saopaulense
+                      Mycolicibacillus
+                         Mycolicibacillus koreensis
+                      Mycolicibacter
+                         Mycolicibacter arupensis
+                         Mycolicibacter heraklionensis
+                         Mycolicibacter kumamotonensis
+                         Mycolicibacter terrae
+                      Mycolicibacterium
+                         Mycolicibacterium brisbanense
+                         Mycolicibacterium canariasense
+                         Mycolicibacterium conceptionense
+                         Mycolicibacterium cosmeticum
+                         Mycolicibacterium diernhoferi
+                         Mycolicibacterium elephantis
+                         Mycolicibacterium flavescens
+                         Mycolicibacterium fortuitum
+                         Mycolicibacterium goodii
+                         Mycolicibacterium grossiae
+                         Mycolicibacterium holsaticum
+                            Mycolicibacterium holsaticum DSM 44478 = JCM 12374
+                         Mycolicibacterium iranicum
+                         Mycolicibacterium llatzerense
+                         Mycolicibacterium mageritense
+                         Mycolicibacterium mucogenicum
+                            Mycolicibacterium mucogenicum DSM 44124
+                         Mycolicibacterium neoaurum
+                         Mycolicibacterium novocastrense
+                         Mycolicibacterium obuense
+                         Mycolicibacterium peregrinum
+                         Mycolicibacterium phlei
+                         Mycolicibacterium septicum
+                         Mycolicibacterium setense
+                         Mycolicibacterium smegmatis
+                         Mycolicibacterium thermoresistibile
+                         Mycolicibacterium tusciae
+                         Mycolicibacterium vaccae
+                            Mycolicibacterium vaccae 95051
+                         Mycolicibacterium wolinskyi
+                   Nocardiaceae
+                      Nocardia
+                         Nocardia abscessus
+                            Nocardia abscessus NBRC 100374
+                         Nocardia acidivorans
+                            Nocardia acidivorans NBRC 108247
+                         Nocardia africana
+                            Nocardia africana NBRC 100379
+                         Nocardia alba
+                         Nocardia amamiensis
+                            Nocardia amamiensis NBRC 102102
+                         Nocardia anaemiae
+                            Nocardia anaemiae NBRC 100462
+                         Nocardia aobensis
+                            Nocardia aobensis NBRC 100429
+                         Nocardia araoensis
+                            Nocardia araoensis NBRC 100135
+                         Nocardia arizonensis
+                         Nocardia arthritidis
+                            Nocardia arthritidis NBRC 100137
+                         Nocardia asiatica
+                            Nocardia asiatica NBRC 100129
+                         Nocardia asteroides
+                         Nocardia beijingensis
+                            Nocardia beijingensis NBRC 16342
+                         Nocardia brasiliensis
+                         Nocardia brevicatena
+                            Nocardia brevicatena NBRC 12119
+                         Nocardia caishijiensis
+                         Nocardia carnea
+                         Nocardia cerradoensis
+                            Nocardia cerradoensis NBRC 101014
+                         Nocardia concava
+                            Nocardia concava NBRC 100430
+                         Nocardia coubleae
+                            Nocardia coubleae NBRC 108252
+                         Nocardia crassostreae
+                         Nocardia cyriacigeorgica
+                         Nocardia elegans
+                            Nocardia elegans NBRC 108235
+                         Nocardia exalbida
+                            Nocardia exalbida NBRC 100660
+                         Nocardia farcinica
+                            Nocardia farcinica IFM 10152
+                         Nocardia flavorosea
+                            Nocardia flavorosea NBRC 108225
+                         Nocardia fusca
+                            Nocardia fusca NBRC 14340
+                         Nocardia gamkensis
+                            Nocardia gamkensis NBRC 108242
+                         Nocardia grenadensis
+                            Nocardia grenadensis NBRC 108939
+                         Nocardia harenae
+                            Nocardia harenae NBRC 108248
+                         Nocardia higoensis
+                            Nocardia higoensis NBRC 100133
+                         Nocardia ignorata
+                         Nocardia inohanensis
+                            Nocardia inohanensis NBRC 100128
+                         Nocardia jejuensis
+                            Nocardia jejuensis NBRC 103114
+                         Nocardia jiangxiensis
+                            Nocardia jiangxiensis NBRC 101359
+                         Nocardia kruczakiae
+                            Nocardia kruczakiae NBRC 101016
+                         Nocardia lijiangensis
+                            Nocardia lijiangensis NBRC 108240
+                         Nocardia mexicana
+                         Nocardia mikamii
+                            Nocardia mikamii NBRC 108933
+                         Nocardia miyunensis
+                            Nocardia miyunensis NBRC 108239
+                         Nocardia niigatensis
+                            Nocardia niigatensis NBRC 100131
+                         Nocardia niwae
+                            Nocardia niwae NBRC 108934 = DSM 45340
+                         Nocardia nova
+                         Nocardia otitidiscaviarum
+                         Nocardia paucivorans
+                            Nocardia paucivorans NBRC 100373
+                         Nocardia pneumoniae
+                            Nocardia pneumoniae NBRC 100136
+                         Nocardia pseudobrasiliensis
+                         Nocardia pseudovaccinii
+                            Nocardia pseudovaccinii NBRC 100343
+                         Nocardia puris
+                         Nocardia rhamnosiphila
+                            Nocardia rhamnosiphila NBRC 108938
+                         Nocardia salmonicida
+                            Nocardia salmonicida subsp. cummidelens
+                               Nocardia salmonicida subsp. cummidelens NBRC 100378
+                         Nocardia seriolae
+                         Nocardia shimofusensis
+                            Nocardia shimofusensis NBRC 100134
+                         Nocardia sienata
+                            Nocardia sienata NBRC 100364
+                         Nocardia speluncae
+                            Nocardia speluncae NBRC 108251
+                         Nocardia takedensis
+                            Nocardia takedensis NBRC 100417
+                         Nocardia tenerifensis
+                         Nocardia terpenica
+                         Nocardia testacea
+                            Nocardia testacea NBRC 100365
+                         Nocardia thailandica
+                            Nocardia thailandica NBRC 100428
+                         Nocardia transvalensis
+                            Nocardia transvalensis NBRC 15921
+                         Nocardia uniformis
+                            Nocardia uniformis NBRC 13702
+                         Nocardia vaccinii
+                            Nocardia vaccinii NBRC 15922
+                         Nocardia vermiculata
+                            Nocardia vermiculata NBRC 100427
+                         Nocardia veterana
+                            Nocardia veterana NBRC 100344
+                         Nocardia vinacea
+                            Nocardia vinacea NBRC 16497
+                         Nocardia violaceofusca
+                            Nocardia violaceofusca NBRC 14427
+                         Nocardia xishanensis
+                            Nocardia xishanensis NBRC 101358
+                         Nocardia yamanashiensis
+                      Prescottella
+                         Prescottella equi
+                      Rhodococcus
+                         Rhodococcus erythropolis group
+                            Rhodococcus erythropolis
+                               Rhodococcus erythropolis R138
+                            Rhodococcus qingshengii
+                         Rhodococcus fascians
+                            Rhodococcus fascians D188
+                         Rhodococcus rhodochrous
+                   Tsukamurellaceae
+                      Tsukamurella
+                         Tsukamurella paurometabola
+                            Tsukamurella paurometabola DSM 20162
+                Propionibacteriales
+                   Propionibacteriaceae
+                      Arachnia
+                         Arachnia propionica
+                      Cutibacterium
+                         Cutibacterium acnes
+                            Cutibacterium acnes HL096PA1
+                         Cutibacterium granulosum
+                         Cutibacterium namnetense
+                      Propionibacterium
+                         Propionibacterium acidifaciens
+                      Propionimicrobium
+                         Propionimicrobium lymphophilum
+                            Propionimicrobium lymphophilum ACS-093-V-SCH5
+                Streptosporangiales
+                   Nocardiopsaceae
+                      Nocardiopsis
+                         Nocardiopsis dassonvillei
+                      Streptomonospora
+                         Streptomonospora nanhaiensis
+                   Thermomonosporaceae
+                      Actinomadura
+                         Actinomadura latina
+                            Actinomadura latina NBRC 106108
+                         Actinomadura madurae
+                         Actinomadura pelletieri
+                            Actinomadura pelletieri DSM 43383
+             Coriobacteriia
+                Coriobacteriales
+                   Atopobiaceae
+                      Fannyhessea
+                         Fannyhessea vaginae
+                      Lancefieldella
+                         Lancefieldella parvula
+                            Lancefieldella parvula DSM 20469
+                         Lancefieldella rimae
+                            Lancefieldella rimae ATCC 49626
+                      Olsenella
+                         Olsenella uli
+                            Olsenella uli DSM 7084
+                Eggerthellales
+                   Eggerthellaceae
+                      Gordonibacter
+                         Gordonibacter pamelaeae
+                      Slackia
+                         Slackia exigua
+             Rubrobacteria
+                Rubrobacterales
+                   Rubrobacteraceae
+                      Rubrobacter
+                         Rubrobacter xylanophilus
+                            Rubrobacter xylanophilus DSM 9941
+          Bacillota
+             Bacilli
+                Bacillales
+                   Bacillaceae
+                      Allobacillus
+                         Allobacillus halotolerans
+                      Bacillus
+                         Bacillus cereus group
+                            Bacillus anthracis
+                               Bacillus anthracis str. 'Ames Ancestor'
+                            Bacillus cereus
+                            Bacillus thuringiensis
+                               Bacillus thuringiensis serovar berliner
+                                  Bacillus thuringiensis serovar berliner ATCC 10792
+                         Bacillus glycinifermentans
+                         Bacillus pumilus
+                         Bacillus subtilis group
+                            Bacillus licheniformis
+                            Bacillus subtilis
+                               Bacillus subtilis subsp. subtilis
+                                  Bacillus subtilis subsp. subtilis str. 168
+                      Heyndrickxia
+                         Heyndrickxia coagulans
+                            Heyndrickxia coagulans DSM 1 = ATCC 7050
+                      Lysinibacillus
+                         Lysinibacillus sphaericus
+                      Niallia
+                         Niallia circulans
+                      Priestia
+                         Priestia megaterium
+                   Gemellaceae
+                      Gemella
+                         Gemella bergeri
+                            Gemella bergeri ATCC 700627
+                         Gemella haemolysans
+                         Gemella morbillorum
+                         Gemella sanguinis
+                   Listeriaceae
+                      Listeria
+                         Listeria grayi
+                         Listeria innocua
+                         Listeria ivanovii
+                            Listeria ivanovii subsp. ivanovii
+                         Listeria monocytogenes
+                            Listeria monocytogenes EGD-e
+                         Listeria seeligeri
+                            Listeria seeligeri serovar 1/2b str. SLCC3954
+                         Listeria welshimeri
+                   Paenibacillaceae
+                      Brevibacillus
+                         Brevibacillus brevis
+                         Brevibacillus laterosporus
+                            Brevibacillus laterosporus DSM 25
+                      Paenibacillus
+                         Paenibacillus alvei
+                         Paenibacillus lentus
+                   Staphylococcaceae
+                      Macrococcoides
+                         Macrococcoides canis
+                         Macrococcoides caseolyticum
+                      Mammaliicoccus
+                         Mammaliicoccus lentus
+                         Mammaliicoccus sciuri
+                         Mammaliicoccus vitulinus
+                      Staphylococcus
+                         Staphylococcus agnetis
+                         Staphylococcus argenteus
+                         Staphylococcus arlettae
+                         Staphylococcus aureus
+                            Staphylococcus aureus subsp. aureus NCTC 8325
+                         Staphylococcus auricularis
+                         Staphylococcus capitis
+                            Staphylococcus capitis subsp. capitis
+                         Staphylococcus caprae
+                         Staphylococcus carnosus
+                         Staphylococcus chromogenes
+                         Staphylococcus cohnii
+                         Staphylococcus condimenti
+                         Staphylococcus epidermidis
+                         Staphylococcus equorum
+                         Staphylococcus gallinarum
+                         Staphylococcus haemolyticus
+                         Staphylococcus hominis
+                         Staphylococcus hyicus
+                         Staphylococcus intermedius group
+                            Staphylococcus pseudintermedius
+                         Staphylococcus lugdunensis
+                         Staphylococcus pasteuri
+                         Staphylococcus pettenkoferi
+                         Staphylococcus saccharolyticus
+                         Staphylococcus saprophyticus
+                         Staphylococcus schleiferi
+                         Staphylococcus simiae
+                         Staphylococcus simulans
+                         Staphylococcus succinus
+                         Staphylococcus warneri
+                         Staphylococcus xylosus
+                Lactobacillales
+                   Aerococcaceae
+                      Abiotrophia
+                         Abiotrophia defectiva
+                      Aerococcus
+                         Aerococcus christensenii
+                         Aerococcus sanguinicola
+                         Aerococcus urinae
+                         Aerococcus urinaehominis
+                         Aerococcus viridans
+                      Facklamia
+                         Facklamia hominis
+                            Facklamia hominis CCUG 36813
+                      Hutsoniella
+                         Hutsoniella sourekii
+                            Hutsoniella sourekii ATCC 700629
+                   Carnobacteriaceae
+                      Alloiococcus
+                         Alloiococcus otitis
+                            Alloiococcus otitis ATCC 51267
+                      Dolosigranulum
+                         Dolosigranulum pigrum
+                      Granulicatella
+                         Granulicatella adiacens
+                         Granulicatella elegans
+                            Granulicatella elegans ATCC 700633
+                   Enterococcaceae
+                      Enterococcus
+                         Enterococcus asini
+                            Enterococcus asini ATCC 700915
+                         Enterococcus avium
+                         Enterococcus casseliflavus
+                            Enterococcus casseliflavus EC20
+                         Enterococcus cecorum
+                         Enterococcus columbae
+                            Enterococcus columbae DSM 7374 = ATCC 51263
+                         Enterococcus dispar
+                            Enterococcus dispar ATCC 51266
+                         Enterococcus durans
+                         Enterococcus faecalis
+                            Enterococcus faecalis EnGen0336
+                         Enterococcus faecium
+                         Enterococcus gallinarum
+                         Enterococcus gilvus
+                         Enterococcus haemoperoxidus
+                            Enterococcus haemoperoxidus ATCC BAA-382
+                         Enterococcus hirae
+                         Enterococcus italicus
+                            Enterococcus italicus DSM 15952
+                         Enterococcus malodoratus
+                         Enterococcus mundtii
+                         Enterococcus pallens
+                            Enterococcus pallens ATCC BAA-351
+                         Enterococcus phoeniculicola
+                            Enterococcus phoeniculicola ATCC BAA-412
+                         Enterococcus pseudoavium
+                            Enterococcus pseudoavium NBRC 100491
+                         Enterococcus raffinosus
+                         Enterococcus saccharolyticus
+                            Enterococcus saccharolyticus subsp. saccharolyticus
+                               Enterococcus saccharolyticus subsp. saccharolyticus ATCC 43076
+                         Enterococcus sulfureus
+                            Enterococcus sulfureus ATCC 49903
+                         Enterococcus thailandicus
+                   Lactobacillaceae
+                      Lacticaseibacillus
+                         Lacticaseibacillus casei
+                            Lacticaseibacillus casei DSM 20011 = JCM 1134 = ATCC 393
+                         Lacticaseibacillus rhamnosus
+                      Lactiplantibacillus
+                         Lactiplantibacillus plantarum
+                      Lactobacillus
+                         Lactobacillus acidophilus
+                            Lactobacillus acidophilus La-14
+                         Lactobacillus crispatus
+                         Lactobacillus gasseri
+                            Lactobacillus gasseri 2016
+                         Lactobacillus helveticus
+                         Lactobacillus iners
+                         Lactobacillus jensenii
+                         Lactobacillus paragasseri
+                            Lactobacillus paragasseri JV-V03
+                         Lactobacillus ultunensis
+                      Latilactobacillus
+                         Latilactobacillus sakei
+                      Leuconostoc
+                         Leuconostoc citreum
+                         Leuconostoc lactis
+                         Leuconostoc mesenteroides
+                         Leuconostoc pseudomesenteroides
+                      Limosilactobacillus
+                         Limosilactobacillus fermentum
+                      Pediococcus
+                         Pediococcus acidilactici group
+                            Pediococcus acidilactici
+                         Pediococcus pentosaceus
+                            Pediococcus pentosaceus ATCC 25745
+                      Weissella
+                         Weissella confusa
+                         Weissella paramesenteroides
+                   Streptococcaceae
+                      Lactococcus
+                         Lactococcus garvieae
+                      Streptococcus
+                         Streptococcus agalactiae
+                         Streptococcus anginosus group
+                            Streptococcus anginosus
+                            Streptococcus constellatus
+                            Streptococcus intermedius
+                         Streptococcus canis
+                         Streptococcus criceti
+                         Streptococcus cristatus
+                            Streptococcus cristatus ATCC 51100
+                         Streptococcus dysgalactiae group
+                            Streptococcus dysgalactiae
+                            Streptococcus equi
+                               Streptococcus equi subsp. zooepidemicus
+                         Streptococcus equinus
+                         Streptococcus ferus
+                         Streptococcus gallolyticus
+                         Streptococcus gordonii
+                         Streptococcus hyovaginalis
+                            Streptococcus hyovaginalis DSM 12219
+                         Streptococcus infantarius
+                         Streptococcus infantis
+                            Streptococcus infantis ATCC 700779
+                         Streptococcus iniae
+                            Streptococcus iniae 9117
+                         Streptococcus lutetiensis
+                         Streptococcus macacae
+                            Streptococcus macacae NCTC 11558
+                         Streptococcus macedonicus
+                         Streptococcus massiliensis
+                         Streptococcus mitis
+                         Streptococcus mutans
+                         Streptococcus oralis
+                            Streptococcus oralis ATCC 35037
+                            Streptococcus oralis subsp. dentisani
+                            Streptococcus oralis subsp. tigurinus
+                         Streptococcus parasanguinis
+                         Streptococcus parasuis
+                         Streptococcus pasteurianus
+                         Streptococcus peroris
+                            Streptococcus peroris ATCC 700780
+                         Streptococcus pneumoniae
+                            Streptococcus pneumoniae A026
+                         Streptococcus porcinus
+                         Streptococcus pseudopneumoniae
+                            Streptococcus pseudopneumoniae IS7493
+                         Streptococcus pyogenes
+                         Streptococcus ratti
+                         Streptococcus salivarius
+                         Streptococcus sanguinis
+                            Streptococcus sanguinis SK405
+                         Streptococcus sobrinus
+                         Streptococcus suis
+                            Streptococcus suis BM407
+                         Streptococcus thermophilus
+                         Streptococcus uberis
+                         Streptococcus vestibularis
+                         Streptococcus viridans
+             Clostridia
+                Christensenellales
+                   Christensenellaceae
+                      Christensenella
+                         Christensenella hongkongensis
+                Eubacteriales
+                   Clostridiaceae
+                      Clostridium
+                         Clostridium baratii
+                         Clostridium botulinum
+                            Clostridium botulinum A
+                               Clostridium botulinum A str. ATCC 3502
+                         Clostridium butyricum
+                         Clostridium haemolyticum
+                            Clostridium haemolyticum NCTC 9693
+                         Clostridium neonatale
+                         Clostridium novyi
+                         Clostridium paraputrificum
+                            Clostridium paraputrificum AGR2156
+                         Clostridium perfringens
+                         Clostridium septicum
+                         Clostridium tetani
+                            Clostridium tetani E88
+                   Eubacteriaceae
+                      Eubacterium
+                         Eubacterium limosum
+                      Pseudoramibacter
+                         Pseudoramibacter alactolyticus
+                            Pseudoramibacter alactolyticus ATCC 23263
+                   Eubacteriales incertae sedis
+                      Eubacteriales Family XIII. Incertae Sedis
+                         [Eubacterium] nodatum
+                            Eubacterium nodatum ATCC 33099
+                   Oscillospiraceae
+                      Faecalibacterium
+                         Faecalibacterium prausnitzii
+                            Faecalibacterium prausnitzii M21/2
+                      Mageeibacillus
+                         Mageeibacillus indolicus
+                            Mageeibacillus indolicus UPII9-5
+                Lachnospirales
+                   Lachnospiraceae
+                      Enterocloster
+                         Enterocloster clostridioformis
+                            [Clostridium] clostridioforme 90B1
+                      Oribacterium
+                         Oribacterium sinus
+                      Roseburia
+                         Roseburia hominis
+                Peptostreptococcales
+                   Anaerovoracaceae
+                      Mogibacterium
+                         Mogibacterium timidum
+                            Mogibacterium timidum ATCC 33093
+                   Filifactoraceae
+                      Filifactor
+                         Filifactor alocis
+                            Filifactor alocis ATCC 35896
+                   Peptostreptococcaceae
+                      Clostridioides
+                         Clostridioides difficile
+                      Paraclostridium
+                         Paraclostridium bifermentans
+                         Paraclostridium sordellii
+                      Peptostreptococcus
+                         Peptostreptococcus anaerobius
+                            Peptostreptococcus anaerobius 653-L
+                         Peptostreptococcus stomatis
+                            Peptostreptococcus stomatis DSM 17678
+                      Terrisporobacter
+                         Terrisporobacter othiniensis
+             Erysipelotrichia
+                Erysipelotrichales
+                   Erysipelotrichaceae
+                      Erysipelothrix
+                         Erysipelothrix rhusiopathiae
+                      Erysipelotrichaceae incertae sedis
+                         [Clostridium] innocuum
+                      Solobacterium
+                         Solobacterium moorei
+                            Solobacterium moorei DSM 22971
+             Negativicutes
+                Acidaminococcales
+                   Acidaminococcaceae
+                      Acidaminococcus
+                         Acidaminococcus intestini
+                Veillonellales
+                   Veillonellaceae
+                      Anaeroglobus
+                         Anaeroglobus geminatus
+                            Anaeroglobus geminatus F0357
+                      Dialister
+                         Dialister hominis
+                      Megasphaera
+                         Megasphaera elsdenii
+                         Megasphaera hexanoica
+                         Megasphaera micronuciformis
+                            Megasphaera micronuciformis F0359
+                         Megasphaera stantonii
+                      Veillonella
+                         Veillonella atypica
+                         Veillonella dispar
+                         Veillonella montpellierensis
+                         Veillonella nakazawae
+                         Veillonella parvula
+                         Veillonella rodentium
+                         Veillonella rogosae
+                            Veillonella rogosae JCM 15642
+             Tissierellia
+                Tissierellales
+                   Peptoniphilaceae
+                      Anaerococcus
+                         Anaerococcus hydrogenalis
+                         Anaerococcus lactolyticus
+                            Anaerococcus lactolyticus S7-1-13
+                         Anaerococcus prevotii
+                         Anaerococcus vaginalis
+                      Finegoldia
+                         Finegoldia magna
+                            Finegoldia magna ATCC 29328
+                      Parvimonas
+                         Parvimonas micra
+                      Peptoniphilus
+                         Peptoniphilus asaccharolyticus
+                         Peptoniphilus coxii
+                         Peptoniphilus duerdenii
+                            Peptoniphilus duerdenii ATCC BAA-1640
+                         Peptoniphilus harei
+                         Peptoniphilus indolicus
+                         Peptoniphilus lacrimalis
+                         Peptoniphilus rhinitidis
+                            Peptoniphilus rhinitidis 1-13
+          Mycoplasmatota
+             Mollicutes
+                Mycoplasmatales
+                   Mycoplasmataceae
+                      Mycoplasma
+                         Mycoplasma mycoides group
+                            Mycoplasma capricolum
+                               Mycoplasma capricolum subsp. capricolum
+                                  Mycoplasma capricolum subsp. capricolum ATCC 27343
+             Mycoplasmoidales
+                Metamycoplasmataceae
+                   Mesomycoplasma
+                      Mesomycoplasma hyopneumoniae
+                         Mesomycoplasma hyopneumoniae 168
+                            Mesomycoplasma hyopneumoniae 168-L
+                   Metamycoplasma
+                      Metamycoplasma hominis
+                      Metamycoplasma salivarium
+                   Mycoplasmopsis
+                      Mycoplasmopsis caviae
+                      Mycoplasmopsis fermentans
+                         Mycoplasmopsis fermentans M64
+                      Mycoplasmopsis pulmonis
+                Mycoplasmoidaceae
+                   Malacoplasma
+                      Malacoplasma penetrans
+                         Malacoplasma penetrans HF-2
+                   Mycoplasmoides
+                      Mycoplasmoides genitalium
+                         Mycoplasmoides genitalium G37
+                      Mycoplasmoides pneumoniae
+                   Ureaplasma
+                      Ureaplasma parvum
+                         Ureaplasma parvum serovar 3
+                            Ureaplasma parvum serovar 3 str. ATCC 27815
+                      Ureaplasma urealyticum
+                         Ureaplasma urealyticum serovar 10
+                            Ureaplasma urealyticum serovar 10 str. ATCC 33699
+    Eukaryota
+       Amoebozoa
+          Discosea
+             Longamoebia
+                Centramoebida
+                   Balamuthiidae
+                      Balamuthia
+                         Balamuthia mandrillaris
+          Evosea
+             Archamoebae
+                Mastigamoebida
+                   Entamoebidae
+                      Entamoeba
+                         Entamoeba histolytica
+                            Entamoeba histolytica HM-1:IMSS
+       Discoba
+          Euglenozoa
+             Kinetoplastea
+                Metakinetoplastina
+                   Trypanosomatida
+                      Trypanosomatidae
+                         Leishmaniinae
+                            Leishmania
+                               Leishmania
+                                  Leishmania aethiopica species complex
+                                     Leishmania aethiopica
+                                  Leishmania donovani species complex
+                                     Leishmania donovani
+                                     Leishmania infantum
+                                        Leishmania infantum JPCM5
+                                  Leishmania major species complex
+                                     Leishmania major
+                                        Leishmania major strain Friedlin
+                                  Leishmania mexicana species complex
+                                     Leishmania amazonensis
+                                     Leishmania mexicana
+                                        Leishmania mexicana MHOM/GT/2001/U1103
+                                  Leishmania tropica species complex
+                                     Leishmania tropica
+                               Viannia
+                                  Leishmania braziliensis species complex
+                                     Leishmania braziliensis
+                                        Leishmania braziliensis MHOM/BR/75/M2904
+                                  Leishmania guyanensis species complex
+                                     Leishmania panamensis
+                         Trypanosoma
+                            Schizotrypanum
+                               Trypanosoma cruzi
+                            Trypanozoon
+                               Trypanosoma brucei
+                                  Trypanosoma brucei brucei
+                                     Trypanosoma brucei brucei TREU927
+          Heterolobosea
+             Tetramitia
+                Eutetramitia
+                   Vahlkampfiidae
+                      Naegleria
+                         Naegleria fowleri
+       Opisthokonta
+          Fungi
+             Dikarya
+                Ascomycota
+                   Taphrinomycotina
+                      Pneumocystomycetes
+                         Pneumocystales
+                            Pneumocystaceae
+                               Pneumocystis
+                                  Pneumocystis jirovecii
+                                     Pneumocystis jirovecii RU7
+                                  Pneumocystis murina
+                                     Pneumocystis murina B123
+                   saccharomyceta
+                      Pezizomycotina
+                         leotiomyceta
+                            Eurotiomycetes
+                               Chaetothyriomycetidae
+                                  Chaetothyriales
+                                     Cyphellophoraceae
+                                        Cyphellophora
+                                           Cyphellophora europaea
+                                              Cyphellophora europaea CBS 101466
+                                     Herpotrichiellaceae
+                                        Cladophialophora
+                                           Cladophialophora bantiana
+                                              Cladophialophora bantiana CBS 173.52
+                                           Cladophialophora carrionii
+                                              Cladophialophora carrionii CBS 160.54
+                                           Cladophialophora immunda
+                                           Cladophialophora psammophila
+                                              Cladophialophora psammophila CBS 110553
+                                           Cladophialophora yegresii
+                                              Cladophialophora yegresii CBS 114405
+                                        Exophiala
+                                           Exophiala alcalophila
+                                           Exophiala aquamarina
+                                              Exophiala aquamarina CBS 119918
+                                           Exophiala calicioides
+                                           Exophiala dermatitidis
+                                              Exophiala dermatitidis NIH/UT8656
+                                           Exophiala mesophila
+                                           Exophiala oligosperma
+                                           Exophiala sideris
+                                           Exophiala spinifera
+                                           Exophiala xenobiotica
+                                        Fonsecaea
+                                           Fonsecaea erecta
+                                           Fonsecaea monophora
+                                           Fonsecaea multimorphosa
+                                              Fonsecaea multimorphosa CBS 102226
+                                           Fonsecaea nubica
+                                           Fonsecaea pedrosoi
+                                              Fonsecaea pedrosoi CBS 271.37
+                                        Phialophora
+                                           Phialophora americana
+                                           Phialophora attinorum
+                                           Phialophora macrospora
+                                           Phialophora verrucosa
+                                        Rhinocladiella
+                                           Rhinocladiella mackenziei
+                                              Rhinocladiella mackenziei CBS 650.93
+                               Eurotiomycetidae
+                                  Eurotiales
+                                     Aspergillaceae
+                                        Aspergillus
+                                           Aspergillus bombycis
+                                           Aspergillus subgen. Aspergillus
+                                              Aspergillus chevalieri
+                                              Aspergillus cristatus
+                                              Aspergillus glaucus
+                                                 Aspergillus glaucus CBS 516.65
+                                              Aspergillus ruber
+                                                 Aspergillus ruber CBS 135680
+                                           Aspergillus subgen. Circumdati
+                                              Aspergillus aculeatus
+                                                 Aspergillus aculeatus ATCC 16872
+                                              Aspergillus arachidicola
+                                              Aspergillus brasiliensis
+                                                 Aspergillus brasiliensis CBS 101740
+                                              Aspergillus campestris
+                                                 Aspergillus campestris IBT 28561
+                                              Aspergillus candidus
+                                              Aspergillus carbonarius
+                                                 Aspergillus carbonarius ITEM 5010
+                                              Aspergillus flavus
+                                                 Aspergillus flavus NRRL3357
+                                              Aspergillus hancockii
+                                              Aspergillus luchuensis
+                                              Aspergillus niger
+                                                 Aspergillus niger CBS 513.88
+                                              Aspergillus nomiae
+                                                 Aspergillus nomiae NRRL 13137
+                                              Aspergillus oryzae
+                                                 Aspergillus oryzae RIB40
+                                              Aspergillus parasiticus
+                                              Aspergillus persii
+                                              Aspergillus sclerotiorum
+                                              Aspergillus sojae
+                                              Aspergillus steynii
+                                                 Aspergillus steynii IBT 23096
+                                              Aspergillus taichungensis
+                                              Aspergillus terreus
+                                                 Aspergillus terreus NIH2624
+                                              Aspergillus tubingensis
+                                              Aspergillus westerdijkiae
+                                           Aspergillus subgen. Cremei
+                                              Aspergillus wentii
+                                                 Aspergillus wentii DTO 134E9
+                                           Aspergillus subgen. Fumigati
+                                              Aspergillus clavatus
+                                                 Aspergillus clavatus NRRL 1
+                                              Aspergillus fischeri
+                                                 Aspergillus fischeri NRRL 181
+                                              Aspergillus fumigatus
+                                                 Aspergillus fumigatus Af293
+                                              Aspergillus lentulus
+                                              Aspergillus novofumigatus
+                                                 Aspergillus novofumigatus IBT 16806
+                                              Aspergillus thermomutatus
+                                              Aspergillus turcosus
+                                              Aspergillus udagawae
+                                           Aspergillus subgen. Nidulantes
+                                              Aspergillus calidoustus
+                                              Aspergillus nidulans
+                                                 Aspergillus nidulans FGSC A4
+                                              Aspergillus ochraceoroseus
+                                                 Aspergillus ochraceoroseus IBT 24754
+                                              Aspergillus rambellii
+                                              Aspergillus ustus
+                                              Aspergillus versicolor
+                                                 Aspergillus versicolor CBS 583.65
+                                        Evansstolkia
+                                           Evansstolkia leycettana
+                                        Penicillium
+                                           Penicillium antarcticum
+                                           Penicillium brasilianum
+                                           Penicillium capsulatum
+                                           Penicillium carneum
+                                              Penicillium carneum LCP05634
+                                           Penicillium chrysogenum species complex
+                                              Penicillium rubens
+                                                 Penicillium rubens Wisconsin 54-1255
+                                           Penicillium coprophilum
+                                           Penicillium decumbens
+                                           Penicillium digitatum
+                                              Penicillium digitatum Pd1
+                                           Penicillium expansum
+                                           Penicillium flavigenum
+                                           Penicillium freii
+                                           Penicillium griseofulvum
+                                           Penicillium italicum
+                                           Penicillium janthinellum
+                                           Penicillium nalgiovense
+                                           Penicillium nordicum
+                                           Penicillium oxalicum
+                                           Penicillium paneum
+                                           Penicillium paxilli
+                                              Penicillium paxilli ATCC 26601
+                                           Penicillium roqueforti
+                                           Penicillium sclerotiorum
+                                           Penicillium steckii
+                                           Penicillium subrubescens
+                                           Penicillium vulpinum
+                                     Thermoascaceae
+                                        Paecilomyces
+                                           Paecilomyces variotii
+                                        Thermoascus
+                                           Thermoascus crustaceus
+                                     Trichocomaceae
+                                        Rasamsonia
+                                           Rasamsonia emersonii
+                                              Rasamsonia emersonii CBS 393.64
+                                        Talaromyces
+                                           Talaromyces sect. Islandici
+                                              Talaromyces islandicus
+                                              Talaromyces piceae
+                                              Talaromyces wortmannii
+                                           Talaromyces sect. Talaromyces
+                                              Talaromyces amestolkiae
+                                              Talaromyces marneffei
+                                              Talaromyces pinophilus
+                                              Talaromyces purpureogenus
+                                              Talaromyces stipitatus
+                                                 Talaromyces stipitatus ATCC 10500
+                                              Talaromyces verruculosus
+                                           Talaromyces sect. Trachyspermi
+                                              Talaromyces atroroseus
+                                        Thermomyces
+                                           Thermomyces lanuginosus
+                                              Thermomyces lanuginosus SSBP
+                                  Onygenales
+                                     Ajellomycetaceae
+                                        Blastomyces
+                                           Blastomyces dermatitidis
+                                              Blastomyces dermatitidis ER-3
+                                           Blastomyces gilchristii
+                                              Blastomyces gilchristii SLH14081
+                                           Blastomyces parvus
+                                           Blastomyces percursus
+                                        Emmonsia
+                                           Emmonsia crescens
+                                        Histoplasma
+                                           Histoplasma capsulatum
+                                              Histoplasma capsulatum G186AR
+                                     Arthrodermataceae
+                                        Microsporum
+                                           Microsporum canis
+                                              Microsporum canis CBS 113480
+                                        Nannizzia
+                                           Nannizzia gypsea
+                                              Nannizzia gypsea CBS 118893
+                                        Trichophyton
+                                           Trichophyton benhamiae
+                                              Trichophyton benhamiae CBS 112371
+                                     Onygenaceae
+                                        Chrysosporium
+                                           Chrysosporium queenslandicum
+                                        Coccidioides
+                                           Coccidioides immitis
+                                              Coccidioides immitis RS
+                                           Coccidioides posadasii
+                                              Coccidioides posadasii C735 delta SOWgp
+                                     Onygenales incertae sedis
+                                        Paracoccidioides
+                                           Paracoccidioides brasiliensis
+                                              Paracoccidioides brasiliensis Pb18
+                                           Paracoccidioides lutzii
+                                              Paracoccidioides lutzii Pb01
+                            dothideomyceta
+                               Dothideomycetes
+                                  Dothideomycetes incertae sedis
+                                     Botryosphaeriales
+                                        Botryosphaeriaceae
+                                           Macrophomina
+                                              Macrophomina phaseolina
+                                           Neofusicoccum
+                                              Neofusicoccum parvum
+                                     Coniosporium
+                                        Coniosporium apollinis
+                                           Coniosporium apollinis CBS 100218
+                                  Dothideomycetidae
+                                     Cladosporiales
+                                        Cladosporiaceae
+                                           Cladosporium
+                                              Cladosporium cladosporioides
+                                     Dothideales
+                                        Saccotheciaceae
+                                           Aureobasidium
+                                              Aureobasidium melanogenum
+                                                 Aureobasidium melanogenum CBS 110374
+                                              Aureobasidium namibiae
+                                                 Aureobasidium namibiae CBS 147.97
+                                              Aureobasidium pullulans
+                                                 Aureobasidium pullulans EXF-150
+                                              Aureobasidium subglaciale
+                                                 Aureobasidium subglaciale EXF-2481
+                                     Mycosphaerellales
+                                        Mycosphaerellaceae
+                                           Pseudocercospora
+                                              Pseudocercospora fijiensis
+                                                 Pseudocercospora fijiensis CIRAD86
+                                  Pleosporomycetidae
+                                     Hysteriales
+                                        Hysteriaceae
+                                           Rhytidhysteron
+                                              Rhytidhysteron rufulum
+                                                 Rhytidhysteron rufulum CBS 306.38
+                                     Pleosporales
+                                        Corynesporascaceae
+                                           Corynespora
+                                              Corynespora cassiicola
+                                        Nigrogranaceae
+                                           Nigrograna
+                                              Nigrograna mackinnonii
+                                        Pleosporineae
+                                           Didymellaceae
+                                              Phoma
+                                                 Phoma herbarum
+                                           Leptosphaeriaceae
+                                              Plenodomus
+                                                 Plenodomus lingam/Leptosphaeria maculans species complex
+                                                    Plenodomus lingam
+                                                       Plenodomus lingam JN3
+                                           Pleosporaceae
+                                              Alternaria
+                                                 Alternaria sect. Alternaria
+                                                    Alternaria alternata complex
+                                                       Alternaria alternata
+                                                    Alternaria arborescens
+                                                 Alternaria sect. Brassicicola
+                                                    Alternaria brassicicola
+                                              Curvularia
+                                                 Curvularia hawaiiensis
+                                                 Curvularia lunata
+                                                 Curvularia papendorfii
+                                                 Curvularia spicifera
+                                              Stemphylium
+                                                 Stemphylium lycopersici
+                                           Pseudopyrenochaetaceae
+                                              Pseudopyrenochaeta
+                                                 Pseudopyrenochaeta lycopersici
+                                     Venturiales
+                                        Sympoventuriaceae
+                                           Scolecobasidium
+                                              Scolecobasidium constrictum
+                                                 Scolecobasidium constrictum UM 578
+                                           Verruconis
+                                              Verruconis gallopava
+                            sordariomyceta
+                               Sordariomycetes
+                                  Hypocreomycetidae
+                                     Glomerellales
+                                        Glomerellaceae
+                                           Colletotrichum
+                                              Colletotrichum acutatum species complex
+                                                 Colletotrichum acutatum
+                                                 Colletotrichum fioriniae
+                                                 Colletotrichum godetiae
+                                                 Colletotrichum nymphaeae
+                                                 Colletotrichum salicis
+                                                 Colletotrichum simmondsii
+                                              Colletotrichum coccodes
+                                              Colletotrichum destructivum species complex
+                                                 Colletotrichum higginsianum
+                                                    Colletotrichum higginsianum IMI 349063
+                                              Colletotrichum gloeosporioides species complex
+                                                 Colletotrichum gloeosporioides
+                                              Colletotrichum graminicola species complex
+                                                 Colletotrichum falcatum
+                                                 Colletotrichum graminicola
+                                                    Colletotrichum graminicola M1.001
+                                                 Colletotrichum sublineola
+                                              Colletotrichum orbiculare species complex
+                                                 Colletotrichum orbiculare
+                                                    Colletotrichum orbiculare MAFF 240422
+                                              Colletotrichum spaethianum species complex
+                                                 Colletotrichum incanum
+                                                 Colletotrichum tofieldiae
+                                        Plectosphaerellaceae
+                                           Furcasterigmium
+                                              Furcasterigmium furcatum
+                                           Verticillium
+                                              Verticillium alfalfae
+                                                 Verticillium alfalfae VaMs.102
+                                              Verticillium dahliae
+                                                 Verticillium dahliae VdLs.17
+                                              Verticillium longisporum
+                                              Verticillium tricorpus
+                                                 Verticillium tricorpus MUCL 9792
+                                     Hypocreales
+                                        Bionectriaceae
+                                           Hapsidospora
+                                              Hapsidospora chrysogena
+                                                 Hapsidospora chrysogenum ATCC 11550
+                                        Clavicipitaceae
+                                           Metarhizium
+                                              Metarhizium acridum
+                                                 Metarhizium acridum CQMa 102
+                                              Metarhizium album
+                                                 Metarhizium album ARSEF 1941
+                                              Metarhizium anisopliae
+                                              Metarhizium brunneum
+                                                 Metarhizium brunneum ARSEF 3297
+                                              Metarhizium guizhouense
+                                                 Metarhizium guizhouense ARSEF 977
+                                              Metarhizium majus
+                                                 Metarhizium majus ARSEF 297
+                                              Metarhizium rileyi
+                                                 Metarhizium rileyi RCEF 4871
+                                              Metarhizium robertsii
+                                                 Metarhizium robertsii ARSEF 23
+                                        Cordycipitaceae
+                                           Beauveria
+                                              Beauveria bassiana
+                                                 Beauveria bassiana ARSEF 2860
+                                              Beauveria rudraprayagi
+                                           Niveomyces
+                                              Niveomyces insectorum
+                                                 Niveomyces insectorum RCEF 264
+                                           Samsoniella
+                                              Samsoniella hepiali
+                                        Hypocreaceae
+                                           Trichoderma
+                                              Trichoderma asperellum
+                                                 Trichoderma asperellum CBS 433.97
+                                              Trichoderma atroviride
+                                                 Trichoderma atroviride IMI 206040
+                                              Trichoderma gamsii
+                                              Trichoderma hamatum
+                                                 Trichoderma hamatum GD12
+                                              Trichoderma harzianum
+                                                 Trichoderma harzianum CBS 226.95
+                                              Trichoderma longibrachiatum
+                                              Trichoderma parareesei
+                                              Trichoderma reesei
+                                                 Trichoderma reesei QM6a
+                                              Trichoderma virens
+                                                 Trichoderma virens Gv29-8
+                                        Nectriaceae
+                                           Fusarium
+                                              Fusarium fujikuroi species complex
+                                                 Fusarium agapanthi
+                                                 Fusarium circinatum
+                                                 Fusarium fujikuroi
+                                                    Fusarium fujikuroi IMI 58289
+                                                 Fusarium mangiferae
+                                                 Fusarium nygamai
+                                                 Fusarium pininemorale
+                                                 Fusarium proliferatum
+                                                    Fusarium proliferatum ET1
+                                                 Fusarium temperatum
+                                                 Fusarium udum
+                                                 Fusarium verticillioides
+                                                    Fusarium verticillioides 7600
+                                              Fusarium oxysporum species complex
+                                                 Fusarium oxysporum
+                                                    Fusarium oxysporum Fo47
+                                              Fusarium redolens species complex
+                                                 Fusarium hostae
+                                              Fusarium sambucinum species complex
+                                                 Fusarium asiaticum
+                                                 Fusarium culmorum
+                                                 Fusarium graminearum
+                                                    Fusarium graminearum PH-1
+                                                 Fusarium langsethiae
+                                                 Fusarium meridionale
+                                                 Fusarium praegraminearum
+                                                 Fusarium pseudograminearum
+                                                    Fusarium pseudograminearum CS3096
+                                                 Fusarium sambucinum
+                                              Fusarium solani species complex
+                                                 Fusarium euwallaceae
+                                                 Fusarium solani
+                                              Fusarium tricinctum species complex
+                                                 Fusarium avenaceum
+                                        Ophiocordycipitaceae
+                                           Purpureocillium
+                                              Purpureocillium lilacinum
+                                        Stachybotryaceae
+                                           Stachybotrys
+                                              Stachybotrys chartarum
+                                              Stachybotrys chlorohalonata
+                                                 Stachybotrys chlorohalonata IBT 40285
+                                              Stachybotrys echinatus
+                                     Microascales
+                                        Ceratocystidaceae
+                                           Ceratocystis
+                                              Ceratocystis adiposa
+                                              Ceratocystis albifundus
+                                              Ceratocystis eucalypticola
+                                              Ceratocystis fimbriata
+                                              Ceratocystis manginecans
+                                              Ceratocystis platani
+                                        Microascaceae
+                                           Lomentospora
+                                              Lomentospora prolificans
+                                           Scedosporium
+                                              Scedosporium apiospermum
+                                              Scedosporium aurantiacum
+                                              Scedosporium boydii
+                                              Scedosporium dehoogii
+                                           Scopulariopsis
+                                              Scopulariopsis brevicaulis
+                                  Sordariomycetidae
+                                     Diaporthales
+                                        Diaporthaceae
+                                           Diaporthe
+                                              Diaporthe ampelina
+                                              Diaporthe aspalathi
+                                              Diaporthe longicolla
+                                        Valsaceae
+                                           Valsa
+                                              Valsa mali
+                                     Ophiostomatales
+                                        Ophiostomataceae
+                                           Ophiostoma
+                                              Ophiostoma novo-ulmi
+                                                 Ophiostoma novo-ulmi subsp. americana
+                                              Ophiostoma piceae
+                                                 Ophiostoma piceae UAMH 11346
+                                           Sporothrix
+                                              Sporothrix brasiliensis
+                                                 Sporothrix brasiliensis 5110
+                                              Sporothrix globosa
+                                              Sporothrix pallida
+                                              Sporothrix schenckii
+                                                 Sporothrix schenckii 1099-18
+                                     Sordariales
+                                        Chaetomiaceae
+                                           Chaetomium
+                                              Chaetomium globosum
+                                                 Chaetomium globosum CBS 148.51
+                                           Thermochaetoides
+                                              Thermochaetoides thermophila
+                                                 Thermochaetoides thermophila DSM 1495
+                                           Thermothelomyces
+                                              Thermothelomyces thermophilus
+                                                 Thermothelomyces thermophilus ATCC 42464
+                                           Thermothielavioides
+                                              Thermothielavioides terrestris
+                                                 Thermothielavioides terrestris NRRL 8126
+                                        Sordariales incertae sedis
+                                           Madurella
+                                              Madurella mycetomatis
+                                     Togniniales
+                                        Togniniaceae
+                                           Phaeoacremonium
+                                              Phaeoacremonium minimum
+                                                 Phaeoacremonium minimum UCRPA7
+                      Saccharomycotina
+                         Saccharomycetes
+                            Saccharomycetales
+                               CUG-Ser1 clade
+                                  Debaryomycetaceae
+                                     Candida/Lodderomyces clade
+                                        Candida
+                                           Candida albicans
+                                              Candida albicans SC5314
+                                           Candida dubliniensis
+                                              Candida dubliniensis CD36
+                                           Candida orthopsilosis
+                                              Candida orthopsilosis Co 90-125
+                                           Candida parapsilosis
+                                           Candida sojae
+                                           Candida tropicalis
+                                              Candida tropicalis MYA-3404
+                                        Lodderomyces
+                                           Lodderomyces elongisporus
+                                              Lodderomyces elongisporus NRRL YB-4239
+                                     Debaryomyces
+                                        Debaryomyces fabryi
+                                        Debaryomyces hansenii
+                                           Debaryomyces hansenii CBS767
+                                        [Candida] psychrophila
+                                     Hyphopichia
+                                        Hyphopichia homilentoma
+                                     Meyerozyma
+                                        Meyerozyma carpophila
+                                     Suhomyces
+                                        Suhomyces tanzawaensis
+                                           Suhomyces tanzawaensis NRRL Y-17324
+                                     Yamadazyma
+                                        Yamadazyma tenuis
+                                           Yamadazyma tenuis ATCC 10573
+                                        [Candida] aaseri
+                                  Metschnikowiaceae
+                                     Clavispora
+                                        Clavispora lusitaniae
+                                           Clavispora lusitaniae ATCC 42720
+                                     Metschnikowia
+                                        Metschnikowia bicuspidata
+                                           Metschnikowia bicuspidata var. bicuspidata
+                                              Metschnikowia bicuspidata var. bicuspidata NRRL YB-4993
+                                        Metschnikowia kipukae
+                                        Metschnikowia pulcherrima
+                                           Metschnikowia pulcherrima 277
+                                        Metschnikowia/Candida clade
+                                           [Candida] ipomoeae
+                                     Metschnikowiaceae incertae sedis
+                                        Candida/Metschnikowiaceae
+                                           [Candida] auris
+                                           [Candida] duobushaemuli
+                                           [Candida] haemuli
+                                           [Candida] intermedia
+                                           [Candida] pseudohaemuli
+                               Dipodascaceae
+                                  Geotrichum
+                                     Geotrichum candidum
+                                  Yarrowia
+                                     Yarrowia deformans
+                                     Yarrowia keelungensis
+                                     Yarrowia lipolytica
+                                        Yarrowia lipolytica CLIB122
+                               Phaffomycetaceae
+                                  Cyberlindnera
+                                     Cyberlindnera fabianii
+                                     Cyberlindnera jadinii
+                                        Cyberlindnera jadinii NRRL Y-1542
+                                  Wickerhamomyces
+                                     Wickerhamomyces anomalus
+                                        Wickerhamomyces anomalus NRRL Y-366-8
+                                     Wickerhamomyces ciferrii
+                               Pichiaceae
+                                  Ogataea
+                                     Ogataea methanolica
+                                     Ogataea parapolymorpha
+                                        Ogataea parapolymorpha DL-1
+                                     Ogataea polymorpha
+                                     Ogataea/Candida clade
+                                        [Candida] arabinofermentans
+                                           [Candida] arabinofermentans NRRL YB-2248
+                                        [Candida] boidinii
+                                        [Candida] succiphila
+                                  Pichia
+                                     Pichia kudriavzevii
+                                     Pichia/Candida clade
+                                        [Candida] ethanolica
+                                           [Candida] ethanolica M2
+                                  Pichiaceae incertae sedis
+                                     [Candida] sorboxylosa
+                               Saccharomycetaceae
+                                  Kluyveromyces
+                                     Kluyveromyces lactis
+                                     Kluyveromyces marxianus
+                                        Kluyveromyces marxianus DMKU3-1042
+                                  Lachancea
+                                     Lachancea kluyveri
+                                        Lachancea kluyveri NRRL Y-12651
+                                     Lachancea lanzarotensis
+                                     Lachancea thermotolerans
+                                        Lachancea thermotolerans CBS 6340
+                                     Lachancea waltii
+                                        Lachancea waltii NCYC 2644
+                                  Nakaseomyces
+                                     Nakaseomyces bacillisporus
+                                        Nakaseomyces bacillisporus CBS 7720
+                                     Nakaseomyces bracarensis
+                                        Nakaseomyces bracarensis CBS 10154
+                                     Nakaseomyces castellii
+                                        Nakaseomyces castellii CBS 4332
+                                     Nakaseomyces delphensis
+                                        Nakaseomyces delphensis CBS 2170
+                                     Nakaseomyces glabratus
+                                        Nakaseomyces glabratus CBS 138
+                                     Nakaseomyces nivariensis
+                                  Naumovozyma
+                                     Naumovozyma dairenensis
+                                        Naumovozyma dairenensis CBS 421
+                                  Saccharomyces
+                                     Saccharomyces cerevisiae
+                                        Saccharomyces cerevisiae S288C
+                                  Torulaspora
+                                     Torulaspora delbrueckii
+                               Saccharomycetales incertae sedis
+                                  CUG-Ala clade
+                                     Nakazawaea
+                                        Nakazawaea peltata
+                                  Sporopachydermia
+                                     Sporopachydermia quercuum
+                                  Starmerella
+                                     Starmerella apicola
+                               Saccharomycodaceae
+                                  Hanseniaspora
+                                     Hanseniaspora uvarum
+                               Trichomonascaceae
+                                  Wickerhamiella
+                                     Wickerhamiella sorbophila
+                                     Wickerhamiella versatilis
+                Basidiomycota
+                   Agaricomycotina
+                      Agaricomycetes
+                         Agaricomycetes incertae sedis
+                            Cantharellales
+                               Ceratobasidiaceae
+                                  Rhizoctonia
+                                     Rhizoctonia solani
+                            Hymenochaetales
+                               Hymenochaetaceae
+                                  Pyrrhoderma
+                                     Pyrrhoderma noxium
+                            Polyporales
+                               Phanerochaetaceae
+                                  Phanerochaete
+                                     Phanerochaete carnosa
+                                        Phanerochaete carnosa HHB-10118-sp
+                                  Phanerodontia
+                                     Phanerodontia chrysosporium
+                         Agaricomycetidae
+                            Agaricales
+                               Pluteineae
+                                  Pluteaceae
+                                     Volvariella
+                                        Volvariella volvacea
+                                           Volvariella volvacea V23
+                               Schizophyllineae
+                                  Schizophyllaceae
+                                     Schizophyllum
+                                        Schizophyllum commune
+                                           Schizophyllum commune H4-8
+                      Tremellomycetes
+                         Filobasidiales
+                            Filobasidiaceae
+                               Filobasidium
+                                  Filobasidium wieringae
+                         Tremellales
+                            Cryptococcaceae
+                               Cryptococcus
+                                  Cryptococcus gattii species complex
+                                     Cryptococcus gattii
+                                        Cryptococcus gattii WM276
+                                  Cryptococcus neoformans species complex
+                                     Cryptococcus neoformans
+                                        Cryptococcus neoformans var. neoformans
+                                           Cryptococcus neoformans var. neoformans JEC21
+                               Kwoniella
+                                  Kwoniella bestiolae
+                                     Kwoniella bestiolae CBS 10118
+                                  Kwoniella dejecticola
+                                     Kwoniella dejecticola CBS 10117
+                                  Kwoniella pini
+                                     Kwoniella pini CBS 10737
+                            Phaeotremellaceae
+                               Phaeotremella
+                                  Phaeotremella fagi
+                                  Phaeotremella skinneri
+                         Trichosporonales
+                            Trichosporonaceae
+                               Apiotrichum
+                                  Apiotrichum porosum
+                               Cutaneotrichosporon
+                                  Cutaneotrichosporon cutaneum
+                                  Cutaneotrichosporon oleaginosum
+                               Pascua
+                                  Pascua guehoae
+                               Trichosporon
+                                  Trichosporon asahii
+                                     Trichosporon asahii var. asahii
+                                        Trichosporon asahii var. asahii CBS 2479
+                                  Trichosporon coremiiforme
+                                  Trichosporon faecale
+                                  Trichosporon inkin
+                                  Trichosporon ovoides
+                   Pucciniomycotina
+                      Microbotryomycetes
+                         Sporidiobolales
+                            Sporidiobolaceae
+                               Rhodotorula
+                                  Rhodotorula graminis
+                                     Rhodotorula graminis WP1
+                                  Rhodotorula toruloides
+                                     Rhodotorula toruloides NP11
+                   Ustilaginomycotina
+                      Malasseziomycetes
+                         Malasseziales
+                            Malasseziaceae
+                               Malassezia
+                                  Malassezia caprae
+                                  Malassezia cuniculi
+                                  Malassezia dermatis
+                                  Malassezia equina
+                                  Malassezia furfur
+                                  Malassezia globosa
+                                     Malassezia globosa CBS 7966
+                                  Malassezia japonica
+                                  Malassezia nana
+                                  Malassezia obtusa
+                                  Malassezia pachydermatis
+                                  Malassezia restricta
+                                  Malassezia slooffiae
+                                  Malassezia sympodialis
+                                     Malassezia sympodialis ATCC 42132
+                                  Malassezia yamatoensis
+                      Ustilaginomycetes
+                         Ustilaginales
+                            Ustilaginaceae
+                               Pseudozyma
+                                  Pseudozyma hubeiensis
+                                     Pseudozyma hubeiensis SY62
+                               Ustilago
+                                  Ustilago cynodontis
+                                  Ustilago esculenta
+                                  Ustilago hordei
+                                  Ustilago maydis
+                                     Ustilago maydis 521
+                                  Ustilago trichophora
+                   Wallemiomycotina
+                      Wallemiomycetes
+                         Wallemiales
+                            Wallemiaceae
+                               Wallemia
+                                  Wallemia ichthyophaga
+                                     Wallemia ichthyophaga EXF-994
+                                  Wallemia mellicola
+                                     Wallemia mellicola CBS 633.66
+             Fungi incertae sedis
+                Microsporidia
+                   Apansporoblastina
+                      Enterocytozoonidae
+                         Enterocytozoon
+                            Enterocytozoon bieneusi
+                               Enterocytozoon bieneusi H348
+                      Nosematidae
+                         Nosema
+                            Nosema bombycis
+                               Nosema bombycis CQ1
+                         Vairimorpha
+                            Vairimorpha apis
+                               Vairimorpha apis BRL 01
+                            Vairimorpha ceranae
+                         Vittaforma
+                            Vittaforma corneae
+                               Vittaforma corneae ATCC 50505
+                      Unikaryonidae
+                         Encephalitozoon
+                            Encephalitozoon cuniculi
+                               Encephalitozoon cuniculi GB-M1
+                            Encephalitozoon hellem
+                               Encephalitozoon hellem ATCC 50504
+                            Encephalitozoon intestinalis
+                               Encephalitozoon intestinalis ATCC 50506
+                            Encephalitozoon romaleae
+                               Encephalitozoon romaleae SJ-2008
+                   Pansporoblastina
+                      Pleistophoridae
+                         Trachipleistophora
+                            Trachipleistophora hominis
+                   Tubulinosematoidea
+                      Tubulinosematidae
+                         Anncaliia
+                            Anncaliia algerae
+                               Anncaliia algerae PRA339
+                Mucoromycota
+                   Mortierellomycotina
+                      Mortierellomycetes
+                         Mortierellales
+                            Mortierellaceae
+                               Linnemannia
+                                  Linnemannia elongata
+                               Mortierella
+                                  Mortierella alpina
+                               Podila
+                                  Podila verticillata
+                                     Podila verticillata NRRL 6337
+                   Mucoromycotina
+                      Mucoromycetes
+                         Mucorales
+                            Cunninghamellaceae
+                               Absidia
+                                  Absidia glauca
+                                  Absidia repens
+                            Lichtheimiaceae
+                               Lichtheimia
+                                  Lichtheimia corymbifera
+                                     Lichtheimia corymbifera B2541
+                                  Lichtheimia ramosa
+                               Rhizomucor
+                                  Rhizomucor miehei
+                                     Rhizomucor miehei CAU432
+                                  Rhizomucor pusillus
+                            Mucorineae
+                               Mucoraceae
+                                  Actinomucor
+                                     Actinomucor elegans
+                                  Apophysomyces
+                                     Apophysomyces elegans
+                                        Apophysomyces elegans B7760
+                                     Apophysomyces trapeziformis
+                                        Apophysomyces trapeziformis B9324
+                                     Apophysomyces variabilis
+                                  Cokeromyces
+                                     Cokeromyces recurvatus
+                                  Mucor
+                                     Mucor ambiguus
+                                     Mucor circinelloides
+                                     Mucor indicus
+                                        Mucor indicus B7402
+                                     Mucor irregularis
+                                        Mucor irregularis B50
+                                     Mucor velutinosus
+                                        Mucor velutinosus B5328
+                               Rhizopodaceae
+                                  Rhizopus
+                                     Rhizopus arrhizus
+                                     Rhizopus microsporus
+                                        Rhizopus microsporus ATCC 52813
+                                     Rhizopus stolonifer
+                                        Rhizopus stolonifer B9770
+                            Phycomycetaceae
+                               Phycomyces
+                                  Phycomyces blakesleeanus
+                                     Phycomyces blakesleeanus NRRL 1555(-)
+                            Saksenaeaceae
+                               Saksenaea
+                                  Saksenaea oblongispora
+                                     Saksenaea oblongispora B3353
+                                  Saksenaea vasiformis
+                                     Saksenaea vasiformis B4078
+                            Syncephalastraceae
+                               Syncephalastrum
+                                  Syncephalastrum monosporum
+                                     Syncephalastrum monosporum B8922
+                                  Syncephalastrum racemosum
+                Zoopagomycota
+                   Entomophthoromycotina
+                      Basidiobolomycetes
+                         Basidiobolales
+                            Basidiobolaceae
+                               Basidiobolus
+                                  Basidiobolus meristosporus
+                                     Basidiobolus meristosporus CBS 931.73
+                      Entomophthoromycetes
+                         Entomophthorales
+                            Ancylistaceae
+                               Conidiobolus
+                                  Conidiobolus coronatus
+                                     Conidiobolus coronatus NRRL 28638
+                                  Conidiobolus incongruus
+                                     Conidiobolus incongruus B7586
+          Metazoa
+             Eumetazoa
+                Bilateria
+                   Deuterostomia
+                      Chordata
+                         Craniata
+                            Vertebrata
+                               Gnathostomata
+                                  Teleostomi
+                                     Euteleostomi
+                                        Sarcopterygii
+                                           Dipnotetrapodomorpha
+                                              Tetrapoda
+                                                 Amniota
+                                                    Mammalia
+                                                       Theria
+                                                          Eutheria
+                                                             Boreoeutheria
+                                                                Euarchontoglires
+                                                                   Primates
+                                                                      Haplorrhini
+                                                                         Simiiformes
+                                                                            Catarrhini
+                                                                               Hominoidea
+                                                                                  Hominidae
+                                                                                     Homininae
+                                                                                        Homo
+                                                                                           Homo sapiens
+                   Protostomia
+                      Ecdysozoa
+                         Nematoda
+                            Chromadorea
+                               Rhabditida
+                                  Rhabditina
+                                     Rhabditomorpha
+                                        Strongyloidea
+                                           Ancylostomatidae
+                                              Ancylostomatinae
+                                                 Ancylostoma
+                                                    Ancylostoma ceylanicum
+                                                    Ancylostoma duodenale
+                                              Bunostominae
+                                                 Necator
+                                                    Necator americanus
+                                           Metastrongylidae
+                                              Angiostrongylus
+                                                 Angiostrongylus cantonensis
+                                                 Angiostrongylus costaricensis
+                                  Spirurina
+                                     Ascaridomorpha
+                                        Ascaridoidea
+                                           Anisakidae
+                                              Anisakis
+                                                 Anisakis simplex complex
+                                                    Anisakis simplex
+                                           Toxocaridae
+                                              Toxocara
+                                                 Toxocara canis
+                                     Dracunculoidea
+                                        Dracunculidae
+                                           Dracunculus
+                                              Dracunculus medinensis
+                                     Oxyuridomorpha
+                                        Oxyuroidea
+                                           Oxyuridae
+                                              Enterobius
+                                                 Enterobius vermicularis
+                                     Spiruromorpha
+                                        Filarioidea
+                                           Onchocercidae
+                                              Dirofilaria
+                                                 Dirofilaria immitis
+                                              Loa
+                                                 Loa loa
+                                              Onchocerca
+                                                 Onchocerca volvulus
+                                              Wuchereria
+                                                 Wuchereria bancrofti
+                                  Tylenchina
+                                     Panagrolaimomorpha
+                                        Strongyloidoidea
+                                           Strongyloididae
+                                              Strongyloides
+                                                 Strongyloides stercoralis
+                            Enoplea
+                               Dorylaimia
+                                  Trichinellida
+                                     Trichuridae
+                                        Trichuris
+                                           Trichuris trichiura
+                      Spiralia
+                         Lophotrochozoa
+                            Platyhelminthes
+                               Cestoda
+                                  Eucestoda
+                                     Cyclophyllidea
+                                        Hymenolepididae
+                                           Rodentolepis
+                                              Rodentolepis nana
+                                        Taeniidae
+                                           Echinococcus
+                                              Echinococcus granulosus group
+                                                 Echinococcus granulosus
+                                              Echinococcus multilocularis
+                                           Taenia
+                                              Taenia asiatica
+                                              Taenia saginata
+                                              Taenia solium
+                               Trematoda
+                                  Digenea
+                                     Opisthorchiida
+                                        Opisthorchiata
+                                           Opisthorchiidae
+                                              Clonorchis
+                                                 Clonorchis sinensis
+                                              Opisthorchis
+                                                 Opisthorchis viverrini
+                                     Plagiorchiida
+                                        Echinostomata
+                                           Echinostomatoidea
+                                              Echinostomatidae
+                                                 Echinostoma
+                                                    Echinostoma caproni
+                                              Fasciolidae
+                                                 Fasciola
+                                                    Fasciola hepatica
+                                     Strigeidida
+                                        Schistosomatoidea
+                                           Schistosomatidae
+                                              Schistosoma
+                                                 Schistosoma haematobium
+                                                 Schistosoma japonicum
+                                                 Schistosoma mansoni
+       Sar
+          Alveolata
+             Apicomplexa
+                Aconoidasida
+                   Haemosporida
+                      Plasmodiidae
+                         Plasmodium
+                            Plasmodium (Laverania)
+                               Plasmodium falciparum
+                                  Plasmodium falciparum 3D7
+                            Plasmodium (Plasmodium)
+                               Plasmodium cynomolgi
+                                  Plasmodium cynomolgi strain B
+                               Plasmodium knowlesi
+                                  Plasmodium knowlesi strain H
+                               Plasmodium ovale
+                                  Plasmodium ovale wallikeri
+                               Plasmodium vivax
+                                  Plasmodium vivax Sal-1
+                   Piroplasmida
+                      Babesiidae
+                         Babesia
+                            Babesia divergens
+                            Babesia microti
+                               Babesia microti strain RI
+                Conoidasida
+                   Coccidia
+                      Eucoccidiorida
+                         Eimeriorina
+                            Cryptosporidiidae
+                               Cryptosporidium
+                                  Cryptosporidium hominis
+                                     Cryptosporidium hominis TU502
+                                  Cryptosporidium muris
+                                     Cryptosporidium muris RN66
+                                  Cryptosporidium parvum
+                                     Cryptosporidium parvum Iowa II
+                                  Cryptosporidium ubiquitum
+                            Eimeriidae
+                               Cyclospora
+                                  Cyclospora cayetanensis
+                               Eimeria
+                                  Eimeria mitis
+                            Sarcocystidae
+                               Toxoplasma
+                                  Toxoplasma gondii
+                                     Toxoplasma gondii ME49
+                                     Toxoplasma gondii RH
+          Stramenopiles
+             Bigyra
+                Opalozoa
+                   Opalinata
+                      Blastocystidae
+                         Blastocystis
+                            Blastocystis hominis
+             Oomycota
+                Pythiales
+                   Pythiaceae
+                      Pythium
+                         Pythium insidiosum
+       Viridiplantae
+          Streptophyta
+             Streptophytina
+                Embryophyta
+                   Tracheophyta
+                      Euphyllophyta
+                         Spermatophyta
+                            Magnoliopsida
+                               Mesangiospermae
+                                  eudicotyledons
+                                     Gunneridae
+                                        Pentapetalae
+                                           rosids
+                                              malvids
+                                                 Malvales
+                                                    Malvaceae
+                                                       Malvoideae
+                                                          Gossypium
+                                                             Gossypium raimondii

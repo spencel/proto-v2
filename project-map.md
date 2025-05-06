@@ -1,0 +1,23 @@
+commands
+config
+data
+docs
+env
+logs
+modules
+	fasta
+		Fasta
+			inspect_deflines - 
+			combine
+			separate
+			clean
+			get_deflines
+			deflines
+			export_defline_and_seq_hash
+			concat_defline_files
+			lineages
+		Fastas
+			export_defline_and_seq_hash
+scripts
+test
+vignettes

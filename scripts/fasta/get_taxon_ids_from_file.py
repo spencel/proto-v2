@@ -1,12 +1,7 @@
 
-import logging
 import os
 
-from ... import file_sys
-
-
-log = logging.getLogger(__name__)
-debug = log.debug
+from modules import file_sys
 
 
 DB_UPDATE_SPECIES_TAXON_IDS_FPATH = os.path.join(

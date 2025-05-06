@@ -22,10 +22,16 @@ class Log():
 		module: str,
 		reset_log: bool = True
 	):
+		# Create logger
 		logger = logging.getLogger(__name__)
+		# Set logging level
 		logger.setLevel(logging.DEBUG)
+		logger.propagate = False
+		# Create log file handler
 		file_handler = logging.FileHandler(self.default_log_fpath)
+		# Set logging level of log file handler
 		file_handler.setLevel(logging.DEBUG)
+		# Create log formatter
 		formatter = logging.Formatter('%(levelname)s|%(asctime)s|%(message)s')
 		file_handler.setFormatter(formatter)
 		logger.addHandler(file_handler)
@@ -34,12 +40,13 @@ class Log():
 
 
 	def write(self,
+		level: str|None = None,
 		name: str|None = None,
 		identifier: str|None = None,
 		value: any = None,
 		is_print_json: bool = True
 	):
-		print(f'value: {value}')		
+		
 		out_line_gen = f'{self.module}'
 
 		if name:
@@ -59,6 +66,29 @@ class Log():
 			out_line_gen += f'\n{str_json}'
 		
 		else:
-			out_line_gen += str(value)
+			out_line_gen += f' {value}'
 		
-		self.logger.debug(out_line_gen)
+		match level:
+			case 'debug': self.logger.debug(out_line_gen)
+			case 'info': self.logger.info(out_line_gen)
+			case 'error': self.logger.error(out_line_gen)
+
+
+	def debug(self, *args):
+		# print(f'kwargs: {kwargs}')
+		self.write(
+			'debug', # level
+			*args
+			# **kwargs
+		)
+	def info(self, *args, **kwargs):
+		self.write(
+			'info', # level
+			*args, **kwargs
+		)
+	def error(self, *args, **kwargs):
+		self.write(
+			'error', # level
+			*args, **kwargs
+		)
+	

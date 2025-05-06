@@ -2,15 +2,150 @@
 import datetime
 import json
 import logging
+from typing import Union, List
 
 from .. import Entrez
 
+def _get_esearch_res(
+  ids,
+  id_idx,
+  id_qty,
+  esearch_term_max_len
+) -> Union[int, List[str], str]:
+  
+  # Build search term for ESearch
+  query_ids = []
+  # -1 because last character would be a comma, which is removed
+  esearch_term_len = -1 
+  while id_idx < id_qty:
+    id = ids[id_idx]
+    esearch_term_len += len(f'{id},')
 
-log = logging.getLogger(__name__)
-debug = log.debug
+    # Finish adding accession IDs to query if max query length would be
+    #   exceeded.
+    if esearch_term_len > esearch_term_max_len:
+      break
+    
+    # Otherwise, add this ID to the query list
+    query_ids.append(id)
+    id_idx += 1
+
+  esearch_term = ','.join(query_ids)
+
+  esearch_res = Entrez.esearch({
+    'db': 'nuccore',
+    'term': esearch_term
+  })
+
+  return id_idx, query_ids, esearch_res
 
 
-def get_esummaries(cls,
+def _get_epost_res(
+  uids
+):
+
+  epost_uids = ','.join(uids)
+
+  epost_res = Entrez.epost({
+    'db': 'nuccore',
+    'id': epost_uids
+  })
+
+  return epost_res
+
+
+# Alias:
+#   acc = accession_id, eg: 'JBAJFE010000013.1'
+#   len = length
+def get_esummaries(
+  gi_ids: list[str] = None,
+  accession_ids: list[str] = None,
+  gi_and_accession_ids: list[str] = None
+) -> dict:
+  """_summary_
+
+  Args:
+    accession_ids (list[str], optional): _description_. Defaults to None.
+      Example: ['JBAJFE010000013.1', ...]
+  
+  Returns:
+    _type_: _description_
+  """
+  esummaries = []
+
+  # Handle ID input
+  epost_max_query_ids = 1_000_000_000_000
+  all_ids = []
+  if gi_ids:
+    all_ids.extend(gi_ids)
+  if accession_ids:
+    all_ids.extend(accession_ids)
+    epost_max_query_ids = 500
+  if gi_and_accession_ids:
+    all_ids.extend(gi_and_accession_ids)
+    epost_max_query_ids = 500
+  
+  id_idx = 0
+  id_qty = len(all_ids)
+
+  while id_idx < id_qty:
+
+################################################################################
+## Get UIDs using ESearch
+
+    uids = []
+
+    while len(uids) == 0:
+      id_idx, query_ids, esearch_res = _get_esearch_res(
+        all_ids,
+        id_idx,
+        id_qty,
+        esearch_term_max_len = 4000
+      )
+      uids = esearch_res['IdList']
+      if len(uids) == 0:
+        # Rollback id_idx
+        id_idx -= len(query_ids)
+        print(f'Failed  to get UIDs. Retrying ESearch...')
+
+################################################################################
+## EPost IDs and get WebEnv/Query
+  
+    # Get EPost term
+    epost_res = _get_epost_res(
+      uids
+    )
+
+    webenv = epost_res["WebEnv"]
+    query_key = epost_res["QueryKey"]
+
+################################################################################
+## Get ESummaries
+
+    esummary_res = Entrez.esummary(
+      esummary_params = {
+        'db': 'nuccore',
+        'webenv': webenv,
+        'query_key': query_key
+      },
+      as_json = True
+    )
+
+    for uid, items in esummary_res['result'].items():
+      # Skip UID list
+      if uid == 'uids':
+        continue
+      # Otherwise, add essumary
+      esummaries.append(items)
+    
+    print(f'id_idx: {id_idx}')
+
+  return esummaries
+
+################################################################################
+
+
+def get_esummaries_old(
   accession_ids: list[str] = None,
   taxon_id=None,
   clade_name=None,
@@ -45,9 +180,7 @@ def get_esummaries(cls,
 
   term: str
   
-  
   if accession_ids:
-    debug(f'len(accession_ids): {len(accession_ids)}')
 
     # The max qty of characters a query term can be
     max_term_length = 4041
@@ -68,12 +201,8 @@ def get_esummaries(cls,
         query_ids.append(accession_id)
         # Add +1 to account for commas
         id_idx += 1
-      debug(f'next_length:{next_length}')
-      debug(f'id_idx:{id_idx}')
 
-      debug(f'len(query_ids): {len(query_ids)}')
       term = ','.join(query_ids)
-      debug(f'term: {term}')
 
       # Initiliaze amount returned to start the loop
       retcount = retmax + 1
@@ -91,14 +220,12 @@ def get_esummaries(cls,
           "sort": sort_by
         })
         retcount = int(esearch_result['Count'])
-        debug(f'retcount: {retcount}')
         
         # Try again if return count is zero
         if retcount == 0:
           retcount = retmax + 1
           continue
 
-        debug(f'esearch_result: {esearch_result}')
         esearch_results.append(esearch_result)
 
     # Exit function if there are no results
@@ -144,9 +271,7 @@ def get_esummaries(cls,
           "webenv": webenv,
           "query_key": query_key
       })
-      debug(f'esummary_response: {esummary_response}')
       uid_qty = len(esummary_response['result']['uids'])
-      debug(f'uid_qty: {uid_qty}')
         
       # Try again if return count is zero
       if uid_qty == 0:
@@ -154,15 +279,12 @@ def get_esummaries(cls,
       
       esummary_result = esummary_response['result']
       del esummary_result['uids']
-      debug(f'esummary_result: {esummary_result}')
 
       for gi_id, result in esummary_result.items():
         esummary_results[gi_id] = result
 
       esummary_qty += uid_qty
-      debug(f'esummary_qty: {esummary_qty}')
-      retstart += uid_qty
-      debug(f'retstart: {retstart}')      
+      retstart += uid_qty 
 
     return esummary_results
 
@@ -198,7 +320,6 @@ def get_esummaries(cls,
     if query_time_frame:
       term += " AND " + query_time_frame
     
-    debug(f'retmax: {retmax}')
     # Get a list of the most recent records
     esearch_results = Entrez.esearch({
       "db": "nuccore",

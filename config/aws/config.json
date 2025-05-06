@@ -12,6 +12,37 @@
     }
   },
   "ec2": {
-    "default_launch_template_id": "lt-0387fc717520cd1b2"
+    "default_instance_profile_iam_role_arn": "arn:aws:iam::255446977961:instance-profile/ec2.proto",
+    "default_instance_name": "proto",
+    "default_launch_template_id": "lt-0387fc717520cd1b2",
+    "default_instance_type": "t2.micro",
+    "instance": {
+      "states": {
+        "pending": {
+          "code": 0,
+          "name": "pending"
+        },
+        "running": {
+          "code": 16,
+          "name": "running"
+        },
+        "shutting_down": {
+          "code": 32,
+          "name": "shutting-down"
+        },
+        "terminated": {
+          "code": 48,
+          "name": "terminated"
+        },
+        "stopping": {
+          "code": 64,
+          "name": "stopping"
+        },
+        "stopped": {
+          "code": 80,
+          "name": "stopped"
+        }
+      }
+    }
   }
 }

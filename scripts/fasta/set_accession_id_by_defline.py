@@ -1,8 +1,8 @@
 
 import os
 
-from ... import json as m_json
-from ... import file_sys
+from modules import json as m_json
+from modules import file_sys
 
 
 def set_accession_id_by_defline(

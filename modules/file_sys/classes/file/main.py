@@ -181,3 +181,19 @@ class File():
       for line in f:
         lines_list.append(line.strip("\n"))
     return lines_list
+  
+
+  @staticmethod
+  def concat_files(fpaths, out_fpath, has_header=False):
+    already_handled_header = False
+    with open(out_fpath, 'w') as f_out:
+      for fpath in fpaths:
+        with open(fpath) as f_in:
+          if has_header:
+            line = f_in.readline()
+            if not already_handled_header:
+              f_out.write(line)
+              already_handled_header = True
+          for line in f_in:
+            f_out.write(line)
+

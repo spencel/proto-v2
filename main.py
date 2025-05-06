@@ -1,19 +1,12 @@
 
-# import logging
-
 import commands
 import modules as m
+import test
+import scripts
 from modules.test import Class_A
 
 
-# logging.basicConfig(
-#   filename = 'logs/main.log',
-#   filemode = 'w',
-#   level =logging.DEBUG
-# )
-
-
-def test():
+def main_test():
   m.test.test()
   m.test.Class_A.test()
   Class_A.test()
@@ -24,8 +17,14 @@ def test():
   m.test.helper_scripts.test()
   m.test.scripts.test()
   
-
+# def test():
+#   m.taxon.Taxon.export_taxon_tree(
+#     '/media/sl/ExtremePro/Parti-Seq/system-controls/db-data-staging/taxon-ancestor.tsv',
+#     '/media/sl/ExtremePro/Parti-Seq/system-controls/db-data-staging/taxon-name.tsv',
+#     out_fpath = 'temp-taxon.tree'
+#   )
 
 if __name__ == "__main__":
-  # python -m fire commands/fastq/main.
+  # Example command:
+  #   python -m fire commands/fastq/main.
   pass

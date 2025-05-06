@@ -36,7 +36,7 @@ class S3():
 
   # Constructor
   def __init__(self,
-    is_connect: bool = False,
+    is_connect: bool = True,
     profile_name: str = cf.aws.sdk.profile_names.default
   ):
     self.client = None
@@ -44,11 +44,56 @@ class S3():
       self.session = boto3.session.Session(
         profile_name = profile_name
       )
+      self.resource = self.session.resource(
+        service_name = self._service_name
+      )
       self.client = self.session.client(
         service_name = self._service_name
       )
 
-  
+
+  # Download file from S3 Bucket
+  # https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/s3/client/download_file.html
+  def download_file(self,
+    bucket_name: str,
+    bucket_src_fpath: str,
+    local_dest_fpath: str,
+    extra_args: dict|None = None,
+    callback = None, # type: function
+    config = None  # type: boto3.s3.transfer.TransferConfig
+  ):
+    
+    self.client.download_file(
+      Bucket = bucket_name,
+      Key = bucket_src_fpath,
+      Filename = local_dest_fpath,
+      ExtraArgs = extra_args,
+      Callback = callback,
+      Config = config
+    )
+
+
+  # Upload file to S3 Bucket
+  # https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/s3/client/upload_file.html
+  def upload_file(self,
+    bucket_name: str,
+    bucket_dest_fpath: str,
+    local_src_fpath: str,
+    extra_args: dict|None = None,
+    callback = None, # type: function
+    config = None  # type: boto3.s3.transfer.TransferConfig
+  ):
+    
+    self.client.upload_file(
+      Filename = local_src_fpath,
+      Bucket = bucket_name,
+      Key = bucket_dest_fpath,
+      ExtraArgs = extra_args,
+      Callback = callback,
+      Config = config
+    )
+
+
   # Get Buckets
   def get_buckets(self,
     is_save: bool = False,
@@ -288,3 +333,27 @@ class S3():
 
 
     return uploads_deleted_qty
+  
+  def move_all_objs_in_bucket(cls,
+    source_bucket_name: str,
+    destination_bucket_name: str
+  ):
+    
+    source_bucket = cls.resource.Bucket(source_bucket_name)
+    destination_bucket = cls.resource.Bucket(destination_bucket_name)
+   
+    for obj in source_bucket.objects.all():
+      print(f'Moving {obj}...')
+      copy_source = {
+        'Bucket': source_bucket_name,
+        'Key': obj.key
+      }
+      destination_bucket.copy(copy_source, obj.key)
+      obj.delete()
+      print(f' Done')
+  
+  def list_bucket_objects_by_date_modifiedc(cls,
+    bucket_name: str
+  ):
+    bucket = cls.resource.Bucket(bucket_name)
+    

@@ -1,0 +1,589 @@
+The 5 extra fungi is not real. It's the mitochondria which appear to not be directly assigned to the reference genome that was downloaded. The mitochondria are assigned one level up in the taxon tree and have a different taxon ID. These are the species:
+1:
+Candida parapsilosis strain CDC317
+Candida parapsilosis mitochondrion
+2:
+Colletotrichum fioriniae strain ACFK16
+Colletotrichum fioriniae mitochondrion
+3:
+Aspergillus luchuensis IFO 4308
+Aspergillus luchuensis mitochondrion
+4:
+Kluyveromyces lactis strain NRRL Y-1140
+Kluyveromyces lactis mitochondrion
+5: The mitochondrion appears next "Fusarium verticillioides 7600" in our genome database, however it's classified under "Fusarium fujikuroi ".
+Fusarium verticillioides 7600 (refer to: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Undef&id=117187&lvl=3&keep=1&srchmode=1&unlock)
+Fusarium fujikuroi IMI 58289
+Gibberella moniliformis mitochondrion (refer to: https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Undef&id=5127&lvl=3&keep=1&srchmode=1&unlock)
+
+1)
+>NW_023503284.1 Candida parapsilosis strain CDC317 annotated contig 006110
+>NW_023503283.1 Candida parapsilosis strain CDC317 annotated contig 006372
+>NW_023503282.1 Candida parapsilosis strain CDC317 annotated contig 006139
+>NW_023503281.1 Candida parapsilosis strain CDC317 annotated contig 005809
+>NW_023503280.1 Candida parapsilosis strain CDC317 annotated contig 005807
+>NW_023503279.1 Candida parapsilosis strain CDC317 annotated contig 005806
+>NW_023503278.1 Candida parapsilosis strain CDC317 annotated contig 005569
+>NW_023503277.1 Candida parapsilosis strain CDC317 annotated contig 005504
+>NC_005253.2 Candida parapsilosis mitochondrion, complete genome
+
+2)
+>NW_026517940.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_1, whole genome shotgun sequence
+>NW_026517941.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_2, whole genome shotgun sequence
+>NW_026517942.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_3, whole genome shotgun sequence
+>NW_026517943.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_4, whole genome shotgun sequence
+>NW_026517944.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_5, whole genome shotgun sequence
+>NW_026517945.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_6, whole genome shotgun sequence
+>NW_026517946.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_7, whole genome shotgun sequence
+>NW_026517947.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_8, whole genome shotgun sequence
+>NW_026517948.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_9, whole genome shotgun sequence
+>NW_026517949.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_10, whole genome shotgun sequence
+>NW_026517950.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_11, whole genome shotgun sequence
+>NW_026517951.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_12, whole genome shotgun sequence
+>NW_026517952.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_13, whole genome shotgun sequence
+>NW_026517953.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_14, whole genome shotgun sequence
+>NW_026517954.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_15, whole genome shotgun sequence
+>NW_026517955.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_16, whole genome shotgun sequence
+>NW_026517956.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_17, whole genome shotgun sequence
+>NW_026517957.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_18, whole genome shotgun sequence
+>NW_026517958.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_19, whole genome shotgun sequence
+>NW_026517959.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_20, whole genome shotgun sequence
+>NW_026517960.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_21, whole genome shotgun sequence
+>NW_026517961.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_22, whole genome shotgun sequence
+>NW_026517962.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_23, whole genome shotgun sequence
+>NW_026517963.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_24, whole genome shotgun sequence
+>NW_026517964.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_25, whole genome shotgun sequence
+>NW_026517965.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_26, whole genome shotgun sequence
+>NW_026517966.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_27, whole genome shotgun sequence
+>NW_026517967.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_28, whole genome shotgun sequence
+>NW_026517968.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_29, whole genome shotgun sequence
+>NW_026517969.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_30, whole genome shotgun sequence
+>NW_026517970.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_31, whole genome shotgun sequence
+>NW_026517971.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_32, whole genome shotgun sequence
+>NW_026517972.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_33, whole genome shotgun sequence
+>NW_026517973.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_34, whole genome shotgun sequence
+>NW_026517974.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_35, whole genome shotgun sequence
+>NW_026517975.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_36, whole genome shotgun sequence
+>NW_026517976.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_37, whole genome shotgun sequence
+>NW_026517977.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_38, whole genome shotgun sequence
+>NW_026517978.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_39, whole genome shotgun sequence
+>NW_026517979.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_40, whole genome shotgun sequence
+>NW_026517980.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_41, whole genome shotgun sequence
+>NW_026517981.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_42, whole genome shotgun sequence
+>NW_026517982.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_43, whole genome shotgun sequence
+>NW_026517983.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_44, whole genome shotgun sequence
+>NW_026517984.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_45, whole genome shotgun sequence
+>NW_026517985.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_46, whole genome shotgun sequence
+>NW_026517986.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_47, whole genome shotgun sequence
+>NW_026517987.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_48, whole genome shotgun sequence
+>NW_026517988.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_49, whole genome shotgun sequence
+>NW_026517989.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_50, whole genome shotgun sequence
+>NW_026517990.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_51, whole genome shotgun sequence
+>NW_026517991.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_52, whole genome shotgun sequence
+>NW_026517992.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_53, whole genome shotgun sequence
+>NW_026517993.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_54, whole genome shotgun sequence
+>NW_026517994.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_55, whole genome shotgun sequence
+>NW_026517995.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_56, whole genome shotgun sequence
+>NW_026517996.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_57, whole genome shotgun sequence
+>NW_026517997.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_58, whole genome shotgun sequence
+>NW_026517998.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_59, whole genome shotgun sequence
+>NW_026517999.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_60, whole genome shotgun sequence
+>NW_026518000.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_61, whole genome shotgun sequence
+>NW_026518001.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_62, whole genome shotgun sequence
+>NW_026518002.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_63, whole genome shotgun sequence
+>NW_026518003.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_64, whole genome shotgun sequence
+>NW_026518004.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_65, whole genome shotgun sequence
+>NW_026518005.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_66, whole genome shotgun sequence
+>NW_026518006.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_67, whole genome shotgun sequence
+>NW_026518007.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_68, whole genome shotgun sequence
+>NW_026518008.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_69, whole genome shotgun sequence
+>NW_026518009.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_70, whole genome shotgun sequence
+>NW_026518010.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_71, whole genome shotgun sequence
+>NW_026518011.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_72, whole genome shotgun sequence
+>NW_026518012.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_73, whole genome shotgun sequence
+>NW_026518013.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_74, whole genome shotgun sequence
+>NW_026518014.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_75, whole genome shotgun sequence
+>NW_026518015.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_76, whole genome shotgun sequence
+>NW_026518016.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_77, whole genome shotgun sequence
+>NW_026518017.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_78, whole genome shotgun sequence
+>NW_026518018.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_79, whole genome shotgun sequence
+>NW_026518019.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_80, whole genome shotgun sequence
+>NW_026518020.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_81, whole genome shotgun sequence
+>NW_026518021.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_82, whole genome shotgun sequence
+>NW_026518022.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_83, whole genome shotgun sequence
+>NW_026518023.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_84, whole genome shotgun sequence
+>NW_026518024.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_85, whole genome shotgun sequence
+>NW_026518025.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_86, whole genome shotgun sequence
+>NW_026518026.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_87, whole genome shotgun sequence
+>NW_026518027.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_88, whole genome shotgun sequence
+>NW_026518028.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_89, whole genome shotgun sequence
+>NW_026518029.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_90, whole genome shotgun sequence
+>NW_026518030.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_91, whole genome shotgun sequence
+>NW_026518031.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_92, whole genome shotgun sequence
+>NW_026518032.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_93, whole genome shotgun sequence
+>NW_026518033.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_94, whole genome shotgun sequence
+>NW_026518034.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_95, whole genome shotgun sequence
+>NW_026518035.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_96, whole genome shotgun sequence
+>NW_026518036.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_97, whole genome shotgun sequence
+>NW_026518037.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_98, whole genome shotgun sequence
+>NW_026518038.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_99, whole genome shotgun sequence
+>NW_026518039.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_100, whole genome shotgun sequence
+>NW_026518040.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_101, whole genome shotgun sequence
+>NW_026518041.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_103, whole genome shotgun sequence
+>NW_026518042.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_104, whole genome shotgun sequence
+>NW_026518043.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_105, whole genome shotgun sequence
+>NW_026518044.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_106, whole genome shotgun sequence
+>NW_026518045.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_107, whole genome shotgun sequence
+>NW_026518046.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_108, whole genome shotgun sequence
+>NW_026518047.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_109, whole genome shotgun sequence
+>NW_026518048.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_110, whole genome shotgun sequence
+>NW_026518049.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_111, whole genome shotgun sequence
+>NW_026518050.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_112, whole genome shotgun sequence
+>NW_026518051.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_113, whole genome shotgun sequence
+>NW_026518052.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_114, whole genome shotgun sequence
+>NW_026518053.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_115, whole genome shotgun sequence
+>NW_026518054.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_116, whole genome shotgun sequence
+>NW_026518055.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_117, whole genome shotgun sequence
+>NW_026518056.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_118, whole genome shotgun sequence
+>NW_026518057.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_119, whole genome shotgun sequence
+>NW_026518058.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_120, whole genome shotgun sequence
+>NW_026518059.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_121, whole genome shotgun sequence
+>NW_026518060.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_122, whole genome shotgun sequence
+>NW_026518061.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_123, whole genome shotgun sequence
+>NW_026518062.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_124, whole genome shotgun sequence
+>NW_026518063.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_125, whole genome shotgun sequence
+>NW_026518064.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_126, whole genome shotgun sequence
+>NW_026518065.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_127, whole genome shotgun sequence
+>NW_026518066.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_128, whole genome shotgun sequence
+>NW_026518067.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_129, whole genome shotgun sequence
+>NW_026518068.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_130, whole genome shotgun sequence
+>NW_026518069.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_131, whole genome shotgun sequence
+>NW_026518070.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_132, whole genome shotgun sequence
+>NW_026518071.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_133, whole genome shotgun sequence
+>NW_026518072.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_134, whole genome shotgun sequence
+>NW_026518073.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_135, whole genome shotgun sequence
+>NW_026518074.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_136, whole genome shotgun sequence
+>NW_026518075.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_137, whole genome shotgun sequence
+>NW_026518076.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_138, whole genome shotgun sequence
+>NW_026518077.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_139, whole genome shotgun sequence
+>NW_026518078.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_140, whole genome shotgun sequence
+>NW_026518079.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_141, whole genome shotgun sequence
+>NW_026518080.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_142, whole genome shotgun sequence
+>NW_026518081.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_143, whole genome shotgun sequence
+>NW_026518082.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_144, whole genome shotgun sequence
+>NW_026518083.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_145, whole genome shotgun sequence
+>NW_026518084.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_146, whole genome shotgun sequence
+>NW_026518085.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_147, whole genome shotgun sequence
+>NW_026518086.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_148, whole genome shotgun sequence
+>NW_026518087.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_149, whole genome shotgun sequence
+>NW_026518088.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_150, whole genome shotgun sequence
+>NW_026518089.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_151, whole genome shotgun sequence
+>NW_026518090.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_152, whole genome shotgun sequence
+>NW_026518091.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_153, whole genome shotgun sequence
+>NW_026518092.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_154, whole genome shotgun sequence
+>NW_026518093.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_155, whole genome shotgun sequence
+>NW_026518094.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_156, whole genome shotgun sequence
+>NW_026518095.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_157, whole genome shotgun sequence
+>NW_026518096.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_158, whole genome shotgun sequence
+>NW_026518097.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_159, whole genome shotgun sequence
+>NW_026518098.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_160, whole genome shotgun sequence
+>NW_026518099.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_161, whole genome shotgun sequence
+>NW_026518100.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_162, whole genome shotgun sequence
+>NW_026518101.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_163, whole genome shotgun sequence
+>NW_026518102.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_164, whole genome shotgun sequence
+>NW_026518103.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_165, whole genome shotgun sequence
+>NW_026518104.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_166, whole genome shotgun sequence
+>NW_026518105.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_167, whole genome shotgun sequence
+>NW_026518106.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_168, whole genome shotgun sequence
+>NW_026518107.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_169, whole genome shotgun sequence
+>NW_026518108.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_170, whole genome shotgun sequence
+>NW_026518109.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_171, whole genome shotgun sequence
+>NW_026518110.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_172, whole genome shotgun sequence
+>NW_026518111.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_173, whole genome shotgun sequence
+>NW_026518112.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_174, whole genome shotgun sequence
+>NW_026518113.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_175, whole genome shotgun sequence
+>NW_026518114.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_176, whole genome shotgun sequence
+>NW_026518115.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_177, whole genome shotgun sequence
+>NW_026518116.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_178, whole genome shotgun sequence
+>NW_026518117.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_179, whole genome shotgun sequence
+>NW_026518118.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_180, whole genome shotgun sequence
+>NW_026518119.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_181, whole genome shotgun sequence
+>NW_026518120.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_182, whole genome shotgun sequence
+>NW_026518121.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_183, whole genome shotgun sequence
+>NW_026518122.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_184, whole genome shotgun sequence
+>NW_026518123.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_185, whole genome shotgun sequence
+>NW_026518124.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_186, whole genome shotgun sequence
+>NW_026518125.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_187, whole genome shotgun sequence
+>NW_026518126.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_188, whole genome shotgun sequence
+>NW_026518127.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_189, whole genome shotgun sequence
+>NW_026518128.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_190, whole genome shotgun sequence
+>NW_026518129.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_191, whole genome shotgun sequence
+>NW_026518130.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_192, whole genome shotgun sequence
+>NW_026518131.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_193, whole genome shotgun sequence
+>NW_026518132.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_194, whole genome shotgun sequence
+>NW_026518133.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_195, whole genome shotgun sequence
+>NW_026518134.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_196, whole genome shotgun sequence
+>NW_026518135.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_197, whole genome shotgun sequence
+>NW_026518136.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_198, whole genome shotgun sequence
+>NW_026518137.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_199, whole genome shotgun sequence
+>NW_026518138.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_200, whole genome shotgun sequence
+>NW_026518139.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_201, whole genome shotgun sequence
+>NW_026518140.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_202, whole genome shotgun sequence
+>NW_026518141.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_203, whole genome shotgun sequence
+>NW_026518142.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_204, whole genome shotgun sequence
+>NW_026518143.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_205, whole genome shotgun sequence
+>NW_026518144.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_206, whole genome shotgun sequence
+>NW_026518145.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_207, whole genome shotgun sequence
+>NW_026518146.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_208, whole genome shotgun sequence
+>NW_026518147.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_209, whole genome shotgun sequence
+>NW_026518148.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_210, whole genome shotgun sequence
+>NW_026518149.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_211, whole genome shotgun sequence
+>NW_026518150.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_212, whole genome shotgun sequence
+>NW_026518151.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_213, whole genome shotgun sequence
+>NW_026518152.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_214, whole genome shotgun sequence
+>NW_026518153.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_215, whole genome shotgun sequence
+>NW_026518154.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_216, whole genome shotgun sequence
+>NW_026518155.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_217, whole genome shotgun sequence
+>NW_026518156.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_218, whole genome shotgun sequence
+>NW_026518157.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_219, whole genome shotgun sequence
+>NW_026518158.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_220, whole genome shotgun sequence
+>NW_026518159.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_221, whole genome shotgun sequence
+>NW_026518160.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_222, whole genome shotgun sequence
+>NW_026518161.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_223, whole genome shotgun sequence
+>NW_026518162.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_224, whole genome shotgun sequence
+>NW_026518163.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_225, whole genome shotgun sequence
+>NW_026518164.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_226, whole genome shotgun sequence
+>NW_026518165.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_227, whole genome shotgun sequence
+>NW_026518166.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_228, whole genome shotgun sequence
+>NW_026518167.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_229, whole genome shotgun sequence
+>NW_026518168.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_230, whole genome shotgun sequence
+>NW_026518169.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_231, whole genome shotgun sequence
+>NW_026518170.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_232, whole genome shotgun sequence
+>NW_026518171.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_233, whole genome shotgun sequence
+>NW_026518172.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_234, whole genome shotgun sequence
+>NW_026518173.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_235, whole genome shotgun sequence
+>NW_026518174.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_236, whole genome shotgun sequence
+>NW_026518175.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_237, whole genome shotgun sequence
+>NW_026518176.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_238, whole genome shotgun sequence
+>NW_026518177.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_239, whole genome shotgun sequence
+>NW_026518178.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_240, whole genome shotgun sequence
+>NW_026518179.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_241, whole genome shotgun sequence
+>NW_026518180.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_242, whole genome shotgun sequence
+>NW_026518181.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_243, whole genome shotgun sequence
+>NW_026518182.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_244, whole genome shotgun sequence
+>NW_026518183.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_245, whole genome shotgun sequence
+>NW_026518184.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_246, whole genome shotgun sequence
+>NW_026518185.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_247, whole genome shotgun sequence
+>NW_026518186.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_248, whole genome shotgun sequence
+>NW_026518187.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_249, whole genome shotgun sequence
+>NW_026518188.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_250, whole genome shotgun sequence
+>NW_026518189.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_251, whole genome shotgun sequence
+>NW_026518190.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_252, whole genome shotgun sequence
+>NW_026518191.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_253, whole genome shotgun sequence
+>NW_026518192.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_254, whole genome shotgun sequence
+>NW_026518193.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_255, whole genome shotgun sequence
+>NW_026518194.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_256, whole genome shotgun sequence
+>NW_026518195.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_257, whole genome shotgun sequence
+>NW_026518196.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_258, whole genome shotgun sequence
+>NW_026518197.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_259, whole genome shotgun sequence
+>NW_026518198.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_260, whole genome shotgun sequence
+>NW_026518199.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_261, whole genome shotgun sequence
+>NW_026518200.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_262, whole genome shotgun sequence
+>NW_026518201.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_263, whole genome shotgun sequence
+>NW_026518202.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_264, whole genome shotgun sequence
+>NW_026518203.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_265, whole genome shotgun sequence
+>NW_026518204.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_266, whole genome shotgun sequence
+>NW_026518205.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_267, whole genome shotgun sequence
+>NW_026518206.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_268, whole genome shotgun sequence
+>NW_026518207.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_269, whole genome shotgun sequence
+>NW_026518208.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_270, whole genome shotgun sequence
+>NW_026518209.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_271, whole genome shotgun sequence
+>NW_026518210.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_272, whole genome shotgun sequence
+>NW_026518211.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_273, whole genome shotgun sequence
+>NW_026518212.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_274, whole genome shotgun sequence
+>NW_026518213.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_275, whole genome shotgun sequence
+>NW_026518214.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_276, whole genome shotgun sequence
+>NW_026518215.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_277, whole genome shotgun sequence
+>NW_026518216.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_278, whole genome shotgun sequence
+>NW_026518217.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_279, whole genome shotgun sequence
+>NW_026518218.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_280, whole genome shotgun sequence
+>NW_026518219.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_281, whole genome shotgun sequence
+>NW_026518220.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_282, whole genome shotgun sequence
+>NW_026518221.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_283, whole genome shotgun sequence
+>NW_026518222.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_284, whole genome shotgun sequence
+>NW_026518223.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_285, whole genome shotgun sequence
+>NW_026518224.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_286, whole genome shotgun sequence
+>NW_026518225.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_287, whole genome shotgun sequence
+>NW_026518226.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_288, whole genome shotgun sequence
+>NW_026518227.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_289, whole genome shotgun sequence
+>NW_026518228.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_290, whole genome shotgun sequence
+>NW_026518229.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_291, whole genome shotgun sequence
+>NW_026518230.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_292, whole genome shotgun sequence
+>NW_026518231.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_293, whole genome shotgun sequence
+>NW_026518232.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_294, whole genome shotgun sequence
+>NW_026518233.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_295, whole genome shotgun sequence
+>NW_026518234.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_296, whole genome shotgun sequence
+>NW_026518235.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_297, whole genome shotgun sequence
+>NW_026518236.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_298, whole genome shotgun sequence
+>NW_026518237.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_299, whole genome shotgun sequence
+>NW_026518238.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_300, whole genome shotgun sequence
+>NW_026518239.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_301, whole genome shotgun sequence
+>NW_026518240.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_302, whole genome shotgun sequence
+>NW_026518241.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_303, whole genome shotgun sequence
+>NW_026518242.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_304, whole genome shotgun sequence
+>NW_026518243.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_305, whole genome shotgun sequence
+>NW_026518244.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_306, whole genome shotgun sequence
+>NW_026518245.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_307, whole genome shotgun sequence
+>NW_026518246.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_308, whole genome shotgun sequence
+>NW_026518247.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_309, whole genome shotgun sequence
+>NW_026518248.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_310, whole genome shotgun sequence
+>NW_026518249.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_311, whole genome shotgun sequence
+>NW_026518250.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_312, whole genome shotgun sequence
+>NW_026518251.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_313, whole genome shotgun sequence
+>NW_026518252.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_314, whole genome shotgun sequence
+>NW_026518253.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_315, whole genome shotgun sequence
+>NW_026518254.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_316, whole genome shotgun sequence
+>NW_026518255.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_317, whole genome shotgun sequence
+>NW_026518256.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_318, whole genome shotgun sequence
+>NW_026518257.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_319, whole genome shotgun sequence
+>NW_026518258.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_320, whole genome shotgun sequence
+>NW_026518259.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_321, whole genome shotgun sequence
+>NW_026518260.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_322, whole genome shotgun sequence
+>NW_026518261.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_323, whole genome shotgun sequence
+>NW_026518262.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_324, whole genome shotgun sequence
+>NW_026518263.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_325, whole genome shotgun sequence
+>NW_026518264.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_326, whole genome shotgun sequence
+>NW_026518265.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_327, whole genome shotgun sequence
+>NW_026518266.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_328, whole genome shotgun sequence
+>NW_026518267.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_329, whole genome shotgun sequence
+>NW_026518268.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_330, whole genome shotgun sequence
+>NW_026518269.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_331, whole genome shotgun sequence
+>NW_026518270.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_332, whole genome shotgun sequence
+>NW_026518271.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_333, whole genome shotgun sequence
+>NW_026518272.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_334, whole genome shotgun sequence
+>NW_026518273.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_335, whole genome shotgun sequence
+>NW_026518274.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_336, whole genome shotgun sequence
+>NW_026518275.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_337, whole genome shotgun sequence
+>NW_026518276.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_338, whole genome shotgun sequence
+>NW_026518277.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_339, whole genome shotgun sequence
+>NW_026518278.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_340, whole genome shotgun sequence
+>NW_026518279.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_341, whole genome shotgun sequence
+>NW_026518280.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_342, whole genome shotgun sequence
+>NW_026518281.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_343, whole genome shotgun sequence
+>NW_026518282.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_344, whole genome shotgun sequence
+>NW_026518283.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_345, whole genome shotgun sequence
+>NW_026518284.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_346, whole genome shotgun sequence
+>NW_026518285.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_347, whole genome shotgun sequence
+>NW_026518286.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_348, whole genome shotgun sequence
+>NW_026518287.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_349, whole genome shotgun sequence
+>NW_026518288.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_350, whole genome shotgun sequence
+>NW_026518289.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_351, whole genome shotgun sequence
+>NW_026518290.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_352, whole genome shotgun sequence
+>NW_026518291.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_353, whole genome shotgun sequence
+>NW_026518292.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_354, whole genome shotgun sequence
+>NW_026518293.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_355, whole genome shotgun sequence
+>NW_026518294.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_356, whole genome shotgun sequence
+>NW_026518295.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_357, whole genome shotgun sequence
+>NW_026518296.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_358, whole genome shotgun sequence
+>NW_026518297.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_359, whole genome shotgun sequence
+>NW_026518298.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_360, whole genome shotgun sequence
+>NW_026518299.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_361, whole genome shotgun sequence
+>NW_026518300.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_362, whole genome shotgun sequence
+>NW_026518301.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_363, whole genome shotgun sequence
+>NW_026518302.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_364, whole genome shotgun sequence
+>NW_026518303.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_365, whole genome shotgun sequence
+>NW_026518304.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_366, whole genome shotgun sequence
+>NW_026518305.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_367, whole genome shotgun sequence
+>NW_026518306.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_368, whole genome shotgun sequence
+>NW_026518307.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_369, whole genome shotgun sequence
+>NW_026518308.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_370, whole genome shotgun sequence
+>NW_026518309.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_371, whole genome shotgun sequence
+>NW_026518310.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_372, whole genome shotgun sequence
+>NW_026518311.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_373, whole genome shotgun sequence
+>NW_026518312.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_374, whole genome shotgun sequence
+>NW_026518313.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_375, whole genome shotgun sequence
+>NW_026518314.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_376, whole genome shotgun sequence
+>NW_026518315.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_377, whole genome shotgun sequence
+>NW_026518316.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_378, whole genome shotgun sequence
+>NW_026518317.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_379, whole genome shotgun sequence
+>NW_026518318.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_380, whole genome shotgun sequence
+>NW_026518319.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_381, whole genome shotgun sequence
+>NW_026518320.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_382, whole genome shotgun sequence
+>NW_026518321.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_383, whole genome shotgun sequence
+>NW_026518322.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_384, whole genome shotgun sequence
+>NW_026518323.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_385, whole genome shotgun sequence
+>NW_026518324.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_386, whole genome shotgun sequence
+>NW_026518325.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_387, whole genome shotgun sequence
+>NW_026518326.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_388, whole genome shotgun sequence
+>NW_026518327.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_389, whole genome shotgun sequence
+>NW_026518328.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_390, whole genome shotgun sequence
+>NW_026518329.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_391, whole genome shotgun sequence
+>NW_026518330.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_392, whole genome shotgun sequence
+>NW_026518331.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_393, whole genome shotgun sequence
+>NW_026518332.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_394, whole genome shotgun sequence
+>NW_026518333.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_395, whole genome shotgun sequence
+>NW_026518334.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_396, whole genome shotgun sequence
+>NW_026518335.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_397, whole genome shotgun sequence
+>NW_026518336.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_398, whole genome shotgun sequence
+>NW_026518337.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_399, whole genome shotgun sequence
+>NW_026518338.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_400, whole genome shotgun sequence
+>NW_026518339.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_401, whole genome shotgun sequence
+>NW_026518340.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_402, whole genome shotgun sequence
+>NW_026518341.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_403, whole genome shotgun sequence
+>NW_026518342.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_404, whole genome shotgun sequence
+>NW_026518343.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_405, whole genome shotgun sequence
+>NW_026518344.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_406, whole genome shotgun sequence
+>NW_026518345.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_407, whole genome shotgun sequence
+>NW_026518346.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_408, whole genome shotgun sequence
+>NW_026518347.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_409, whole genome shotgun sequence
+>NW_026518348.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_410, whole genome shotgun sequence
+>NW_026518349.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_411, whole genome shotgun sequence
+>NW_026518350.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_412, whole genome shotgun sequence
+>NW_026518351.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_413, whole genome shotgun sequence
+>NW_026518352.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_414, whole genome shotgun sequence
+>NW_026518353.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_415, whole genome shotgun sequence
+>NW_026518354.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_416, whole genome shotgun sequence
+>NW_026518355.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_417, whole genome shotgun sequence
+>NW_026518356.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_418, whole genome shotgun sequence
+>NW_026518357.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_419, whole genome shotgun sequence
+>NW_026518358.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_420, whole genome shotgun sequence
+>NW_026518359.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_421, whole genome shotgun sequence
+>NW_026518360.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_422, whole genome shotgun sequence
+>NW_026518361.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_423, whole genome shotgun sequence
+>NW_026518362.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_424, whole genome shotgun sequence
+>NW_026518363.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_425, whole genome shotgun sequence
+>NW_026518364.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_426, whole genome shotgun sequence
+>NW_026518365.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_427, whole genome shotgun sequence
+>NW_026518366.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_428, whole genome shotgun sequence
+>NW_026518367.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_429, whole genome shotgun sequence
+>NW_026518368.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_430, whole genome shotgun sequence
+>NW_026518369.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_431, whole genome shotgun sequence
+>NW_026518370.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_432, whole genome shotgun sequence
+>NW_026518371.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_433, whole genome shotgun sequence
+>NW_026518372.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_434, whole genome shotgun sequence
+>NW_026518373.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_435, whole genome shotgun sequence
+>NW_026518374.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_436, whole genome shotgun sequence
+>NW_026518375.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_437, whole genome shotgun sequence
+>NW_026518376.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_438, whole genome shotgun sequence
+>NW_026518377.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_439, whole genome shotgun sequence
+>NW_026518378.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_440, whole genome shotgun sequence
+>NW_026518379.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_441, whole genome shotgun sequence
+>NW_026518380.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_442, whole genome shotgun sequence
+>NW_026518381.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_443, whole genome shotgun sequence
+>NW_026518382.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_444, whole genome shotgun sequence
+>NW_026518383.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_445, whole genome shotgun sequence
+>NW_026518384.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_446, whole genome shotgun sequence
+>NW_026518385.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_447, whole genome shotgun sequence
+>NW_026518386.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_448, whole genome shotgun sequence
+>NW_026518387.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_449, whole genome shotgun sequence
+>NW_026518388.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_450, whole genome shotgun sequence
+>NW_026518389.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_451, whole genome shotgun sequence
+>NW_026518390.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_452, whole genome shotgun sequence
+>NW_026518391.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_453, whole genome shotgun sequence
+>NW_026518392.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_454, whole genome shotgun sequence
+>NW_026518393.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_455, whole genome shotgun sequence
+>NW_026518394.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_456, whole genome shotgun sequence
+>NW_026518395.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_457, whole genome shotgun sequence
+>NW_026518396.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_458, whole genome shotgun sequence
+>NW_026518397.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_459, whole genome shotgun sequence
+>NW_026518398.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_460, whole genome shotgun sequence
+>NW_026518399.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_461, whole genome shotgun sequence
+>NW_026518400.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_462, whole genome shotgun sequence
+>NW_026518401.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_463, whole genome shotgun sequence
+>NW_026518402.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_464, whole genome shotgun sequence
+>NW_026518403.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_465, whole genome shotgun sequence
+>NW_026518404.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_466, whole genome shotgun sequence
+>NW_026518405.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_467, whole genome shotgun sequence
+>NW_026518406.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_468, whole genome shotgun sequence
+>NW_026518407.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_469, whole genome shotgun sequence
+>NW_026518408.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_470, whole genome shotgun sequence
+>NW_026518409.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_471, whole genome shotgun sequence
+>NW_026518410.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_472, whole genome shotgun sequence
+>NW_026518411.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_473, whole genome shotgun sequence
+>NW_026518412.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_474, whole genome shotgun sequence
+>NW_026518413.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_475, whole genome shotgun sequence
+>NW_026518414.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_476, whole genome shotgun sequence
+>NW_026518415.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_477, whole genome shotgun sequence
+>NW_026518416.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_478, whole genome shotgun sequence
+>NW_026518417.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_479, whole genome shotgun sequence
+>NW_026518418.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_480, whole genome shotgun sequence
+>NW_026518419.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_481, whole genome shotgun sequence
+>NW_026518420.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_482, whole genome shotgun sequence
+>NW_026518421.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_483, whole genome shotgun sequence
+>NW_026518422.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_484, whole genome shotgun sequence
+>NW_026518423.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_485, whole genome shotgun sequence
+>NW_026518424.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_486, whole genome shotgun sequence
+>NW_026518425.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_487, whole genome shotgun sequence
+>NW_026518426.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_488, whole genome shotgun sequence
+>NW_026518427.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_489, whole genome shotgun sequence
+>NW_026518428.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_490, whole genome shotgun sequence
+>NW_026518429.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_491, whole genome shotgun sequence
+>NW_026518430.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_492, whole genome shotgun sequence
+>NW_026518431.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_493, whole genome shotgun sequence
+>NW_026518432.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_494, whole genome shotgun sequence
+>NW_026518433.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_495, whole genome shotgun sequence
+>NW_026518434.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_496, whole genome shotgun sequence
+>NW_026518435.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_497, whole genome shotgun sequence
+>NW_026518436.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_498, whole genome shotgun sequence
+>NW_026518437.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_499, whole genome shotgun sequence
+>NW_026518438.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_500, whole genome shotgun sequence
+>NW_026518439.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_501, whole genome shotgun sequence
+>NW_026518440.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_502, whole genome shotgun sequence
+>NW_026518441.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_503, whole genome shotgun sequence
+>NW_026518442.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_504, whole genome shotgun sequence
+>NW_026518443.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_505, whole genome shotgun sequence
+>NW_026518444.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_506, whole genome shotgun sequence
+>NW_026518445.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_507, whole genome shotgun sequence
+>NW_026518446.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_508, whole genome shotgun sequence
+>NW_026518447.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_509, whole genome shotgun sequence
+>NW_026518448.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_510, whole genome shotgun sequence
+>NW_026518449.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_511, whole genome shotgun sequence
+>NW_026518450.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_512, whole genome shotgun sequence
+>NW_026518451.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_513, whole genome shotgun sequence
+>NW_026518452.1 Colletotrichum fioriniae strain ACFK16 chromosome Unknown scaffold_514, whole genome shotgun sequence
+>NC_030052.1 Colletotrichum fioriniae mitochondrion, complete genome
+
+3)
+>NC_054849.1 Aspergillus luchuensis IFO 4308 DNA, chromosome 1, nearly complete sequence
+>NC_054850.1 Aspergillus luchuensis IFO 4308 DNA, chromosome 2, nearly complete sequence
+>NC_054851.1 Aspergillus luchuensis IFO 4308 DNA, chromosome 3, nearly complete sequence
+>NC_054852.1 Aspergillus luchuensis IFO 4308 DNA, chromosome 4, nearly complete sequence
+>NC_054853.1 Aspergillus luchuensis IFO 4308 DNA, chromosome 5, nearly complete sequence
+>NC_054854.1 Aspergillus luchuensis IFO 4308 DNA, chromosome 6, nearly complete sequence
+>NC_054855.1 Aspergillus luchuensis IFO 4308 DNA, chromosome 7, nearly complete sequence
+>NC_054856.1 Aspergillus luchuensis IFO 4308 DNA, chromosome 8, nearly complete sequence
+>NC_040166.1 Aspergillus luchuensis mitochondrion, complete genome
+
+4)
+>NC_031675.1 Fusarium verticillioides 7600 chromosome 1, whole genome shotgun sequence
+>NC_031676.1 Fusarium verticillioides 7600 chromosome 2, whole genome shotgun sequence
+>NC_031677.1 Fusarium verticillioides 7600 chromosome 3, whole genome shotgun sequence
+>NC_031678.1 Fusarium verticillioides 7600 chromosome 4, whole genome shotgun sequence
+>NC_031679.1 Fusarium verticillioides 7600 chromosome 5, whole genome shotgun sequence
+>NC_031680.1 Fusarium verticillioides 7600 chromosome 6, whole genome shotgun sequence
+>NC_031681.1 Fusarium verticillioides 7600 chromosome 7, whole genome shotgun sequence
+>NC_031682.1 Fusarium verticillioides 7600 chromosome 8, whole genome shotgun sequence
+>NC_031683.1 Fusarium verticillioides 7600 chromosome 9, whole genome shotgun sequence
+>NC_031684.1 Fusarium verticillioides 7600 chromosome 10, whole genome shotgun sequence
+>NC_031685.1 Fusarium verticillioides 7600 chromosome 11, whole genome shotgun sequence
+>NW_017387869.1 Fusarium verticillioides 7600 chromosome Unknown supercont3.35, whole genome shotgun sequence
+>NW_017387868.1 Fusarium verticillioides 7600 chromosome Unknown supercont3.32, whole genome shotgun sequence
+>NW_017387867.1 Fusarium verticillioides 7600 chromosome Unknown supercont3.31, whole genome shotgun sequence
+>NW_017387866.1 Fusarium verticillioides 7600 chromosome Unknown supercont3.29, whole genome shotgun sequence
+>NW_017387865.1 Fusarium verticillioides 7600 chromosome Unknown supercont3.28, whole genome shotgun sequence
+>NW_017387864.1 Fusarium verticillioides 7600 chromosome Unknown supercont3.27, whole genome shotgun sequence
+>NW_017387873.1 Fusarium verticillioides 7600 supercont3.34 genomic scaffold, whole genome shotgun sequence
+>NW_017387872.1 Fusarium verticillioides 7600 supercont3.33 genomic scaffold, whole genome shotgun sequence
+>NW_017387871.1 Fusarium verticillioides 7600 supercont3.30 genomic scaffold, whole genome shotgun sequence
+>NW_017387870.1 Fusarium verticillioides 7600 supercont3.26 genomic scaffold, whole genome shotgun sequence
+>NC_016687.1 Gibberella moniliformis mitochondrion, complete genome
+
+5)
+
+>NC_006037.1 Kluyveromyces lactis strain NRRL Y-1140 chromosome A complete sequence
+>NC_006038.1 Kluyveromyces lactis strain NRRL Y-1140 chromosome B complete sequence
+>NC_006039.1 Kluyveromyces lactis strain NRRL Y-1140 chromosome C complete sequence
+>NC_006040.1 Kluyveromyces lactis strain NRRL Y-1140 chromosome D complete sequence
+>NC_006041.1 Kluyveromyces lactis strain NRRL Y-1140 chromosome E complete sequence
+>NC_006042.1 Kluyveromyces lactis strain NRRL Y-1140 chromosome F complete sequence
+>NC_006077.1 Kluyveromyces lactis mitochondrion, complete genome

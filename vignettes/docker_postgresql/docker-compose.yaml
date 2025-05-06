@@ -1,0 +1,59 @@
+
+networks:
+  pg_network:
+
+services:
+  postgres:
+    image: postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      # - /home/sl/dev/proto-v2/vignettes/docker_postgresql_v3/pgdata:/var/lib/postgresql/data
+      - /media/sl/ExtremePro/Parti-Seq/system-controls:/media/sl/ExtremePro/Parti-Seq/system-controls
+    networks:
+      - pg_network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # To register/connect to the server in pgadmin, use these in the Connection
+  # tab:
+  # Host name/address: 172.17.0.1
+  # Port: 5432
+  # Username: postgres
+  # Password: postgres
+  pgadmin:
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: postgres@postgres.com
+      PGADMIN_DEFAULT_PASSWORD: postgres
+    ports:
+      - "5050:80"
+    networks:
+      - pg_network
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  db_loader:
+    image: 255446977961.dkr.ecr.ap-southeast-1.amazonaws.com/parti-cular-database-loader:0.0.3
+    build:
+      context: .
+      dockerfile: db_loader.dockerfile
+    env_file: docker.env
+    networks:
+      - pg_network
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - /media/sl/ExtremePro/Parti-Seq/system-controls:/media/sl/ExtremePro/Parti-Seq/system-controls
+
+volumes:
+  pgdata:
